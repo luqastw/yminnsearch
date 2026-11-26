@@ -1,7 +1,7 @@
 {
  "itens": {
   "gpu-faixa": {
-   "atualizado": "2026-11-26T02:04-03:00",
+   "atualizado": "2026-11-26T08:42-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/907814/placa-de-video-asrock-rx-7600-challenger-pro-oc-amd-radeon-8gb-gddr6-triple-fan-90-ga62zz-00uanf",
@@ -43,32 +43,6 @@
      "desconto": 0.2
     },
     {
-     "url": "https://www.kabum.com.br/produto/1020030/placa-de-video-husky-alpha-rtx-3060-ti-nvidia-8gb-gddr6-256-bit-hdmi-displayport-hvg3060ti",
-     "loja": "KaBuM!",
-     "titulo": "Placa De Vídeo Husky Alpha RTX 3060 TI, NVIDIA, 8GB, GDDR6, 256-Bit, HDMI, DisplayPort - HVG3060TI",
-     "pix": 2399.99,
-     "referencia": 2999.99,
-     "oferta": "OFERTAS KABUM",
-     "avaliacoes": 0,
-     "nota": 0,
-     "imagem": "https://images.kabum.com.br/produtos/fotos/1020030/placa-de-video-husky-alpha-rtx-3060-ti-nvidia-8gb-gddr6-256-bit-hdmi-displayport-hvg3060ti_1778164604_original.jpg",
-     "posicao": 4,
-     "desconto": 0.2
-    },
-    {
-     "url": "https://www.kabum.com.br/produto/1053619/placa-de-video-gigabyte-rx-9050-gaming-oc-8gb-amd-radeon-8gb-gddr6-128bit-gv-r9050gaming-oc-8gd",
-     "loja": "KaBuM!",
-     "titulo": "Placa de Vídeo Gigabyte RX 9050 GAMING OC 8GB AMD Radeon, 8GB GDDR6, 128bit - GV-R9050GAMING OC-8GD",
-     "pix": 2059.99,
-     "referencia": 2999.99,
-     "oferta": "OFERTAS KABUM",
-     "avaliacoes": 0,
-     "nota": 0,
-     "imagem": "https://images.kabum.com.br/produtos/fotos/1053619/placa-de-video-gigabyte-rx-9050-gaming-oc-8gb-amd-radeon-8gb-gddr6-128bit-gv-r9050gaming-oc-8gd_1787070387_original.jpg",
-     "posicao": 5,
-     "desconto": 0.3133
-    },
-    {
      "url": "https://www.kabum.com.br/produto/681586/placa-de-video-gigabyte-rtx-3050-windforce-oc-nvidia-geforce-6gb-gddr6-dlss-ray-tracing-gv-n3050wf2ocv2-6gd",
      "loja": "KaBuM!",
      "titulo": "Placa de Vídeo Gigabyte RTX 3050 Windforce OC NVIDIA GeForce, 6GB, GDDR6, DLSS, Ray Tracing - GV-N3050WF2OCV2-6GD",
@@ -78,7 +52,7 @@
      "avaliacoes": 49,
      "nota": 4.7,
      "imagem": "https://images.kabum.com.br/produtos/fotos/681586/placa-de-video-rtx-3050-windforce-oc-gigabyte-nvidia-geforce-6gb-gddr6-dlss-ray-tracing-gv-n3050wf2ocv2-6gd_1734620897_original.jpg",
-     "posicao": 6,
+     "posicao": 4,
      "desconto": 0.065
     },
     {
@@ -91,7 +65,7 @@
      "avaliacoes": 8,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/525561/placa-de-video-rtx-3050-twin-x2-inno3d-nvidia-geforce-6gb-n30502-06d6-1711va60_1719505789_original.jpg",
-     "posicao": 7,
+     "posicao": 5,
      "desconto": 0.0693
     },
     {
@@ -188,7 +162,7 @@
    ]
   },
   "gabinete": {
-   "atualizado": "2026-11-26T02:04-03:00",
+   "atualizado": "2026-11-26T08:42-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/1056523/gabinete-gamer-squad-qg200-mini-tower-micro-atx-e-mini-itx-frontal-e-lateral-em-vidro-usb-30-sem-fans-sgn200",
@@ -282,19 +256,6 @@
      "desconto": 0.1515
     },
     {
-     "url": "https://www.kabum.com.br/produto/613887/gabinete-gamer-rise-mode-galaxy-glass-standard-v2-mid-tower-atx-lateral-e-frontal-em-vidro-temperado-sem-fans-preto-rm-ga-ggst2-fb",
-     "loja": "KaBuM!",
-     "titulo": "Gabinete Gamer Rise Mode Galaxy Glass Standard V2, Mid Tower, ATX, Lateral e Frontal em Vidro Temperado, Sem FANs, Preto - RM-GA-GGST2-FB",
-     "pix": 324.9,
-     "referencia": 324.9,
-     "oferta": null,
-     "avaliacoes": 158,
-     "nota": 4.9,
-     "imagem": "https://images.kabum.com.br/produtos/fotos/613887/gabinete-gamer-rise-mode-galaxy-glass-standard-v2-mid-tower-atx-lateral-e-frontal-em-vidro-temperado-preto-rm-ga-ggst2-fb_1731432785_original.jpg",
-     "posicao": 8,
-     "desconto": 0
-    },
-    {
      "url": "https://www.kabum.com.br/produto/986294/gabinete-gamer-kalkan-midgard-lite-m-atx-frontal-e-lateral-em-vidro-temperado-sem-fans-preto-klk00090",
      "loja": "KaBuM!",
      "titulo": "Gabinete Gamer Kalkan Midgard Lite, M-ATX, Frontal e Lateral em Vidro Temperado, Sem Fans, Preto - KLK00090",
@@ -304,21 +265,21 @@
      "avaliacoes": 45,
      "nota": 4.9,
      "imagem": "https://images.kabum.com.br/produtos/fotos/986294/gabinete-gamer-kalkan-midgard-lite-m-atx-frontal-e-lateral-em-vidro-temperado-sem-fans-preto-klk00090_1775128598_original.jpg",
-     "posicao": 9,
+     "posicao": 8,
      "desconto": 0.0625
     },
     {
-     "url": "https://www.kabum.com.br/produto/1075311/gabinete-gamer-kalkan-saga-aquario-compacto-micro-atx-rgb-usb-30-sem-fans-preto-klk00044",
+     "url": "https://www.kabum.com.br/produto/613887/gabinete-gamer-rise-mode-galaxy-glass-standard-v2-mid-tower-atx-lateral-e-frontal-em-vidro-temperado-sem-fans-preto-rm-ga-ggst2-fb",
      "loja": "KaBuM!",
-     "titulo": "Gabinete Gamer Kalkan Saga, Aquário Compacto, Micro-ATX, RGB, USB 3.0, Sem Fans, Preto - KLK00044",
-     "pix": 269.99,
-     "referencia": 319.99,
-     "oferta": "OFERTAS KABUM",
-     "avaliacoes": 0,
-     "nota": 0,
-     "imagem": "https://images.kabum.com.br/produtos/fotos/1075311/gabinete-gamer-kalkan-saga-aquario-compacto-micro-atx-rgb-usb-3-0-sem-fans-preto-klk00044_1792412050_original.jpg",
-     "posicao": 10,
-     "desconto": 0.1563
+     "titulo": "Gabinete Gamer Rise Mode Galaxy Glass Standard V2, Mid Tower, ATX, Lateral e Frontal em Vidro Temperado, Sem FANs, Preto - RM-GA-GGST2-FB",
+     "pix": 324.9,
+     "referencia": 324.9,
+     "oferta": null,
+     "avaliacoes": 158,
+     "nota": 4.9,
+     "imagem": "https://images.kabum.com.br/produtos/fotos/613887/gabinete-gamer-rise-mode-galaxy-glass-standard-v2-mid-tower-atx-lateral-e-frontal-em-vidro-temperado-preto-rm-ga-ggst2-fb_1731432785_original.jpg",
+     "posicao": 9,
+     "desconto": 0
     },
     {
      "url": "https://www.kabum.com.br/produto/485726/gabinete-gamer-rise-mode-galaxy-glass-m-mini-m-atx-lateral-e-frontal-em-vidro-temperado-sem-fans-preto-rm-ga-ggmn-fb",
@@ -330,21 +291,34 @@
      "avaliacoes": 891,
      "nota": 4.9,
      "imagem": "https://images.kabum.com.br/produtos/fotos/485726/gabinete-gamer-rise-mode-galaxy-glass-m-mini-m-atx-lateral-e-frontal-em-vidro-temperado-preto-rm-ga-ggmn-fb_1752856894_original.jpg",
-     "posicao": 11,
+     "posicao": 10,
      "desconto": 0.0909
     },
     {
-     "url": "https://www.kabum.com.br/produto/1072405/gabinete-office-hayom-gb1755-micro-atx-preto-gb1755",
+     "url": "https://www.kabum.com.br/produto/1075311/gabinete-gamer-kalkan-saga-aquario-compacto-micro-atx-rgb-usb-30-sem-fans-preto-klk00044",
      "loja": "KaBuM!",
-     "titulo": "Gabinete Office Hayom GB1755, Mid Tower, Micro-ATX, Preto - GB1755",
-     "pix": 59.99,
-     "referencia": 59.99,
-     "oferta": null,
+     "titulo": "Gabinete Gamer Kalkan Saga, Aquário Compacto, Micro-ATX, RGB, USB 3.0, Sem Fans, Preto - KLK00044",
+     "pix": 269.99,
+     "referencia": 319.99,
+     "oferta": "OFERTAS KABUM",
      "avaliacoes": 0,
      "nota": 0,
-     "imagem": "https://images.kabum.com.br/produtos/fotos/1072405/gabinete-office-hayom-gb1755-micro-atx-preto-gb1755_1790341631_original.jpg",
+     "imagem": "https://images.kabum.com.br/produtos/fotos/1075311/gabinete-gamer-kalkan-saga-aquario-compacto-micro-atx-rgb-usb-3-0-sem-fans-preto-klk00044_1792412050_original.jpg",
+     "posicao": 11,
+     "desconto": 0.1563
+    },
+    {
+     "url": "https://www.kabum.com.br/produto/989686/gabinete-gamer-corsair-3500x-rsr-argb-mid-tower-lateral-e-frontal-em-vidro-temperado-3-ventoinhas-rsr-argb-preto-cc-9011322-ww",
+     "loja": "KaBuM!",
+     "titulo": "Gabinete Gamer Corsair 3500X RSR ARGB, Mid Tower, Lateral e Frontal em Vidro Temperado, 3 Ventoinhas RSR ARGB, Preto - CC-9011322-WW",
+     "pix": 449.99,
+     "referencia": 549.99,
+     "oferta": "BLACK DAS BLACKS KABUM!",
+     "avaliacoes": 18,
+     "nota": 5.0,
+     "imagem": "https://images.kabum.com.br/produtos/fotos/989686/gabinete-gamer-corsair-3500x-rsr-argb-mid-tower-lateral-e-frontal-em-vidro-temperado-3-ventoinhas-rsr-argb-preto-cc-9011322-ww_1793995147_original.jpg",
      "posicao": 12,
-     "desconto": 0
+     "desconto": 0.1818
     },
     {
      "url": "https://www.kabum.com.br/produto/609385/gabinete-gamer-husky-dome-100-mid-tower-atx-lateral-e-frontal-em-vidro-sem-fans-preto-hgn100pt",
@@ -360,17 +334,17 @@
      "desconto": 0
     },
     {
-     "url": "https://www.kabum.com.br/produto/989686/gabinete-gamer-corsair-3500x-rsr-argb-mid-tower-lateral-e-frontal-em-vidro-temperado-3-ventoinhas-rsr-argb-preto-cc-9011322-ww",
+     "url": "https://www.kabum.com.br/produto/1072405/gabinete-office-hayom-gb1755-micro-atx-preto-gb1755",
      "loja": "KaBuM!",
-     "titulo": "Gabinete Gamer Corsair 3500X RSR ARGB, Mid Tower, Lateral e Frontal em Vidro Temperado, 3 Ventoinhas RSR ARGB, Preto - CC-9011322-WW",
-     "pix": 449.99,
-     "referencia": 549.99,
-     "oferta": "BLACK DAS BLACKS KABUM!",
-     "avaliacoes": 18,
-     "nota": 5.0,
-     "imagem": "https://images.kabum.com.br/produtos/fotos/989686/gabinete-gamer-corsair-3500x-rsr-argb-mid-tower-lateral-e-frontal-em-vidro-temperado-3-ventoinhas-rsr-argb-preto-cc-9011322-ww_1793995147_original.jpg",
+     "titulo": "Gabinete Office Hayom GB1755, Mid Tower, Micro-ATX, Preto - GB1755",
+     "pix": 59.99,
+     "referencia": 59.99,
+     "oferta": null,
+     "avaliacoes": 0,
+     "nota": 0,
+     "imagem": "https://images.kabum.com.br/produtos/fotos/1072405/gabinete-office-hayom-gb1755-micro-atx-preto-gb1755_1790341631_original.jpg",
      "posicao": 14,
-     "desconto": 0.1818
+     "desconto": 0
     },
     {
      "url": "https://www.kabum.com.br/produto/905389/gabinete-gamer-montech-xr-mid-tower-m-atx-vidro-temperado-com-3x-fans-preto-xrbk",
@@ -386,6 +360,19 @@
      "desconto": 0.0571
     },
     {
+     "url": "https://www.kabum.com.br/produto/405811/gabinete-gamer-hayom-mid-tower-rgb-atx-lateral-em-vidro-temperado-3x-cooler-fan-rgb-preto-gb1710",
+     "loja": "KaBuM!",
+     "titulo": "Gabinete Gamer Hayom, Mid Tower, RGB, ATX, Lateral em Vidro Temperado, 3x Cooler Fan RGB, Preto - GB1710",
+     "pix": 129.99,
+     "referencia": 149.99,
+     "oferta": "BLACK DAS BLACKS KABUM!",
+     "avaliacoes": 59,
+     "nota": 4.5,
+     "imagem": "https://images.kabum.com.br/produtos/fotos/405811/gabinete-gamer-hayom-mid-tower-rgb-atx-lateral-em-vidro-temperado-3x-cooler-fan-rgb-preto-gb1710_1678219033_original.jpg",
+     "posicao": 16,
+     "desconto": 0.1333
+    },
+    {
      "url": "https://www.kabum.com.br/produto/643871/gabinete-gamer-bluecase-bg-054-hit-mid-tower-micro-atx-e-mini-itx-frontal-e-lateral-em-vidro-usb-3-0-sem-fans-preto-bg-054bbx",
      "loja": "KaBuM!",
      "titulo": "Gabinete Gamer Bluecase BG-054 HIT, Mid tower, Micro ATX e Mini ITX, Frontal e lateral em vidro, USB 3.0, Sem FANs, Preto - BG-054BBX",
@@ -395,7 +382,7 @@
      "avaliacoes": 4,
      "nota": 4.5,
      "imagem": "https://images.kabum.com.br/produtos/fotos/643871/gabinete-gamer-bluecase-bg-054-hit-mid-tower-micro-atx-e-mini-itx-frontal-e-lateral-em-vidro-usb-3-0-preto-bg-054bbx_1731414432_original.jpg",
-     "posicao": 16,
+     "posicao": 17,
      "desconto": 0.2303
     },
     {
@@ -408,21 +395,21 @@
      "avaliacoes": 54,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/518940/gabinete-gamer-redragon-wideload-pro-mid-tower-atx-lateral-em-vidro-temperado-preto-ca-604b-pro_1706184031_original.jpg",
-     "posicao": 17,
+     "posicao": 18,
      "desconto": 0.1163
     },
     {
-     "url": "https://www.kabum.com.br/produto/405811/gabinete-gamer-hayom-mid-tower-rgb-atx-lateral-em-vidro-temperado-3x-cooler-fan-rgb-preto-gb1710",
+     "url": "https://www.kabum.com.br/produto/989024/gabinete-gamer-kalkan-asgard-evo-atx-mid-tower-lateral-em-vidro-temperado-sem-fans-preto-klk00084",
      "loja": "KaBuM!",
-     "titulo": "Gabinete Gamer Hayom, Mid Tower, RGB, ATX, Lateral em Vidro Temperado, 3x Cooler Fan RGB, Preto - GB1710",
-     "pix": 129.99,
-     "referencia": 149.99,
+     "titulo": "Gabinete Gamer Kalkan Asgard Evo, ATX, Mid Tower, Lateral em Vidro Temperado, Sem Fans, Preto - KLK00084",
+     "pix": 279.99,
+     "referencia": 349.99,
      "oferta": "BLACK DAS BLACKS KABUM!",
-     "avaliacoes": 59,
-     "nota": 4.5,
-     "imagem": "https://images.kabum.com.br/produtos/fotos/405811/gabinete-gamer-hayom-mid-tower-rgb-atx-lateral-em-vidro-temperado-3x-cooler-fan-rgb-preto-gb1710_1678219033_original.jpg",
-     "posicao": 18,
-     "desconto": 0.1333
+     "avaliacoes": 19,
+     "nota": 5.0,
+     "imagem": "https://images.kabum.com.br/produtos/fotos/989024/gabinete-gamer-kalkan-asgard-evo-atx-mid-tower-lateral-em-vidro-temperado-sem-fans-preto-klk00084_1779216913_original.jpg",
+     "posicao": 19,
+     "desconto": 0.2
     },
     {
      "url": "https://www.kabum.com.br/produto/609390/gabinete-gamer-husky-dome-210-mini-tower-m-atx-lateral-e-frontal-em-vidro-sem-fans-branco-hgn210br",
@@ -434,7 +421,7 @@
      "avaliacoes": 81,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/609390/gabinete-gamer-husky-dome-210-mini-tower-m-atx-lateral-e-frontal-em-vidro-branco-hgn210br_1750417452_original.jpg",
-     "posicao": 19,
+     "posicao": 20,
      "desconto": 0.1
     },
     {
@@ -447,21 +434,8 @@
      "avaliacoes": 52,
      "nota": 4.7,
      "imagem": "https://images.kabum.com.br/produtos/fotos/629075/gabinete-gamer-hayom-gb1792-mid-tower-atx-lateral-e-frontal-em-vidro-temperado-com-cooler-fan-preto-gb1792_1727273873_original.jpg",
-     "posicao": 20,
-     "desconto": 0
-    },
-    {
-     "url": "https://www.kabum.com.br/produto/989024/gabinete-gamer-kalkan-asgard-evo-atx-mid-tower-lateral-em-vidro-temperado-sem-fans-preto-klk00084",
-     "loja": "KaBuM!",
-     "titulo": "Gabinete Gamer Kalkan Asgard Evo, ATX, Mid Tower, Lateral em Vidro Temperado, Sem Fans, Preto - KLK00084",
-     "pix": 279.99,
-     "referencia": 349.99,
-     "oferta": "BLACK DAS BLACKS KABUM!",
-     "avaliacoes": 19,
-     "nota": 5.0,
-     "imagem": "https://images.kabum.com.br/produtos/fotos/989024/gabinete-gamer-kalkan-asgard-evo-atx-mid-tower-lateral-em-vidro-temperado-sem-fans-preto-klk00084_1779216913_original.jpg",
      "posicao": 21,
-     "desconto": 0.2
+     "desconto": 0
     },
     {
      "url": "https://www.kabum.com.br/produto/1054678/gabinete-squad-vault-mini-tower-m-atx-lateral-em-metal-sem-fans-preto-sgno100",
@@ -583,20 +557,20 @@
    ]
   },
   "cooler": {
-   "atualizado": "2026-11-26T02:04-03:00",
+   "atualizado": "2026-11-26T08:42-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/532493/air-cooler-cooler-master-hyper-212-spectrum-v3-argb-intel-e-amd-120mm-preto-rr-s4na-17pa-r1",
      "loja": "KaBuM!",
      "titulo": "Air Cooler Cooler Master Hyper 212 Spectrum V3, ARGB, Intel e AMD, 120mm, Preto - RR-S4NA-17PA-R1",
-     "pix": 89.99,
+     "pix": 69.99,
      "referencia": 89.99,
-     "oferta": null,
+     "oferta": "OFERTAS KABUM",
      "avaliacoes": 92,
      "nota": 4.9,
      "imagem": "https://images.kabum.com.br/produtos/fotos/532493/cooler-para-processador-cooler-master-hyper-212-spectrum-v3-rgb-intel-e-amd-120mm-preto-rr-s4na-17pa-r1_1753125454_original.jpg",
      "posicao": 1,
-     "desconto": 0
+     "desconto": 0.2222
     },
     {
      "url": "https://www.kabum.com.br/produto/912559/air-cooler-mach1-wind-argb-amd-e-intel-120mm-preto-a60-argb",
@@ -628,14 +602,14 @@
      "url": "https://www.kabum.com.br/produto/506060/air-cooler-gamer-rise-mode-storm-8-black-argb-amd-intel-120mm-preto-rm-acst-argb-b",
      "loja": "KaBuM!",
      "titulo": "Air Cooler Gamer Rise Mode Storm 8 Black, ARGB, AMD/Intel, 120mm, Preto - RM-ACST-ARGB-B",
-     "pix": 276.99,
+     "pix": 179.99,
      "referencia": 276.99,
-     "oferta": null,
+     "oferta": "OFERTAS KABUM",
      "avaliacoes": 164,
      "nota": 4.9,
      "imagem": "https://images.kabum.com.br/produtos/fotos/506060/air-cooler-gamer-rise-mode-strom-8-black-argb-amd-intel-120mm-preto-rm-acst-argb-b_1712769304_original.jpg",
      "posicao": 4,
-     "desconto": 0
+     "desconto": 0.3502
     },
     {
      "url": "https://www.kabum.com.br/produto/153649/air-cooler-rise-mode-winter-black-argb-amd-intel-120mm-preto-rm-acw-01-argb",
@@ -768,32 +742,6 @@
      "desconto": 0.335
     },
     {
-     "url": "https://www.kabum.com.br/produto/912560/air-cooler-mach1-echo-digital-digital-argb-amd-e-intel-120mm-preto-p50i-dig-argb",
-     "loja": "KaBuM!",
-     "titulo": "Air Cooler MACH1 ECHO DIGITAL Digital, ARGB, AMD e Intel, 120mm, Preto - P50i DIG ARGB",
-     "pix": 113.99,
-     "referencia": 189.99,
-     "oferta": "OFERTAS KABUM",
-     "avaliacoes": 1,
-     "nota": 5.0,
-     "imagem": "https://images.kabum.com.br/produtos/fotos/912560/air-cooler-mach1-echo-digital-digital-argb-amd-e-intel-120mm-preto-p50i-dig-argb_1777312706_original.jpg",
-     "posicao": 15,
-     "desconto": 0.4
-    },
-    {
-     "url": "https://www.kabum.com.br/produto/912548/air-cooler-mach1-artic-digital-argb-amd-e-intel-120mm-preto-b60-dig-argb-v2",
-     "loja": "KaBuM!",
-     "titulo": "Air Cooler MACH1 ARTIC, Digital, ARGB, AMD e Intel, 120mm, Preto - B60-DIG-ARGB V2",
-     "pix": 159.99,
-     "referencia": 299.99,
-     "oferta": "OFERTAS KABUM",
-     "avaliacoes": 0,
-     "nota": 0,
-     "imagem": "https://images.kabum.com.br/produtos/fotos/912548/air-cooler-mach1-artic-digital-argb-amd-e-intel-120mm-preto-b60-dig-argb-v2_1777291508_original.jpg",
-     "posicao": 16,
-     "desconto": 0.4667
-    },
-    {
      "url": "https://www.kabum.com.br/produto/912541/air-cooler-mach1-vortex-pro-argb-amd-e-intel-120mm-preto-b60t-argb-v2",
      "loja": "KaBuM!",
      "titulo": "Air Cooler MACH1 VORTEX PRO, ARGB, AMD e Intel, 120mm, Preto - B60T-ARGB V2",
@@ -803,8 +751,21 @@
      "avaliacoes": 0,
      "nota": 0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/912541/air-cooler-mach1-vortex-pro-argb-amd-e-intel-120mm-preto-b60t-argb-v2_1777038973_original.jpg",
-     "posicao": 17,
+     "posicao": 15,
      "desconto": 0.3557
+    },
+    {
+     "url": "https://www.kabum.com.br/produto/912560/air-cooler-mach1-echo-digital-digital-argb-amd-e-intel-120mm-preto-p50i-dig-argb",
+     "loja": "KaBuM!",
+     "titulo": "Air Cooler MACH1 ECHO DIGITAL Digital, ARGB, AMD e Intel, 120mm, Preto - P50i DIG ARGB",
+     "pix": 113.99,
+     "referencia": 189.99,
+     "oferta": "OFERTAS KABUM",
+     "avaliacoes": 1,
+     "nota": 5.0,
+     "imagem": "https://images.kabum.com.br/produtos/fotos/912560/air-cooler-mach1-echo-digital-digital-argb-amd-e-intel-120mm-preto-p50i-dig-argb_1777312706_original.jpg",
+     "posicao": 16,
+     "desconto": 0.4
     },
     {
      "url": "https://www.kabum.com.br/produto/912549/air-cooler-mach1-artic-digital-argb-amd-e-intel-120mm-preto-b60-dig-bk-argb",
@@ -816,21 +777,21 @@
      "avaliacoes": 1,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/912549/air-cooler-mach1-artic-digital-argb-amd-e-intel-120mm-preto-b60-dig-bk-argb_1777294559_original.jpg",
-     "posicao": 18,
+     "posicao": 17,
      "desconto": 0.3684
     },
     {
-     "url": "https://www.kabum.com.br/produto/909145/air-cooler-gamer-husky-alisius-500-argb-com-display-amd-intel-120mm-220w-hac500pt",
+     "url": "https://www.kabum.com.br/produto/912548/air-cooler-mach1-artic-digital-argb-amd-e-intel-120mm-preto-b60-dig-argb-v2",
      "loja": "KaBuM!",
-     "titulo": "Air Cooler Gamer Husky Alisius 500, ARGB com Display, AMD/ INTEL, 120mm, 220W - HAC500PT",
-     "pix": 179.99,
-     "referencia": 179.99,
-     "oferta": null,
-     "avaliacoes": 21,
-     "nota": 4.6,
-     "imagem": "https://images.kabum.com.br/produtos/fotos/909145/air-cooler-argb-com-display-husky-alisius-500-amd-intel-90mm-95w-hac500pt_1767371642_original.jpg",
-     "posicao": 19,
-     "desconto": 0
+     "titulo": "Air Cooler MACH1 ARTIC, Digital, ARGB, AMD e Intel, 120mm, Preto - B60-DIG-ARGB V2",
+     "pix": 159.99,
+     "referencia": 299.99,
+     "oferta": "OFERTAS KABUM",
+     "avaliacoes": 0,
+     "nota": 0,
+     "imagem": "https://images.kabum.com.br/produtos/fotos/912548/air-cooler-mach1-artic-digital-argb-amd-e-intel-120mm-preto-b60-dig-argb-v2_1777291508_original.jpg",
+     "posicao": 18,
+     "desconto": 0.4667
     },
     {
      "url": "https://www.kabum.com.br/produto/912545/air-cooler-mach1-typhoon-argb-amd-e-intel-120mm-branco-a60-h-argb",
@@ -842,8 +803,21 @@
      "avaliacoes": 1,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/912545/air-cooler-mach1-typhoon-argb-amd-e-intel-120mm-branco-a60-h-argb_1777047686_original.jpg",
-     "posicao": 20,
+     "posicao": 19,
      "desconto": 0.4962
+    },
+    {
+     "url": "https://www.kabum.com.br/produto/909145/air-cooler-gamer-husky-alisius-500-argb-com-display-amd-intel-120mm-220w-hac500pt",
+     "loja": "KaBuM!",
+     "titulo": "Air Cooler Gamer Husky Alisius 500, ARGB com Display, AMD/ INTEL, 120mm, 220W - HAC500PT",
+     "pix": 179.99,
+     "referencia": 179.99,
+     "oferta": null,
+     "avaliacoes": 21,
+     "nota": 4.6,
+     "imagem": "https://images.kabum.com.br/produtos/fotos/909145/air-cooler-argb-com-display-husky-alisius-500-amd-intel-90mm-95w-hac500pt_1767371642_original.jpg",
+     "posicao": 20,
+     "desconto": 0
     },
     {
      "url": "https://www.kabum.com.br/produto/911276/air-cooler-gamer-msi-mag-corefrozr-aa13-white-argb-amd-e-intel-120mm-branco-cfaa13w",
@@ -870,6 +844,19 @@
      "imagem": "https://images.kabum.com.br/produtos/fotos/1002621/air-cooler-cooler-master-i70-intel-lga-1700-120mm-preto-rr-i7a7-18fk-n1_1788953700_original.jpg",
      "posicao": 22,
      "desconto": 0.1
+    },
+    {
+     "url": "https://www.kabum.com.br/produto/1054677/air-cooler-squad-round-vc-120-amd-e-intel-120mm-preto-scvc120",
+     "loja": "KaBuM!",
+     "titulo": "Air Cooler Squad Round VC-120, AMD e Intel, 120mm, Preto - SCVC120",
+     "pix": 14.99,
+     "referencia": 14.99,
+     "oferta": null,
+     "avaliacoes": 0,
+     "nota": 0,
+     "imagem": "https://images.kabum.com.br/produtos/fotos/1054677/air-cooler-squad-round-vc-120-amd-e-intel-120mm-preto-scvc120_1795465522_original.jpg",
+     "posicao": 23,
+     "desconto": 0
     },
     {
      "url": "https://www.pichau.com.br/cooler-para-processador-cooler-master-hyper-212-spectrum-v3-rgb-120mm-preto-e-prata-rr-s4na-17pa-r1",
@@ -900,7 +887,7 @@
    ]
   },
   "fans": {
-   "atualizado": "2026-11-26T02:04-03:00",
+   "atualizado": "2026-11-26T08:42-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/688134/kit-com-3-ventoinhas-corsair-rs120-argb-120mm-pwm-preto-co-9050181-ww",
@@ -929,6 +916,19 @@
      "desconto": 0.2969
     },
     {
+     "url": "https://www.kabum.com.br/produto/457786/kit-com-3-ventoinhas-rise-mode-magneto-120mm-argb-branco-rm-ma-02-argb",
+     "loja": "KaBuM!",
+     "titulo": "Kit Com 3 Ventoinhas Rise Mode Magneto, 120mm, ARGB, Branco - RM-MA-02-ARGB",
+     "pix": 215.99,
+     "referencia": 289.9,
+     "oferta": "OFERTAS KABUM",
+     "avaliacoes": 3,
+     "nota": 5.0,
+     "imagem": "https://images.kabum.com.br/produtos/fotos/457786/kit-cooler-fan-gamer-rise-mode-magneto-120mm-argb-branco-rm-ma-02-argb_1705338469_original.jpg",
+     "posicao": 3,
+     "desconto": 0.2549
+    },
+    {
      "url": "https://www.kabum.com.br/produto/994920/kit-ventoinhas-montech-gf120-v2-argb-3x-120mm-preto-gf120v2argb3pb",
      "loja": "KaBuM!",
      "titulo": "Kit Ventoinhas Montech GF120 V2, ARGB, 3x 120mm, Preto - GF120V2ARGB3PB",
@@ -938,7 +938,7 @@
      "avaliacoes": 1,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/994920/kit-ventoinhas-montech-gf120-v2-argb-3-in-1-pack-preto-gf120v2argb3pb_1775477351_original.jpg",
-     "posicao": 3,
+     "posicao": 4,
      "desconto": 0.25
     },
     {
@@ -951,7 +951,7 @@
      "avaliacoes": 3,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/545674/kit-com-3-ventoinhas-ryvel-snowy-3x-120mm-argb-branco-ry-fn-sw-wt_1717701921_original.jpg",
-     "posicao": 4,
+     "posicao": 5,
      "desconto": 0.2495
     },
     {
@@ -964,21 +964,8 @@
      "avaliacoes": 2,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/994924/kit-ventoinhas-montech-gf120r-v2-argb-3-in-1-pack-preto-gf120rv2argb3pb_1775649084_original.jpg",
-     "posicao": 5,
-     "desconto": 0.1429
-    },
-    {
-     "url": "https://www.kabum.com.br/produto/507109/kit-com-3-ventoinhas-rise-mode-magneto-pro-120mm-led-argb-branco-rm-mapro-argb-w",
-     "loja": "KaBuM!",
-     "titulo": "Kit Com 3 Ventoinhas Rise Mode Magneto Pro, 120mm, Led ARGB, Branco - RM-MAPRO-ARGB-W",
-     "pix": 149.99,
-     "referencia": 259.89,
-     "oferta": "OFERTAS KABUM",
-     "avaliacoes": 70,
-     "nota": 4.6,
-     "imagem": "https://images.kabum.com.br/produtos/fotos/507109/kit-cooler-fan-3-fans-rise-mode-magneto-pro-120mm-argb-branco-rm-mapro-argb-w_1713189364_original.jpg",
      "posicao": 6,
-     "desconto": 0.4229
+     "desconto": 0.1429
     },
     {
      "url": "https://www.kabum.com.br/produto/609931/kit-com-3-ventoinhas-husky-arctic-breeze-120mm-iluminacao-argb-preto-hkcf300pt",
@@ -994,6 +981,19 @@
      "desconto": 0
     },
     {
+     "url": "https://www.kabum.com.br/produto/507109/kit-com-3-ventoinhas-rise-mode-magneto-pro-120mm-led-argb-branco-rm-mapro-argb-w",
+     "loja": "KaBuM!",
+     "titulo": "Kit Com 3 Ventoinhas Rise Mode Magneto Pro, 120mm, Led ARGB, Branco - RM-MAPRO-ARGB-W",
+     "pix": 149.99,
+     "referencia": 259.89,
+     "oferta": "OFERTAS KABUM",
+     "avaliacoes": 70,
+     "nota": 4.6,
+     "imagem": "https://images.kabum.com.br/produtos/fotos/507109/kit-cooler-fan-3-fans-rise-mode-magneto-pro-120mm-argb-branco-rm-mapro-argb-w_1713189364_original.jpg",
+     "posicao": 8,
+     "desconto": 0.4229
+    },
+    {
      "url": "https://www.kabum.com.br/produto/545673/kit-com-3-ventoinhas-ryvel-lycan-3x-120mm-led-argb-branco-ry-fn-ly-wt",
      "loja": "KaBuM!",
      "titulo": "Kit Com 3 Ventoinhas Ryvel Lycan, 3x 120mm, Led ARGB, Branco - RY-FN-LY-WT",
@@ -1003,7 +1003,7 @@
      "avaliacoes": 8,
      "nota": 3.6,
      "imagem": "https://images.kabum.com.br/produtos/fotos/545673/kit-com-3-ventoinhas-ryvel-lycan-3x-120mm-argb-branco-ry-fn-ly-wt_1717701616_original.jpg",
-     "posicao": 8,
+     "posicao": 9,
      "desconto": 0.5498
     },
     {
@@ -1016,7 +1016,7 @@
      "avaliacoes": 0,
      "nota": 0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/994921/kit-ventoinhas-montech-gf120-v2-argb-3-in-1-pack-branco-gf120v2argb3pw_1775478449_original.jpg",
-     "posicao": 9,
+     "posicao": 10,
      "desconto": 0.25
     },
     {
@@ -1029,7 +1029,7 @@
      "avaliacoes": 1,
      "nota": 4.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/994925/kit-ventoinhas-montech-gf120r-v2-argb-3-in-1-pack-branco-gf120rv2argb3pw_1775650446_original.jpg",
-     "posicao": 10,
+     "posicao": 11,
      "desconto": 0.25
     },
     {
@@ -1042,21 +1042,8 @@
      "avaliacoes": 0,
      "nota": 0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/1074623/kit-cooler-liketec-puzzle-120mm-3x-fans-argb-pwm-preto-lf-kitrgb-puzzle_1794856770_original.jpg",
-     "posicao": 11,
-     "desconto": 0.0539
-    },
-    {
-     "url": "https://www.kabum.com.br/produto/873626/kit-ventoinhas-para-gabinete-cooler-master-masterfan-mf120-halo2-3in1-120mm-iluminacao-rgb-branco-mfl-b2dw-213p2-r2",
-     "loja": "KaBuM!",
-     "titulo": "Kit Ventoinhas para Gabinete Cooler Master MasterFan MF120 Halo2 3in1, 120mm, Iluminação RGB, Branco - MFL-B2DW-213P2-R2",
-     "pix": 249.99,
-     "referencia": 359.9,
-     "oferta": "OFERTAS KABUM",
-     "avaliacoes": 0,
-     "nota": 0,
-     "imagem": "https://images.kabum.com.br/produtos/fotos/873626/kit-ventoinhas-para-gabinete-cooler-master-masterfan-mf120-halo2-white-edition-3in1-120mm-iluminacao-rgb-mfl-b2dw-213p2-r2_1753118399_original.jpg",
      "posicao": 12,
-     "desconto": 0.3054
+     "desconto": 0.0539
     },
     {
      "url": "https://www.kabum.com.br/produto/1054675/kit-ventoinha-com-3-unidades-squad-gelus-120mm-rgb-rainbow-preto-skc120rgb",
@@ -1070,6 +1057,19 @@
      "imagem": "https://images.kabum.com.br/produtos/fotos/1054675/kit-ventoinha-com-3-unidades-squad-gelus-120mm-rgb-rainbow-preto-skc120rgb_1795551393_original.jpg",
      "posicao": 13,
      "desconto": 0
+    },
+    {
+     "url": "https://www.kabum.com.br/produto/873626/kit-ventoinhas-para-gabinete-cooler-master-masterfan-mf120-halo2-3in1-120mm-iluminacao-rgb-branco-mfl-b2dw-213p2-r2",
+     "loja": "KaBuM!",
+     "titulo": "Kit Ventoinhas para Gabinete Cooler Master MasterFan MF120 Halo2 3in1, 120mm, Iluminação RGB, Branco - MFL-B2DW-213P2-R2",
+     "pix": 249.99,
+     "referencia": 359.9,
+     "oferta": "OFERTAS KABUM",
+     "avaliacoes": 0,
+     "nota": 0,
+     "imagem": "https://images.kabum.com.br/produtos/fotos/873626/kit-ventoinhas-para-gabinete-cooler-master-masterfan-mf120-halo2-white-edition-3in1-120mm-iluminacao-rgb-mfl-b2dw-213p2-r2_1753118399_original.jpg",
+     "posicao": 14,
+     "desconto": 0.3054
     },
     {
      "url": "https://www.pichau.com.br/ventoinha-noctua-120mm-marrom-nf-a12x25-pwm",
@@ -1360,7 +1360,7 @@
    ]
   },
   "fonte": {
-   "atualizado": "2026-11-26T02:04-03:00",
+   "atualizado": "2026-11-26T08:42-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/907600/fonte-gigabyte-p650g-pg5-650w-80-plus-gold-pfc-ativo-preto-28200-p65g5-1cbrr",
@@ -1534,7 +1534,7 @@
    ]
   },
   "memoria-ddr4": {
-   "atualizado": "2026-11-26T02:04-03:00",
+   "atualizado": "2026-11-26T08:42-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/110769/memoria-ram-corsair-vengeance-lpx-16gb-2x8gb-2400mhz-ddr4-cl16-black-cmk16gx4m2a2400c16",
@@ -1768,6 +1768,90 @@
   ],
   "https://www.kabum.com.br/produto/909319/gabinete-gamer-husky-dome-10-micro-atx-lateral-e-frontal-em-vidro-sem-fans-preto-hgn10pt": [
    {
+    "t": "2026-09-11T06:11-03:00",
+    "pix": 129.99,
+    "cartao": 129.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-09-16T11:14-03:00",
+    "pix": 139.99,
+    "cartao": 139.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-09-18T22:21-03:00",
+    "pix": 139.99,
+    "cartao": 139.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-02T04:05-03:00",
+    "pix": 129.99,
+    "cartao": 129.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-03T04:38-03:00",
+    "pix": 129.99,
+    "cartao": 129.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-06T20:21-03:00",
+    "pix": 129.99,
+    "cartao": 129.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-06T20:39-03:00",
+    "pix": 129.99,
+    "cartao": 129.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-07T03:51-03:00",
+    "pix": 129.99,
+    "cartao": 129.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-12T13:03-03:00",
+    "pix": 139.99,
+    "cartao": 139.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-15T19:23-03:00",
+    "pix": 149.99,
+    "cartao": 149.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-17T04:51-03:00",
+    "pix": 149.99,
+    "cartao": 149.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-28T23:55-03:00",
+    "pix": 129.99,
+    "cartao": 129.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
     "t": "2026-11-26T00:57-03:00",
     "pix": 109.99
    }
@@ -1779,6 +1863,20 @@
    }
   ],
   "https://www.kabum.com.br/produto/905395/gabinete-gamer-montech-x3-mesh-mid-tower-painel-frontal-em-mesh-com-6x-fans-preto-x3meshbk": [
+   {
+    "t": "2026-10-28T23:55-03:00",
+    "pix": 319.99,
+    "cartao": 319.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-31T21:16-03:00",
+    "pix": 319.99,
+    "cartao": 319.99,
+    "disp": true,
+    "arquivo": true
+   },
    {
     "t": "2026-11-26T00:57-03:00",
     "pix": 279.99
@@ -1792,11 +1890,123 @@
   ],
   "https://www.kabum.com.br/produto/883979/gabinete-gamer-liketec-dasha-v2-cubo-m-atx-mini-tower-frontal-e-lateral-em-vidro-temperado-sem-fans-preto-lc-mt-cubodashav2-sf": [
    {
+    "t": "2026-09-16T11:14-03:00",
+    "pix": 139.99,
+    "cartao": 139.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-01T19:29-03:00",
+    "pix": 149.99,
+    "cartao": 149.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-01T23:10-03:00",
+    "pix": 149.99,
+    "cartao": 149.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-04T08:52-03:00",
+    "pix": 149.99,
+    "cartao": 149.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-04T21:02-03:00",
+    "pix": 149.99,
+    "cartao": 149.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-09T04:03-03:00",
+    "pix": 139.99,
+    "cartao": 139.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-10T08:49-03:00",
+    "pix": 149.99,
+    "cartao": 149.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-10T14:00-03:00",
+    "pix": 149.99,
+    "cartao": 149.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-11T00:01-03:00",
+    "pix": 149.99,
+    "cartao": 149.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-11T20:22-03:00",
+    "pix": 149.99,
+    "cartao": 149.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-12T03:03-03:00",
+    "pix": 149.99,
+    "cartao": 149.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-12T07:30-03:00",
+    "pix": 149.99,
+    "cartao": 149.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-12T07:54-03:00",
+    "pix": 149.99,
+    "cartao": 149.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
     "t": "2026-11-26T00:57-03:00",
     "pix": 179.99
    }
   ],
   "https://www.kabum.com.br/produto/473175/gabinete-gamer-redragon-wideload-lite-mid-tower-atx-lateral-em-vidro-temperado-preto-ca-604b": [
+   {
+    "t": "2026-10-06T21:42-03:00",
+    "pix": 299.99,
+    "cartao": 299.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-08T13:03-03:00",
+    "pix": 299.99,
+    "cartao": 299.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-23T03:34-03:00",
+    "pix": 319.99,
+    "cartao": 319.99,
+    "disp": true,
+    "arquivo": true
+   },
    {
     "t": "2026-11-26T00:57-03:00",
     "pix": 279.99
@@ -1999,7 +2209,7 @@
    },
    {
     "t": "2026-11-26T00:57-03:00",
-    "pix": 89.99
+    "pix": 69.99
    }
   ],
   "https://www.kabum.com.br/produto/912559/air-cooler-mach1-wind-argb-amd-e-intel-120mm-preto-a60-argb": [
@@ -2135,7 +2345,7 @@
    },
    {
     "t": "2026-11-26T00:57-03:00",
-    "pix": 276.99
+    "pix": 179.99
    }
   ],
   "https://www.kabum.com.br/produto/153649/air-cooler-rise-mode-winter-black-argb-amd-intel-120mm-preto-rm-acw-01-argb": [
@@ -2894,6 +3104,18 @@
    {
     "t": "2026-11-26T02:04-03:00",
     "pix": 44.99
+   }
+  ],
+  "https://www.kabum.com.br/produto/1054677/air-cooler-squad-round-vc-120-amd-e-intel-120mm-preto-scvc120": [
+   {
+    "t": "2026-11-26T08:42-03:00",
+    "pix": 14.99
+   }
+  ],
+  "https://www.kabum.com.br/produto/457786/kit-com-3-ventoinhas-rise-mode-magneto-120mm-argb-branco-rm-ma-02-argb": [
+   {
+    "t": "2026-11-26T08:42-03:00",
+    "pix": 215.99
    }
   ]
  }
