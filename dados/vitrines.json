@@ -1,7 +1,7 @@
 {
  "itens": {
   "gpu-faixa": {
-   "atualizado": "2026-11-26T08:42-03:00",
+   "atualizado": "2026-11-26T09:04-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/907814/placa-de-video-asrock-rx-7600-challenger-pro-oc-amd-radeon-8gb-gddr6-triple-fan-90-ga62zz-00uanf",
@@ -43,6 +43,32 @@
      "desconto": 0.2
     },
     {
+     "url": "https://www.kabum.com.br/produto/1020030/placa-de-video-husky-alpha-rtx-3060-ti-nvidia-8gb-gddr6-256-bit-hdmi-displayport-hvg3060ti",
+     "loja": "KaBuM!",
+     "titulo": "Placa De Vídeo Husky Alpha RTX 3060 TI, NVIDIA, 8GB, GDDR6, 256-Bit, HDMI, DisplayPort - HVG3060TI",
+     "pix": 2249.99,
+     "referencia": 2999.99,
+     "oferta": "OFERTAS KABUM",
+     "avaliacoes": 0,
+     "nota": 0,
+     "imagem": "https://images.kabum.com.br/produtos/fotos/1020030/placa-de-video-husky-alpha-rtx-3060-ti-nvidia-8gb-gddr6-256-bit-hdmi-displayport-hvg3060ti_1778164604_original.jpg",
+     "posicao": 4,
+     "desconto": 0.25
+    },
+    {
+     "url": "https://www.kabum.com.br/produto/1053619/placa-de-video-gigabyte-rx-9050-gaming-oc-8gb-amd-radeon-8gb-gddr6-128bit-gv-r9050gaming-oc-8gd",
+     "loja": "KaBuM!",
+     "titulo": "Placa de Vídeo Gigabyte RX 9050 GAMING OC 8GB AMD Radeon, 8GB GDDR6, 128bit - GV-R9050GAMING OC-8GD",
+     "pix": 1999.99,
+     "referencia": 2999.99,
+     "oferta": "OFERTAS KABUM",
+     "avaliacoes": 0,
+     "nota": 0,
+     "imagem": "https://images.kabum.com.br/produtos/fotos/1053619/placa-de-video-gigabyte-rx-9050-gaming-oc-8gb-amd-radeon-8gb-gddr6-128bit-gv-r9050gaming-oc-8gd_1787070387_original.jpg",
+     "posicao": 5,
+     "desconto": 0.3333
+    },
+    {
      "url": "https://www.kabum.com.br/produto/681586/placa-de-video-gigabyte-rtx-3050-windforce-oc-nvidia-geforce-6gb-gddr6-dlss-ray-tracing-gv-n3050wf2ocv2-6gd",
      "loja": "KaBuM!",
      "titulo": "Placa de Vídeo Gigabyte RTX 3050 Windforce OC NVIDIA GeForce, 6GB, GDDR6, DLSS, Ray Tracing - GV-N3050WF2OCV2-6GD",
@@ -52,7 +78,7 @@
      "avaliacoes": 49,
      "nota": 4.7,
      "imagem": "https://images.kabum.com.br/produtos/fotos/681586/placa-de-video-rtx-3050-windforce-oc-gigabyte-nvidia-geforce-6gb-gddr6-dlss-ray-tracing-gv-n3050wf2ocv2-6gd_1734620897_original.jpg",
-     "posicao": 4,
+     "posicao": 6,
      "desconto": 0.065
     },
     {
@@ -65,7 +91,7 @@
      "avaliacoes": 8,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/525561/placa-de-video-rtx-3050-twin-x2-inno3d-nvidia-geforce-6gb-n30502-06d6-1711va60_1719505789_original.jpg",
-     "posicao": 5,
+     "posicao": 7,
      "desconto": 0.0693
     },
     {
@@ -162,7 +188,7 @@
    ]
   },
   "gabinete": {
-   "atualizado": "2026-11-26T08:42-03:00",
+   "atualizado": "2026-11-26T09:04-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/1056523/gabinete-gamer-squad-qg200-mini-tower-micro-atx-e-mini-itx-frontal-e-lateral-em-vidro-usb-30-sem-fans-sgn200",
@@ -503,6 +529,19 @@
      "desconto": 0
     },
     {
+     "url": "https://www.pichau.com.br/gabinete-gamer-cooler-master-elite-302-argb-vidro-temperado-mini-tower-matx-com-3-fans-branco-e302-wgnn-saz",
+     "loja": "Pichau",
+     "titulo": "Gabinete Gamer Cooler Master Elite 302, ARGB, Vidro Temperado, Mini Tower, mATX, Com 3 Fans, Branco, E302-WGNN-SAZ",
+     "pix": 449.99,
+     "referencia": 647.05,
+     "oferta": null,
+     "avaliacoes": 0,
+     "nota": 0,
+     "imagem": "https://media.pichau.com.br/media/catalog/product/cache/22c0d71a45cddf08af7927cb2bce3571/e/3/e302-wgnn-saz.jpg",
+     "posicao": 3,
+     "desconto": 0.3046
+    },
+    {
      "url": "https://www.pichau.com.br/gabinete-gamer-cooler-master-elite-302-vidro-temperado-mini-tower-m-atx-com-1-fan-branco-e302-wgnn-s00",
      "loja": "Pichau",
      "titulo": "Gabinete Gamer Cooler Master Elite 302, Vidro Temperado, Mini Tower, M-ATX, Com 1 Fan, Branco, E302-WGNN-S00",
@@ -512,7 +551,7 @@
      "avaliacoes": 0,
      "nota": 0,
      "imagem": "https://media.pichau.com.br/media/catalog/product/cache/22c0d71a45cddf08af7927cb2bce3571/e/3/e302-wgnn-s001.jpg",
-     "posicao": 3,
+     "posicao": 4,
      "desconto": 0.286
     },
     {
@@ -525,7 +564,7 @@
      "avaliacoes": 0,
      "nota": 0,
      "imagem": "https://media.pichau.com.br/media/catalog/product/cache/22c0d71a45cddf08af7927cb2bce3571/3/8/382tc9000015.jpg",
-     "posicao": 4,
+     "posicao": 5,
      "desconto": 0.2089
     },
     {
@@ -538,7 +577,7 @@
      "avaliacoes": 0,
      "nota": 0,
      "imagem": "https://media.pichau.com.br/media/catalog/product/cache/22c0d71a45cddf08af7927cb2bce3571/c/a/ca-617b2.jpg",
-     "posicao": 5,
+     "posicao": 6,
      "desconto": 0.2122
     },
     {
@@ -551,13 +590,26 @@
      "avaliacoes": 0,
      "nota": 0,
      "imagem": "https://media.pichau.com.br/media/catalog/product/cache/22c0d71a45cddf08af7927cb2bce3571/r/-/r-ch270-whngm0-g-1552218.jpg",
-     "posicao": 6,
+     "posicao": 7,
      "desconto": 0.3058
+    },
+    {
+     "url": "https://www.pichau.com.br/gabinete-gamer-deepcool-ch160-plus-mini-tower-lateral-de-vidro-branco-r-ch160-whngm0-g",
+     "loja": "Pichau",
+     "titulo": "Gabinete Gamer Deepcool CH160 Plus, Mini-Tower, Lateral de Vidro, Branco, R-CH160-WHNGM0-G",
+     "pix": 449.99,
+     "referencia": 588.22,
+     "oferta": null,
+     "avaliacoes": 0,
+     "nota": 0,
+     "imagem": "https://media.pichau.com.br/media/catalog/product/cache/22c0d71a45cddf08af7927cb2bce3571/r/-/r-ch160-whngm0-g7.jpg",
+     "posicao": 8,
+     "desconto": 0.235
     }
    ]
   },
   "cooler": {
-   "atualizado": "2026-11-26T08:42-03:00",
+   "atualizado": "2026-11-26T09:04-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/532493/air-cooler-cooler-master-hyper-212-spectrum-v3-argb-intel-e-amd-120mm-preto-rr-s4na-17pa-r1",
@@ -887,7 +939,7 @@
    ]
   },
   "fans": {
-   "atualizado": "2026-11-26T08:42-03:00",
+   "atualizado": "2026-11-26T09:04-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/688134/kit-com-3-ventoinhas-corsair-rs120-argb-120mm-pwm-preto-co-9050181-ww",
@@ -1343,24 +1395,11 @@
      "imagem": "https://media.pichau.com.br/media/catalog/product/cache/22c0d71a45cddf08af7927cb2bce3571/k/3/k3argbsf3rvbr.jpg",
      "posicao": 21,
      "desconto": 0.3628
-    },
-    {
-     "url": "https://www.pichau.com.br/ventoinha-pcyes-sangue-frio-3-reverse-argb-120mm-white-ghost-argbsf3wgrvbr",
-     "loja": "Pichau",
-     "titulo": "Ventoinha PCYes Sangue Frio 3 Reverse, ARGB, 120mm, White Ghost, ARGBSF3WGRVBR",
-     "pix": 51.99,
-     "referencia": 99.99,
-     "oferta": null,
-     "avaliacoes": 0,
-     "nota": 0,
-     "imagem": "https://media.pichau.com.br/media/catalog/product/cache/22c0d71a45cddf08af7927cb2bce3571/a/r/argbsf3wgrvbr.jpg",
-     "posicao": 22,
-     "desconto": 0.48
     }
    ]
   },
   "fonte": {
-   "atualizado": "2026-11-26T08:42-03:00",
+   "atualizado": "2026-11-26T09:04-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/907600/fonte-gigabyte-p650g-pg5-650w-80-plus-gold-pfc-ativo-preto-28200-p65g5-1cbrr",
@@ -1534,7 +1573,7 @@
    ]
   },
   "memoria-ddr4": {
-   "atualizado": "2026-11-26T08:42-03:00",
+   "atualizado": "2026-11-26T09:04-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/110769/memoria-ram-corsair-vengeance-lpx-16gb-2x8gb-2400mhz-ddr4-cl16-black-cmk16gx4m2a2400c16",
@@ -1655,7 +1694,7 @@
   "https://www.kabum.com.br/produto/1020030/placa-de-video-husky-alpha-rtx-3060-ti-nvidia-8gb-gddr6-256-bit-hdmi-displayport-hvg3060ti": [
    {
     "t": "2026-11-26T00:57-03:00",
-    "pix": 2399.99
+    "pix": 2249.99
    }
   ],
   "https://www.kabum.com.br/produto/1053619/placa-de-video-gigabyte-rx-9050-gaming-oc-8gb-amd-radeon-8gb-gddr6-128bit-gv-r9050gaming-oc-8gd": [
@@ -1696,7 +1735,7 @@
    },
    {
     "t": "2026-11-26T00:57-03:00",
-    "pix": 2059.99
+    "pix": 1999.99
    }
   ],
   "https://www.kabum.com.br/produto/681586/placa-de-video-gigabyte-rtx-3050-windforce-oc-nvidia-geforce-6gb-gddr6-dlss-ray-tracing-gv-n3050wf2ocv2-6gd": [
@@ -2019,6 +2058,20 @@
    }
   ],
   "https://www.kabum.com.br/produto/986294/gabinete-gamer-kalkan-midgard-lite-m-atx-frontal-e-lateral-em-vidro-temperado-sem-fans-preto-klk00090": [
+   {
+    "t": "2026-10-10T03:12-03:00",
+    "pix": 159.99,
+    "cartao": 159.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-13T22:16-03:00",
+    "pix": 149.99,
+    "cartao": 149.99,
+    "disp": true,
+    "arquivo": true
+   },
    {
     "t": "2026-11-26T00:57-03:00",
     "pix": 149.99
@@ -2574,11 +2627,39 @@
   ],
   "https://www.kabum.com.br/produto/688134/kit-com-3-ventoinhas-corsair-rs120-argb-120mm-pwm-preto-co-9050181-ww": [
    {
+    "t": "2026-10-14T22:09-03:00",
+    "pix": 209.99,
+    "cartao": 209.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
     "t": "2026-11-26T00:57-03:00",
     "pix": 169.99
    }
   ],
   "https://www.kabum.com.br/produto/114646/kit-com-3-ventoinhas-rise-mode-frost-120mm-rgb-branco-rm-cf-02-rgb": [
+   {
+    "t": "2026-09-07T17:00-03:00",
+    "pix": 99.99,
+    "cartao": 99.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-08T15:06-03:00",
+    "pix": 75.99,
+    "cartao": 75.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-13T22:48-03:00",
+    "pix": 75.99,
+    "cartao": 75.99,
+    "disp": true,
+    "arquivo": true
+   },
    {
     "t": "2026-11-26T00:57-03:00",
     "pix": 89.99
@@ -2603,6 +2684,27 @@
    }
   ],
   "https://www.kabum.com.br/produto/507109/kit-com-3-ventoinhas-rise-mode-magneto-pro-120mm-led-argb-branco-rm-mapro-argb-w": [
+   {
+    "t": "2026-10-08T07:54-03:00",
+    "pix": 165.99,
+    "cartao": 165.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-08T14:49-03:00",
+    "pix": 165.99,
+    "cartao": 165.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-12T20:48-03:00",
+    "pix": 259.89,
+    "cartao": 259.89,
+    "disp": true,
+    "arquivo": true
+   },
    {
     "t": "2026-11-26T00:57-03:00",
     "pix": 149.99
@@ -3072,6 +3174,41 @@
   ],
   "https://www.kabum.com.br/produto/110769/memoria-ram-corsair-vengeance-lpx-16gb-2x8gb-2400mhz-ddr4-cl16-black-cmk16gx4m2a2400c16": [
    {
+    "t": "2026-09-25T20:23-03:00",
+    "pix": 1220.99,
+    "cartao": 1220.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-05T08:38-03:00",
+    "pix": 1199.99,
+    "cartao": 1199.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-06T18:51-03:00",
+    "pix": 1199.99,
+    "cartao": 1199.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-09T19:39-03:00",
+    "pix": 1199.99,
+    "cartao": 1199.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-26T22:40-03:00",
+    "pix": 1199.99,
+    "cartao": 1199.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
     "t": "2026-11-26T01:13-03:00",
     "pix": 1199.99
    }
@@ -3083,6 +3220,13 @@
    }
   ],
   "https://www.kabum.com.br/produto/97099/memoria-ram-corsair-vengeance-rgb-pro-16gb-2x8gb-2666mhz-ddr4-cl16-preto-cmw16gx4m2a2666c16": [
+   {
+    "t": "2026-09-25T20:23-03:00",
+    "pix": 1326.99,
+    "cartao": 1326.99,
+    "disp": true,
+    "arquivo": true
+   },
    {
     "t": "2026-11-26T01:13-03:00",
     "pix": 1599.99
@@ -3116,6 +3260,18 @@
    {
     "t": "2026-11-26T08:42-03:00",
     "pix": 215.99
+   }
+  ],
+  "https://www.pichau.com.br/gabinete-gamer-cooler-master-elite-302-argb-vidro-temperado-mini-tower-matx-com-3-fans-branco-e302-wgnn-saz": [
+   {
+    "t": "2026-11-26T09:04-03:00",
+    "pix": 449.99
+   }
+  ],
+  "https://www.pichau.com.br/gabinete-gamer-deepcool-ch160-plus-mini-tower-lateral-de-vidro-branco-r-ch160-whngm0-g": [
+   {
+    "t": "2026-11-26T09:04-03:00",
+    "pix": 449.99
    }
   ]
  }
