@@ -1,7 +1,7 @@
 {
  "itens": {
   "gpu-faixa": {
-   "atualizado": "2026-11-26T12:02-03:00",
+   "atualizado": "2026-11-26T13:05-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/907814/placa-de-video-asrock-rx-7600-challenger-pro-oc-amd-radeon-8gb-gddr6-triple-fan-90-ga62zz-00uanf",
@@ -30,19 +30,6 @@
      "desconto": 0.2083
     },
     {
-     "url": "https://www.kabum.com.br/produto/996572/placa-de-video-husky-alpha-rtx-3060-nvidia-12gb-gddr6-192-bit-dual-fan-hdmi-3x-displayport-hvg023060",
-     "loja": "KaBuM!",
-     "titulo": "Placa De Vídeo Husky Alpha RTX 3060, Nvidia, 12GB, GDDR6, 192-Bit, Dual Fan, HDMI, 3x DisplayPort - HVG023060",
-     "pix": 2399.99,
-     "referencia": 2999.99,
-     "oferta": "OFERTAS KABUM",
-     "avaliacoes": 9,
-     "nota": 4.8,
-     "imagem": "https://images.kabum.com.br/produtos/fotos/996572/placa-de-video-husky-alpha-rtx-3060-hvg023060_1772198737_original.jpg",
-     "posicao": 3,
-     "desconto": 0.2
-    },
-    {
      "url": "https://www.kabum.com.br/produto/1053619/placa-de-video-gigabyte-rx-9050-gaming-oc-8gb-amd-radeon-8gb-gddr6-128bit-gv-r9050gaming-oc-8gd",
      "loja": "KaBuM!",
      "titulo": "Placa de Vídeo Gigabyte RX 9050 GAMING OC 8GB AMD Radeon, 8GB GDDR6, 128bit - GV-R9050GAMING OC-8GD",
@@ -52,7 +39,7 @@
      "avaliacoes": 0,
      "nota": 0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/1053619/placa-de-video-gigabyte-rx-9050-gaming-oc-8gb-amd-radeon-8gb-gddr6-128bit-gv-r9050gaming-oc-8gd_1787070387_original.jpg",
-     "posicao": 4,
+     "posicao": 3,
      "desconto": 0.3333
     },
     {
@@ -65,7 +52,7 @@
      "avaliacoes": 49,
      "nota": 4.7,
      "imagem": "https://images.kabum.com.br/produtos/fotos/681586/placa-de-video-rtx-3050-windforce-oc-gigabyte-nvidia-geforce-6gb-gddr6-dlss-ray-tracing-gv-n3050wf2ocv2-6gd_1734620897_original.jpg",
-     "posicao": 5,
+     "posicao": 4,
      "desconto": 0.065
     },
     {
@@ -78,7 +65,7 @@
      "avaliacoes": 8,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/525561/placa-de-video-rtx-3050-twin-x2-inno3d-nvidia-geforce-6gb-n30502-06d6-1711va60_1719505789_original.jpg",
-     "posicao": 6,
+     "posicao": 5,
      "desconto": 0.0693
     },
     {
@@ -175,7 +162,7 @@
    ]
   },
   "gabinete": {
-   "atualizado": "2026-11-26T12:02-03:00",
+   "atualizado": "2026-11-26T13:05-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/1056523/gabinete-gamer-squad-qg200-mini-tower-micro-atx-e-mini-itx-frontal-e-lateral-em-vidro-usb-30-sem-fans-sgn200",
@@ -191,6 +178,19 @@
      "desconto": 0.1
     },
     {
+     "url": "https://www.kabum.com.br/produto/993857/gabinete-gamer-esgaming-zero-max-mid-tower-m-atx-frontal-e-lateral-em-vidro-temperado-sem-fans-preto-zero-max-bk",
+     "loja": "KaBuM!",
+     "titulo": "Gabinete Gamer Esgaming Zero Max, Mid Tower, M-ATX, Frontal e Lateral em Vidro Temperado, Sem Fans, Preto - Zero Max BK",
+     "pix": 299.99,
+     "referencia": 349.99,
+     "oferta": "OFERTAS KABUM",
+     "avaliacoes": 25,
+     "nota": 5.0,
+     "imagem": "https://images.kabum.com.br/produtos/fotos/993857/gabinete-gamer-esgaming-zero-max-mid-tower-m-atx-frontal-e-lateral-em-vidro-temperado-sem-fans-preto-zero-max-bk_1784926424_original.jpg",
+     "posicao": 2,
+     "desconto": 0.1429
+    },
+    {
      "url": "https://www.kabum.com.br/produto/909319/gabinete-gamer-husky-dome-10-micro-atx-lateral-e-frontal-em-vidro-sem-fans-preto-hgn10pt",
      "loja": "KaBuM!",
      "titulo": "Gabinete Gamer Husky Dome 10, Micro-ATX, Lateral e Frontal em Vidro, Sem Fans, Preto - HGN10PT",
@@ -200,21 +200,8 @@
      "avaliacoes": 39,
      "nota": 4.9,
      "imagem": "https://images.kabum.com.br/produtos/fotos/909319/gabinete-gamer-husky-dome-10-micro-atx-lateral-e-frontal-em-vidro-sem-fans-preto-hgn10pt_1768919378_original.jpg",
-     "posicao": 2,
-     "desconto": 0.1539
-    },
-    {
-     "url": "https://www.kabum.com.br/produto/1075312/gabinete-gamer-kalkan-skye-aquario-mid-tower-atx-rgb-usb-30-sem-fans-preto-klk00042",
-     "loja": "KaBuM!",
-     "titulo": "Gabinete Gamer Kalkan Skye, Mid Tower, Aquário, Fita LED RGB, Vidro Temperado, ATX, USB 3.0, Preto - KLK00042",
-     "pix": 349.99,
-     "referencia": 349.99,
-     "oferta": null,
-     "avaliacoes": 0,
-     "nota": 0,
-     "imagem": "https://images.kabum.com.br/produtos/fotos/1075312/gabinete-gamer-kalkan-skye-aquario-mid-tower-atx-rgb-usb-3-0-sem-fans-preto-klk00042_1792496556_original.jpg",
      "posicao": 3,
-     "desconto": 0
+     "desconto": 0.1539
     },
     {
      "url": "https://www.kabum.com.br/produto/905395/gabinete-gamer-montech-x3-mesh-mid-tower-painel-frontal-em-mesh-com-6x-fans-preto-x3meshbk",
@@ -596,8 +583,21 @@
    ]
   },
   "cooler": {
-   "atualizado": "2026-11-26T12:02-03:00",
+   "atualizado": "2026-11-26T13:05-03:00",
    "lista": [
+    {
+     "url": "https://www.kabum.com.br/produto/912540/air-cooler-mach1-artic-argb-amd-e-intel-120mm-preto-a40",
+     "loja": "KaBuM!",
+     "titulo": "Air Cooler MACH1 ARTIC, ARGB, AMD e Intel, 120mm, Preto - A40",
+     "pix": 99.99,
+     "referencia": 99.99,
+     "oferta": null,
+     "avaliacoes": 9,
+     "nota": 5.0,
+     "imagem": "https://images.kabum.com.br/produtos/fotos/912540/air-cooler-mach1-artic-argb-amd-e-intel-120mm-preto-a40_1777038116_original.jpg",
+     "posicao": 1,
+     "desconto": 0
+    },
     {
      "url": "https://www.kabum.com.br/produto/532493/air-cooler-cooler-master-hyper-212-spectrum-v3-argb-intel-e-amd-120mm-preto-rr-s4na-17pa-r1",
      "loja": "KaBuM!",
@@ -608,7 +608,7 @@
      "avaliacoes": 92,
      "nota": 4.9,
      "imagem": "https://images.kabum.com.br/produtos/fotos/532493/cooler-para-processador-cooler-master-hyper-212-spectrum-v3-rgb-intel-e-amd-120mm-preto-rr-s4na-17pa-r1_1753125454_original.jpg",
-     "posicao": 1,
+     "posicao": 2,
      "desconto": 0.2222
     },
     {
@@ -621,21 +621,8 @@
      "avaliacoes": 2,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/912559/air-cooler-mach1-wind-argb-amd-e-intel-120mm-preto-a60-argb_1777311819_original.jpg",
-     "posicao": 2,
-     "desconto": 0.35
-    },
-    {
-     "url": "https://www.kabum.com.br/produto/506059/air-cooler-gamer-rise-mode-storm-8-white-amd-intel-120mm-branco-rm-acst-w",
-     "loja": "KaBuM!",
-     "titulo": "Air Cooler Gamer Rise Mode Storm 8 White, AMD/Intel, 120mm, Branco - RM-ACST-W",
-     "pix": 259.99,
-     "referencia": 259.99,
-     "oferta": null,
-     "avaliacoes": 158,
-     "nota": 4.7,
-     "imagem": "https://images.kabum.com.br/produtos/fotos/506059/air-cooler-gamer-rise-mode-strom-8-white-amd-intel-120mm-branco-rm-acst-w_1712769879_original.jpg",
      "posicao": 3,
-     "desconto": 0
+     "desconto": 0.35
     },
     {
      "url": "https://www.kabum.com.br/produto/506060/air-cooler-gamer-rise-mode-storm-8-black-argb-amd-intel-120mm-preto-rm-acst-argb-b",
@@ -926,7 +913,7 @@
    ]
   },
   "fans": {
-   "atualizado": "2026-11-26T12:02-03:00",
+   "atualizado": "2026-11-26T13:05-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/688134/kit-com-3-ventoinhas-corsair-rs120-argb-120mm-pwm-preto-co-9050181-ww",
@@ -1386,7 +1373,7 @@
    ]
   },
   "fonte": {
-   "atualizado": "2026-11-26T12:02-03:00",
+   "atualizado": "2026-11-26T13:05-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/907600/fonte-gigabyte-p650g-pg5-650w-80-plus-gold-pfc-ativo-preto-28200-p65g5-1cbrr",
@@ -1599,7 +1586,7 @@
    ]
   },
   "memoria-ddr4": {
-   "atualizado": "2026-11-26T12:02-03:00",
+   "atualizado": "2026-11-26T13:05-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/110769/memoria-ram-corsair-vengeance-lpx-16gb-2x8gb-2400mhz-ddr4-cl16-black-cmk16gx4m2a2400c16",
@@ -3474,6 +3461,165 @@
    {
     "t": "2026-11-26T12:02-03:00",
     "pix": 229.99
+   }
+  ],
+  "https://www.kabum.com.br/produto/912540/air-cooler-mach1-artic-argb-amd-e-intel-120mm-preto-a40": [
+   {
+    "t": "2026-09-05T15:00-03:00",
+    "pix": 71.99,
+    "cartao": 71.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-06T20:18-03:00",
+    "pix": 71.99,
+    "cartao": 71.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-06T20:49-03:00",
+    "pix": 71.99,
+    "cartao": 71.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-06T20:55-03:00",
+    "pix": 71.99,
+    "cartao": 71.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-06T22:19-03:00",
+    "pix": 71.99,
+    "cartao": 71.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-06T22:50-03:00",
+    "pix": 71.99,
+    "cartao": 71.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-06T23:05-03:00",
+    "pix": 71.99,
+    "cartao": 71.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-07T08:55-03:00",
+    "pix": 71.99,
+    "cartao": 71.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-08T02:24-03:00",
+    "pix": 71.99,
+    "cartao": 71.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-08T09:58-03:00",
+    "pix": 71.99,
+    "cartao": 71.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-08T20:48-03:00",
+    "pix": 71.99,
+    "cartao": 71.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-09T02:07-03:00",
+    "pix": 71.99,
+    "cartao": 71.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-09T12:30-03:00",
+    "pix": 71.99,
+    "cartao": 71.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-09T19:23-03:00",
+    "pix": 71.99,
+    "cartao": 71.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-09T21:03-03:00",
+    "pix": 71.99,
+    "cartao": 71.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-10T13:43-03:00",
+    "pix": 71.99,
+    "cartao": 71.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-11T17:37-03:00",
+    "pix": 71.99,
+    "cartao": 71.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-12T12:53-03:00",
+    "pix": 71.99,
+    "cartao": 71.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-13T00:07-03:00",
+    "pix": 71.99,
+    "cartao": 71.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-14T22:29-03:00",
+    "pix": 69.99,
+    "cartao": 69.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-31T13:44-03:00",
+    "pix": 72.99,
+    "cartao": 72.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-11-26T13:05-03:00",
+    "pix": 99.99
+   }
+  ],
+  "https://www.kabum.com.br/produto/993857/gabinete-gamer-esgaming-zero-max-mid-tower-m-atx-frontal-e-lateral-em-vidro-temperado-sem-fans-preto-zero-max-bk": [
+   {
+    "t": "2026-11-26T13:05-03:00",
+    "pix": 299.99
    }
   ]
  }
