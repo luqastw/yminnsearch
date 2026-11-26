@@ -1,7 +1,7 @@
 {
  "itens": {
   "gpu-faixa": {
-   "atualizado": "2026-11-26T01:13-03:00",
+   "atualizado": "2026-11-26T01:36-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/907814/placa-de-video-asrock-rx-7600-challenger-pro-oc-amd-radeon-8gb-gddr6-triple-fan-90-ga62zz-00uanf",
@@ -188,7 +188,7 @@
    ]
   },
   "gabinete": {
-   "atualizado": "2026-11-26T01:13-03:00",
+   "atualizado": "2026-11-26T01:36-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/1056523/gabinete-gamer-squad-qg200-mini-tower-micro-atx-e-mini-itx-frontal-e-lateral-em-vidro-usb-30-sem-fans-sgn200",
@@ -583,7 +583,7 @@
    ]
   },
   "cooler": {
-   "atualizado": "2026-11-26T01:13-03:00",
+   "atualizado": "2026-11-26T01:36-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/532493/air-cooler-cooler-master-hyper-212-spectrum-v3-argb-intel-e-amd-120mm-preto-rr-s4na-17pa-r1",
@@ -926,7 +926,7 @@
    ]
   },
   "fans": {
-   "atualizado": "2026-11-26T01:13-03:00",
+   "atualizado": "2026-11-26T01:36-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/688134/kit-com-3-ventoinhas-corsair-rs120-argb-120mm-pwm-preto-co-9050181-ww",
@@ -1386,7 +1386,7 @@
    ]
   },
   "fonte": {
-   "atualizado": "2026-11-26T01:13-03:00",
+   "atualizado": "2026-11-26T01:36-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/907600/fonte-gigabyte-p650g-pg5-650w-80-plus-gold-pfc-ativo-preto-28200-p65g5-1cbrr",
@@ -1560,7 +1560,7 @@
    ]
   },
   "memoria-ddr4": {
-   "atualizado": "2026-11-26T01:13-03:00",
+   "atualizado": "2026-11-26T01:36-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/110769/memoria-ram-corsair-vengeance-lpx-16gb-2x8gb-2400mhz-ddr4-cl16-black-cmk16gx4m2a2400c16",
@@ -1967,6 +1967,62 @@
    }
   ],
   "https://www.kabum.com.br/produto/532493/air-cooler-cooler-master-hyper-212-spectrum-v3-argb-intel-e-amd-120mm-preto-rr-s4na-17pa-r1": [
+   {
+    "t": "2026-10-02T06:49-03:00",
+    "pix": 79.99,
+    "cartao": 79.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-07T14:03-03:00",
+    "pix": 79.99,
+    "cartao": 79.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-07T21:23-03:00",
+    "pix": 79.99,
+    "cartao": 79.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-09T18:33-03:00",
+    "pix": 79.99,
+    "cartao": 79.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-10T13:30-03:00",
+    "pix": 79.99,
+    "cartao": 79.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-10T21:59-03:00",
+    "pix": 79.99,
+    "cartao": 79.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-12T12:51-03:00",
+    "pix": 79.99,
+    "cartao": 79.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-16T15:14-03:00",
+    "pix": 69.99,
+    "cartao": 69.99,
+    "disp": true,
+    "arquivo": true
+   },
    {
     "t": "2026-11-26T00:57-03:00",
     "pix": 89.99
@@ -2410,11 +2466,137 @@
   ],
   "https://www.kabum.com.br/produto/603223/fonte-husky-sledger-650w-80-plus-bronze-cybenetics-bronze-pfc-ativo-bivolt-hfn650pt": [
    {
+    "t": "2026-09-12T12:34-03:00",
+    "pix": 239.99,
+    "cartao": 239.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-09-15T11:56-03:00",
+    "pix": 239.99,
+    "cartao": 239.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-02T00:28-03:00",
+    "pix": 239.99,
+    "cartao": 239.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-03T22:36-03:00",
+    "pix": 239.99,
+    "cartao": 239.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-05T16:52-03:00",
+    "pix": 239.99,
+    "cartao": 239.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-06T20:07-03:00",
+    "pix": 239.99,
+    "cartao": 239.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-06T21:04-03:00",
+    "pix": 239.99,
+    "cartao": 239.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-07T21:53-03:00",
+    "pix": 239.99,
+    "cartao": 239.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-08T09:14-03:00",
+    "pix": 239.99,
+    "cartao": 239.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-09T01:20-03:00",
+    "pix": 239.99,
+    "cartao": 239.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-09T08:44-03:00",
+    "pix": 239.99,
+    "cartao": 239.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-10T13:19-03:00",
+    "pix": 259.99,
+    "cartao": 259.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-12T13:09-03:00",
+    "pix": 259.99,
+    "cartao": 259.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-13T00:10-03:00",
+    "pix": 259.99,
+    "cartao": 259.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-15T17:39-03:00",
+    "pix": 269.99,
+    "cartao": 269.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-28T23:53-03:00",
+    "pix": 239.99,
+    "cartao": 239.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
     "t": "2026-11-26T00:57-03:00",
     "pix": 239.99
    }
   ],
   "https://www.kabum.com.br/produto/994076/fonte-gamer-redragon-charge-650w-atx-80-plus-bronze-preto-frc-650": [
+   {
+    "t": "2026-09-11T04:07-03:00",
+    "pix": 289.99,
+    "cartao": 289.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-09-15T11:56-03:00",
+    "pix": 289.99,
+    "cartao": 289.99,
+    "disp": true,
+    "arquivo": true
+   },
    {
     "t": "2026-11-26T00:57-03:00",
     "pix": 274.99
@@ -2422,11 +2604,25 @@
   ],
   "https://www.kabum.com.br/produto/1002526/fonte-gamer-kalkan-650w-80-plus-bronze-pfc-ativo-preto-mp-0750w-b": [
    {
+    "t": "2026-10-29T00:06-03:00",
+    "pix": 239.99,
+    "cartao": 239.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
     "t": "2026-11-26T00:57-03:00",
     "pix": 229.99
    }
   ],
   "https://www.kabum.com.br/produto/993318/fonte-montech-beta-2-650w-80-plus-preto-beta2650w": [
+   {
+    "t": "2026-10-02T02:01-03:00",
+    "pix": 299.99,
+    "cartao": 299.99,
+    "disp": true,
+    "arquivo": true
+   },
    {
     "t": "2026-11-26T00:57-03:00",
     "pix": 239.99
