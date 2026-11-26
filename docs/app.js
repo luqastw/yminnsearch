@@ -3,13 +3,11 @@
   const DIA = 86400000;
   const JANELA_DIAS = 90;
   const DIAS_RECENTES = 7;
-  const TOPO = 14;
-  const BASE = 6;
   const NS = "http://www.w3.org/2000/svg";
   const reduzido = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   const formato = new Intl.NumberFormat("pt-BR", { style: "currency", currency: "BRL" });
-  const dataCurta = new Intl.DateTimeFormat("pt-BR", { day: "2-digit", month: "short" });
-  const dataLonga = new Intl.DateTimeFormat("pt-BR", { day: "2-digit", month: "short", hour: "2-digit", minute: "2-digit" });
+  const dataCurta = new Intl.DateTimeFormat("pt-BR", { day: "numeric", month: "short" });
+  const dataHora = new Intl.DateTimeFormat("pt-BR", { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" });
   const mesCurto = new Intl.DateTimeFormat("pt-BR", { month: "short" });
   const agora = DADOS.atualizado ? new Date(DADOS.atualizado).getTime() : Date.now();
 
@@ -19,6 +17,12 @@
   const tempo = (ponto) => new Date(ponto.t).getTime();
   const chaveDia = (ms) => new Date(ms).toLocaleDateString("sv-SE");
   const limitar = (v, a, b) => Math.max(a, Math.min(b, v));
+  const semPonto = (texto) => texto.replace(".", "");
+
+  const ICONE_CHECK = `<svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="8" fill="#f7f6f2"/><path d="M4.8 8.2l2.1 2.1 4.3-4.4" fill="none" stroke="#121211" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+  const ICONE_SETA = `<svg width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M2 3.5l3 3 3-3" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+  const ICONE_IR = `<svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M4 2h6v6M10 2L2.5 9.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+  const ICONE_AVISO = `<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1.5l6.5 12H1.5z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><path d="M8 6.2v3.3M8 11.6v.1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>`;
 
   function mediana(valores) {
     if (!valores.length) return null;
@@ -52,11 +56,11 @@
   }
 
   function veredito({ real, menorAnterior, dias }, atual) {
-    if (dias < 3 || real == null) return { classe: "selo-neutro", texto: "Coletando histórico" };
-    if (menorAnterior != null && atual <= menorAnterior) return { classe: "selo-recorde", texto: "Menor preço em 90 dias" };
-    if (real >= 0.05) return { classe: "selo-abaixo", texto: `Desconto real de ${pct(real)}` };
-    if (real <= -0.03) return { classe: "selo-acima", texto: "Mais caro que o normal" };
-    return { classe: "selo-neutro", texto: "Preço normal" };
+    if (dias < 3 || real == null) return { tipo: "neutro", texto: "Sem histórico ainda" };
+    if (menorAnterior != null && atual <= menorAnterior) return { tipo: "otimo", texto: "Menor preço em 90 dias" };
+    if (real >= 0.05) return { tipo: "bom", texto: `${pct(real)} abaixo do normal` };
+    if (real <= -0.03) return { tipo: "ruim", texto: "Mais caro que o normal" };
+    return { tipo: "neutro", texto: "Preço de sempre" };
   }
 
   function ultimo(oferta) {
@@ -87,15 +91,13 @@
     if (!melhor) return null;
     const atual = ultimo(melhor).pix;
     const diarios = minimosDiarios(peca.ofertas.map((o) => o.historico || []));
-    const valores = diarios.map(([, v]) => v);
     const desconto = descontoReal(atual, diarios);
     return {
       melhor,
       atual,
-      menor90: Math.min(atual, ...valores),
-      maior90: Math.max(atual, ...valores),
+      menor90: Math.min(atual, ...diarios.map(([, v]) => v)),
       desconto,
-      selo: veredito(desconto, atual),
+      veredito: veredito(desconto, atual),
     };
   }
 
@@ -114,9 +116,9 @@
       .map((item) => ({ item, real: realVitrine(item) }))
       .filter((x) => x.real != null && x.real >= 0.05)
       .sort((a, b) => a.item.pix - b.item.pix);
-    if (comReal.length) return { item: comReal[0].item, motivo: `mais procurada com desconto real de ${pct(comReal[0].real)}` };
+    if (comReal.length) return { item: comReal[0].item, motivo: `entre as mais procuradas, com ${pct(comReal[0].real)} de desconto real` };
     const bemAvaliadas = topo.filter((i) => i.avaliacoes >= 20 && i.nota >= 4.5).sort((a, b) => a.pix - b.pix);
-    if (bemAvaliadas.length) return { item: bemAvaliadas[0], motivo: `a mais barata entre as mais procuradas com nota ≥ 4,5 (${bemAvaliadas[0].avaliacoes} avaliações)` };
+    if (bemAvaliadas.length) return { item: bemAvaliadas[0], motivo: `a mais barata entre as mais procuradas com nota ${Number(bemAvaliadas[0].nota).toFixed(1).replace(".", ",")}` };
     const baratas = itens.filter((i) => i.posicao <= 5).sort((a, b) => a.pix - b.pix);
     return baratas.length ? { item: baratas[0], motivo: "a mais barata entre as 5 mais procuradas" } : null;
   }
@@ -133,7 +135,7 @@
           grupo: `auto-${v.id}`,
           categoria: v.automatica.categoria,
           nome: item.titulo,
-          nota: `Escolha automática: ${motivo}. Muda sozinha a cada coleta.`,
+          nota: `Escolhida sozinha: ${motivo}.`,
           busca: item.titulo,
           alvo: null,
           automatica: true,
@@ -157,433 +159,428 @@
     });
   }
 
+  function tempoRelativo(ms) {
+    const minutos = Math.round((Date.now() - ms) / 60000);
+    if (minutos < 1) return "atualizado agora";
+    if (minutos < 60) return `atualizado há ${minutos} min`;
+    const horas = Math.round(minutos / 60);
+    if (horas < 24) return `atualizado há ${horas} h`;
+    return `atualizado em ${dataCurta.format(new Date(ms))}`;
+  }
+
   function renderResumo(todas) {
     const analises = melhoresPorGrupo(todas);
     const comPreco = analises.filter((a) => a.analise);
     const total = comPreco.reduce((s, a) => s + a.analise.atual, 0);
-    const base = comPreco.filter((a) => a.analise.desconto.base);
-    const totalNormal = base.reduce((s, a) => s + a.analise.desconto.base, 0);
-    const economia = totalNormal - base.reduce((s, a) => s + a.analise.atual, 0);
-    const reais = todas.filter((a) => a.analise && ["selo-recorde", "selo-abaixo"].includes(a.analise.selo.classe)).length;
-    const notaNormal = !base.length
-      ? "precisa de 3+ dias de histórico"
-      : economia >= 0
-        ? `<span class="desce">↓ ${brl(economia)}</span> vs preço normal em ${base.length} peças`
-        : `<span class="sobe">↑ ${brl(-economia)}</span> vs preço normal em ${base.length} peças`;
+    const comBase = comPreco.filter((a) => a.analise.desconto.base);
+    const diferenca = comBase.reduce((s, a) => s + a.analise.atual - a.analise.desconto.base, 0);
+    const comparaveis = todas.filter((a) => a.analise && a.analise.desconto.base);
+    const reais = todas.filter((a) => a.analise && ["otimo", "bom"].includes(a.analise.veredito.tipo)).length;
+
+    const valorDiferenca = !comBase.length
+      ? "—"
+      : `<span class="${diferenca > 0 ? "ruim" : "bom"}" style="color:${diferenca > 0 ? "var(--vermelho)" : "var(--branco)"}">${diferenca > 0 ? "+" : "−"}${brl(Math.abs(diferenca))}</span>`;
+    const notaDiferenca = !comBase.length
+      ? "aparece depois de 3 dias de coleta"
+      : diferenca > 0
+        ? `acima do normal, somando ${comBase.length} peças com histórico`
+        : `de economia, somando ${comBase.length} peças com histórico`;
 
     document.getElementById("resumo").innerHTML = `
-      <div class="kpi">
-        <div class="rotulo">Melhor total agora</div>
-        <div class="kpi-valor">${brl(comPreco.length ? total : null)}</div>
-        <div class="kpi-nota">${comPreco.length} itens · GPU mais barata · sem DDR4</div>
+      <div class="kpi entra">
+        <div class="kpi-rotulo">Total do PC agora</div>
+        <div class="kpi-valor" data-contar="${total}">${brl(comPreco.length ? total : null)}</div>
+        <div class="kpi-nota">${comPreco.length} peças, com a placa de vídeo mais barata</div>
       </div>
-      <div class="kpi">
-        <div class="rotulo">Total no preço normal</div>
-        <div class="kpi-valor">${brl(base.length ? totalNormal : null)}</div>
-        <div class="kpi-nota">${notaNormal}</div>
+      <div class="kpi entra" style="--atraso:80ms">
+        <div class="kpi-rotulo">Comparado ao preço normal</div>
+        <div class="kpi-valor">${valorDiferenca}</div>
+        <div class="kpi-nota">${notaDiferenca}</div>
       </div>
-      <div class="kpi">
-        <div class="rotulo">Descontos reais</div>
-        <div class="kpi-valor">${String(reais).padStart(2, "0")}<span style="color:var(--ovio-faint)"> / ${String(todas.filter((a) => a.analise).length).padStart(2, "0")}</span></div>
-        <div class="kpi-nota">abaixo da mediana de 90 dias</div>
+      <div class="kpi entra" style="--atraso:160ms">
+        <div class="kpi-rotulo">Descontos de verdade</div>
+        <div class="kpi-valor">${reais} <span style="color:var(--texto-3);font-size:.6em;letter-spacing:-.01em">de ${comparaveis.length}</span></div>
+        <div class="kpi-nota">peças abaixo do preço normal hoje</div>
       </div>`;
   }
 
   function renderCompradas() {
-    document.getElementById("compradas").innerHTML = (DADOS.compradas || [])
-      .map((c) => `<span class="chip">${esc(c.nome)}</span>`)
-      .join("");
+    const compradas = DADOS.compradas || [];
+    if (!compradas.length) return;
+    document.getElementById("compradas").innerHTML = `<span>Já comprados</span>${compradas.map((c) => `<span class="chip">${ICONE_CHECK}${esc(c.nome)}</span>`).join("")}`;
   }
 
-  function ofertasHtml(peca, melhor) {
-    const ordenadas = peca.ofertas.slice().sort((a, b) => (ultimo(a)?.pix ?? Infinity) - (ultimo(b)?.pix ?? Infinity));
-    return ordenadas.map((oferta) => {
+  function lojasHtml(peca, melhor) {
+    const ordenadas = peca.ofertas.slice().sort((a, b) => {
+      const pa = ultimo(a), pb = ultimo(b);
+      const ea = pa && pa.disp !== false ? 0 : 1, eb = pb && pb.disp !== false ? 0 : 1;
+      return ea - eb || (pa?.pix ?? Infinity) - (pb?.pix ?? Infinity);
+    });
+    const linhas = ordenadas.map((oferta) => {
       const ponto = ultimo(oferta);
-      const classes = ["oferta"];
-      if (oferta === melhor) classes.push("melhor");
-      if (ponto && ponto.disp === false) classes.push("indisponivel");
-      const falha = oferta.falhas ? `<div class="aviso-falha">última coleta falhou (${oferta.falhas}x)</div>` : "";
-      const cartao = ponto?.cartao && ponto.cartao !== ponto.pix ? `cartão ${brl(ponto.cartao)}` : "pix";
-      return `<li class="${classes.join(" ")}">
+      const semEstoque = ponto && ponto.disp === false;
+      const detalhe = semEstoque
+        ? `<span class="sem-estoque-tag">sem estoque</span>`
+        : oferta.falhas
+          ? `<span class="sem-estoque-tag">não consegui ler o preço</span>`
+          : esc(oferta.titulo || "");
+      const cartao = ponto?.cartao && ponto.cartao !== ponto.pix ? `${brl(ponto.cartao)} no cartão` : "no pix";
+      return `<a class="loja ${oferta === melhor ? "melhor" : ""} ${semEstoque ? "sem-estoque" : ""}" href="${esc(oferta.url)}" target="_blank" rel="noopener noreferrer" title="${esc(oferta.titulo || oferta.url)}">
         <div style="min-width:0">
-          <div class="oferta-loja">${esc(oferta.loja)}</div>
-          <div class="oferta-titulo" title="${esc(oferta.titulo)}">${esc(oferta.titulo || oferta.url)}</div>
-          ${falha}
+          <div class="loja-nome"><span class="ponto-loja"></span>${esc(oferta.loja)}</div>
+          <div class="loja-detalhe">${detalhe}</div>
         </div>
-        <div class="oferta-precos"><b>${brl(ponto?.pix)}</b><small>${ponto ? cartao : "sem coleta"}</small></div>
-        <a class="ir" href="${esc(oferta.url)}" target="_blank" rel="noopener noreferrer" aria-label="Abrir na ${esc(oferta.loja)}">↗</a>
-      </li>`;
+        <div class="loja-preco">${brl(ponto?.pix)}<small>${ponto ? cartao : "sem coleta"}</small></div>
+        <span class="ir">${ICONE_IR}</span>
+      </a>`;
     }).join("");
-  }
 
-  function ferramentasHtml(peca) {
     const termo = encodeURIComponent(peca.busca || peca.nome);
-    const links = [
+    const externos = [
       `<a href="https://www.buscape.com.br/search?q=${termo}" target="_blank" rel="noopener noreferrer">Buscapé</a>`,
       `<a href="https://www.zoom.com.br/search?q=${termo}" target="_blank" rel="noopener noreferrer">Zoom</a>`,
     ];
     for (const oferta of peca.ofertas) {
       const asin = (oferta.url.match(/amazon\.com\.br\/(?:.*\/)?dp\/([A-Z0-9]{10})/) || [])[1];
-      if (asin) links.push(`<a href="https://keepa.com/#!product/12-${asin}" target="_blank" rel="noopener noreferrer">Keepa</a>`);
+      if (asin) externos.push(`<a href="https://keepa.com/#!product/12-${asin}" target="_blank" rel="noopener noreferrer">Keepa</a>`);
     }
-    return `<div class="ferramentas"><span class="rotulo">Conferir histórico</span>${links.join("")}</div>`;
-  }
-
-  function faixaHtml({ atual, menor90, maior90, desconto }) {
-    if (maior90 - menor90 < 0.01) return "";
-    const fracao = (v) => limitar((v - menor90) / (maior90 - menor90), 0, 1);
-    const normal = desconto.base;
-    const caro = normal && atual > normal;
-    return `<div>
-      <div class="faixa-barra ${caro ? "caro" : ""}" role="img" aria-label="Preço atual ${brl(atual)} na faixa de 90 dias entre ${brl(menor90)} e ${brl(maior90)}">
-        <div class="preenchido" data-fracao="${Math.max(fracao(atual), 0.015)}"></div>
-        ${normal ? `<div class="marcador" style="translate:${fracao(normal) * 100}cqw 0"></div>` : ""}
-      </div>
-      <div class="faixa-legenda mono"><span>${brl(menor90)}</span><span>${normal ? `normal ${brl(normal)}` : ""}</span><span>${brl(maior90)}</span></div>
-    </div>`;
-  }
-
-  function metaHtml(peca, atual) {
-    if (!peca.alvo) return "";
-    const batida = atual <= peca.alvo;
-    const progresso = limitar(peca.alvo / atual, 0, 1);
-    const texto = batida ? `no alvo de ${brl(peca.alvo)}` : `faltam ${brl(atual - peca.alvo)} para ${brl(peca.alvo)}`;
-    return `<div class="meta ${batida ? "batida" : ""}">
-      <span class="meta-trilho" aria-hidden="true"><i data-escala="${progresso}"></i></span>
-      <span class="mono">${Math.round(progresso * 100)}%</span> do alvo · ${texto}
-    </div>`;
+    const disponiveis = peca.ofertas.filter((o) => ultimo(o) && ultimo(o).disp !== false).length;
+    const resumo = peca.ofertas.length === 1
+      ? `Ver na ${esc(peca.ofertas[0].loja)}`
+      : `${peca.ofertas.length} lojas${disponiveis < peca.ofertas.length ? ` · ${disponiveis} com estoque` : ""}`;
+    return `<details class="lojas">
+      <summary><span>${resumo}</span><span class="seta">${ICONE_SETA}</span></summary>
+      <div>${linhas}<div class="historicos"><span>Histórico em</span>${externos.join("")}</div></div>
+    </details>`;
   }
 
   const graficos = [];
 
-  function cardHtml(peca, analise) {
-    const cabecalho = (selo) => `<div class="card-topo">
-        <div style="min-width:0">
-          <div class="rotulo">${esc(peca.categoria)}${peca.automatica ? `<span class="auto">automática</span>` : ""}</div>
-          <h2 class="nome">${esc(peca.nome)}</h2>
-          ${peca.nota ? `<div class="nota">${esc(peca.nota)}</div>` : ""}
+  function cardHtml(peca, analise, ordem) {
+    const etiqueta = analise ? `<span class="etiqueta ${analise.veredito.tipo}">${analise.veredito.texto}</span>` : "";
+    const cabeca = `<div>
+        <div class="card-cabeca">
+          <div class="categoria">${esc(peca.categoria)}${peca.automatica ? `<span class="etiqueta auto">automática</span>` : ""}</div>
+          ${etiqueta}
         </div>
-        ${selo}
+        <h3 class="nome">${esc(peca.nome)}</h3>
+        ${peca.nota ? `<p class="nota">${esc(peca.nota)}</p>` : ""}
       </div>
-      ${peca.aviso ? `<div class="aviso">${esc(peca.aviso)}</div>` : ""}`;
+      ${peca.aviso ? `<div class="aviso">${ICONE_AVISO}<span>${esc(peca.aviso)}</span></div>` : ""}`;
+    const atraso = `--atraso:${(ordem % 3) * 80}ms`;
 
-    if (!peca.ofertas.length) {
-      return `<article class="card">${cabecalho("")}<p class="vazio">Nenhum link ainda. Adicione URLs em <code>produtos.json</code>.</p></article>`;
-    }
-    if (!analise) {
-      return `<article class="card">${cabecalho(`<span class="selo selo-neutro">Aguardando coleta</span>`)}<ul class="ofertas">${ofertasHtml(peca, null)}</ul></article>`;
+    if (!peca.ofertas.length || !analise) {
+      return `<article class="card entra" style="${atraso}">${cabeca}<p class="vazio">Aguardando a primeira coleta.</p></article>`;
     }
 
-    const { melhor, atual, menor90, desconto, selo } = analise;
-    const quente = selo.classe === "selo-recorde" || selo.classe === "selo-abaixo" || (peca.alvo && atual <= peca.alvo);
-    const delta = desconto.real == null
-      ? `<div class="delta">sem base de comparação ainda</div>`
-      : desconto.real >= 0
-        ? `<div class="delta"><b class="desce">↓ ${pct(desconto.real)}</b> vs preço normal</div>`
-        : `<div class="delta"><b class="sobe">↑ ${pct(desconto.real)}</b> vs preço normal</div>`;
-    const classeReal = desconto.real == null ? "" : desconto.real >= 0 ? "desce" : "sobe";
+    const { melhor, atual, menor90, desconto, veredito } = analise;
+    const boa = ["otimo", "bom"].includes(veredito.tipo) || (peca.alvo && atual <= peca.alvo);
+    const variacao = desconto.real == null
+      ? ""
+      : desconto.real >= 0.005
+        ? `<div class="variacao"><b class="bom">↓ ${pct(desconto.real)}</b> do normal</div>`
+        : desconto.real <= -0.005
+          ? `<div class="variacao"><b class="ruim">↑ ${pct(desconto.real)}</b> do normal</div>`
+          : `<div class="variacao">igual ao normal</div>`;
+    const terceiro = peca.alvo
+      ? `<div class="numero"><span>Alvo</span><b class="${atual <= peca.alvo ? "bom" : ""}">${brl(peca.alvo)}</b></div>`
+      : `<div class="numero"><span>Lojas</span><b>${peca.ofertas.length}</b></div>`;
     const indice = graficos.push({ peca, analise }) - 1;
 
-    return `<article class="card ${quente ? "quente" : ""} ${peca.fora_do_total ? "fora" : ""}">
-      ${cabecalho(`<span class="selo ${selo.classe}">${selo.texto}</span>`)}
-      <div class="heroi">
+    return `<article class="card entra ${boa ? "oferta-boa" : ""} ${peca.fora_do_total ? "fora" : ""}" style="${atraso}">
+      ${cabeca}
+      <div class="preco-bloco">
         <div>
-          <div class="rotulo">Melhor preço agora · pix</div>
-          <div class="heroi-valor" style="margin-top:10px">${brl(atual)}</div>
-          <div class="heroi-loja">na <strong>${esc(melhor.loja)}</strong></div>
+          <div class="preco" data-contar="${atual}">${brl(atual)}</div>
+          <div class="preco-sub">na <strong>${esc(melhor.loja)}</strong>, hoje</div>
         </div>
-        ${delta}
+        ${variacao}
       </div>
-      ${faixaHtml(analise)}
-      <dl class="linhas">
-        <div class="linha"><dt>Preço normal (mediana 90d)</dt><dd>${brl(desconto.base)}</dd></div>
-        <div class="linha"><dt>Menor em 90 dias</dt><dd>${brl(menor90)}</dd></div>
-        <div class="linha"><dt>Desconto real</dt><dd class="${classeReal}">${desconto.real == null ? "—" : `${desconto.real >= 0 ? "−" : "+"}${pct(desconto.real)}`}</dd></div>
-      </dl>
-      ${metaHtml(peca, atual)}
-      <figure class="historico" data-grafico="${indice}">
-        <div class="historico-topo">
-          <span class="rotulo">Histórico 90 dias · pix</span>
-          <span class="historico-leitura"><span class="historico-data"></span><span class="historico-numero mono"></span></span>
-        </div>
-        <div class="plot" tabindex="0" role="slider" aria-label="Histórico de preço de ${esc(peca.nome)}. Use as setas para navegar."></div>
-        <div class="historico-loja"></div>
-        <div class="meses"></div>
-        <div class="legenda"></div>
+      <figure class="grafico" data-grafico="${indice}" style="margin:0">
+        <div class="plot" tabindex="0" role="slider" aria-label="Histórico de 90 dias. Use as setas para percorrer."></div>
+        <div class="eixo"></div>
       </figure>
-      <ul class="ofertas">${ofertasHtml(peca, melhor)}</ul>
-      ${ferramentasHtml(peca)}
+      <div class="numeros">
+        <div class="numero"><span>Normal</span><b>${brl(desconto.base)}</b></div>
+        <div class="numero"><span>Mínimo 90d</span><b>${brl(menor90)}</b></div>
+        ${terceiro}
+      </div>
+      ${lojasHtml(peca, melhor)}
     </article>`;
   }
 
-  function seriesDoGrafico(peca, melhor) {
-    return peca.ofertas
-      .map((oferta) => ({
-        oferta,
-        principal: oferta === melhor,
-        pontos: (oferta.historico || []).filter((p) => agora - tempo(p) <= JANELA_DIAS * DIA && p.disp !== false),
-      }))
-      .filter((s) => s.pontos.length)
-      .sort((a, b) => Number(a.principal) - Number(b.principal));
+  function contar(el) {
+    const alvo = Number(el.dataset.contar);
+    if (!alvo || reduzido || el.dataset.contado) return;
+    el.dataset.contado = "1";
+    const inicio = performance.now();
+    const de = alvo * 0.86;
+    const duracao = 1100;
+    const passo = (instante) => {
+      const t = limitar((instante - inicio) / duracao, 0, 1);
+      const suave = 1 - Math.pow(1 - t, 4);
+      el.textContent = brl(de + (alvo - de) * suave);
+      if (t < 1) requestAnimationFrame(passo);
+    };
+    requestAnimationFrame(passo);
   }
 
-  function montarGrafico(figura) {
+  function prepararGrafico(figura) {
     const { peca, analise } = graficos[Number(figura.dataset.grafico)];
     const plot = figura.querySelector(".plot");
-    const series = seriesDoGrafico(peca, analise.melhor);
+    const card = figura.closest(".card");
+    const precoEl = card.querySelector(".preco");
+    const subEl = card.querySelector(".preco-sub");
+    const subOriginal = subEl.innerHTML;
+
+    const candidatas = peca.ofertas
+      .map((oferta) => ({
+        oferta,
+        principal: oferta === analise.melhor,
+        pontos: (oferta.historico || []).filter((p) => agora - tempo(p) <= JANELA_DIAS * DIA && p.disp !== false),
+      }))
+      .filter((s) => s.pontos.length);
+    const daPrincipal = (candidatas.find((s) => s.principal) || candidatas[0] || { pontos: [] }).pontos.map((p) => p.pix);
+    const piso = Math.min(...daPrincipal) * 0.8;
+    const teto = Math.max(...daPrincipal) * 1.2;
+    const series = candidatas
+      .filter((s) => s.principal || (s.pontos.length >= 2 && s.pontos.every((p) => p.pix >= piso && p.pix <= teto)))
+      .sort((a, b) => Number(a.principal) - Number(b.principal));
     const todos = series.flatMap((s) => s.pontos);
-    if (todos.length < 2) {
-      plot.outerHTML = `<div class="historico-vazio">O gráfico aparece a partir da 2ª coleta</div>`;
-      figura.querySelector(".historico-leitura").textContent = "";
-      return;
+    if (new Set(todos.map((p) => chaveDia(tempo(p)))).size < 2) {
+      figura.innerHTML = `<div class="grafico-vazio">O gráfico aparece a partir de amanhã</div>`;
+      return null;
     }
 
+    const principal = series.find((s) => s.principal) || series[series.length - 1];
+    const pontos = principal.pontos;
     const t1 = agora;
     const t0 = Math.min(...todos.map(tempo), t1 - 14 * DIA);
     const valores = todos.map((p) => p.pix);
-    const referencias = [analise.desconto.base, peca.alvo].filter((v) => v && v > Math.min(...valores) * 0.8 && v < Math.max(...valores) * 1.2);
-    const minimo = Math.min(...valores, ...referencias);
-    const maximo = Math.max(...valores, ...referencias);
-    const folga = Math.max((maximo - minimo) * 0.08, maximo * 0.01);
+    let minimo = Math.min(...valores);
+    let maximo = Math.max(...valores);
+    const base = analise.desconto.base;
+    if (base && base >= minimo * 0.95 && base <= maximo * 1.05) {
+      minimo = Math.min(minimo, base);
+      maximo = Math.max(maximo, base);
+    }
+    const folga = Math.max((maximo - minimo) * 0.18, maximo * 0.015);
     const y0 = minimo - folga;
     const y1 = maximo + folga;
-    const principal = series.find((s) => s.principal) || series[series.length - 1];
-    const estado = { indice: null };
+    const estado = { indice: null, desenhado: false };
 
     const desenhar = (animar) => {
       const L = plot.clientWidth;
       const A = plot.clientHeight;
       if (!L || !A) return;
-      const x = (t) => ((t - t0) / (t1 - t0)) * L;
-      const y = (v) => A - BASE - ((v - y0) / (y1 - y0)) * (A - TOPO - BASE);
+      const x = (t) => 4 + ((t - t0) / (t1 - t0)) * (L - 22);
+      const y = (v) => A - 4 - ((v - y0) / (y1 - y0)) * (A - 8);
       const svg = document.createElementNS(NS, "svg");
       svg.setAttribute("viewBox", `0 0 ${L} ${A}`);
       svg.setAttribute("aria-hidden", "true");
-      const linhaRef = (valor, classe) => {
-        if (!valor || valor < y0 || valor > y1) return;
+      if (base && base >= y0 && base <= y1) {
         const linha = document.createElementNS(NS, "line");
-        linha.setAttribute("class", `ref ${classe}`);
+        linha.setAttribute("class", "ref");
         linha.setAttribute("x1", 0);
         linha.setAttribute("x2", L);
-        linha.setAttribute("y1", y(valor));
-        linha.setAttribute("y2", y(valor));
+        linha.setAttribute("y1", y(base));
+        linha.setAttribute("y2", y(base));
         svg.append(linha);
-      };
-      linhaRef(analise.desconto.base, "normal");
-      linhaRef(peca.alvo, "alvo");
+      }
       for (const serie of series) {
+        const coords = serie.pontos.map((p) => [x(tempo(p)), y(p.pix)]);
+        if (serie.principal) coords.push([x(t1), coords[coords.length - 1][1]]);
+        const d = coords.map(([px, py], i) => {
+          if (!i) return `M${px.toFixed(1)},${py.toFixed(1)}`;
+          return `H${px.toFixed(1)}V${py.toFixed(1)}`;
+        }).join("");
+        if (serie.principal) {
+          const area = document.createElementNS(NS, "path");
+          area.setAttribute("class", "area");
+          area.setAttribute("d", `${d}L${coords[coords.length - 1][0].toFixed(1)},${A}L${coords[0][0].toFixed(1)},${A}Z`);
+          svg.append(area);
+        }
         const caminho = document.createElementNS(NS, "path");
         caminho.setAttribute("class", `serie ${serie.principal ? "principal" : "outra"}`);
-        caminho.setAttribute("d", serie.pontos.map((p, i) => `${i ? "L" : "M"}${x(tempo(p)).toFixed(1)},${y(p.pix).toFixed(1)}`).join(""));
+        caminho.setAttribute("d", d);
         svg.append(caminho);
-        if (serie.principal && animar && !reduzido) {
-          const comprimento = caminho.getTotalLength ? caminho.getTotalLength() : 0;
-          if (comprimento) {
-            caminho.style.strokeDasharray = comprimento;
-            caminho.style.strokeDashoffset = comprimento;
-            caminho.animate([{ strokeDashoffset: comprimento }, { strokeDashoffset: 0 }], { duration: 1000, easing: "cubic-bezier(0.4, 0, 0.2, 1)", fill: "forwards" });
-          }
+        if (serie.principal && animar && !reduzido && caminho.getTotalLength) {
+          const comprimento = caminho.getTotalLength();
+          caminho.style.strokeDasharray = comprimento;
+          caminho.animate([{ strokeDashoffset: comprimento }, { strokeDashoffset: 0 }], { duration: 1400, easing: "cubic-bezier(0.22, 1, 0.36, 1)", fill: "forwards" });
         }
       }
       plot.replaceChildren(svg);
-
-      for (const serie of series) {
-        for (const p of serie.pontos.filter((p) => p.arquivo)) {
-          const marca = document.createElement("span");
-          marca.className = "arquivo";
-          marca.style.left = `${x(tempo(p))}px`;
-          marca.style.top = `${y(p.pix)}px`;
-          plot.append(marca);
-        }
-      }
-
-      const fim = principal.pontos[principal.pontos.length - 1];
+      const fim = pontos[pontos.length - 1];
       const pulso = document.createElement("span");
       pulso.className = "pulso";
       pulso.style.left = `${x(tempo(fim))}px`;
       pulso.style.top = `${y(fim.pix)}px`;
-      plot.append(pulso);
-
-      const menorPonto = todos.reduce((a, b) => (b.pix < a.pix ? b : a));
-      const ehAgora = menorPonto.pix >= analise.atual - 0.01 && agora - tempo(menorPonto) < 1.5 * DIA;
-      const posicaoX = x(tempo(menorPonto));
-      const anotacao = document.createElement("span");
-      anotacao.className = `anotacao ${ehAgora ? "vermelha" : ""} ${posicaoX < 70 ? "borda-esq" : posicaoX > L - 70 ? "borda-dir" : ""}`;
-      anotacao.textContent = ehAgora ? `menor agora` : `menor · ${brl(menorPonto.pix)}`;
-      anotacao.style.left = `${posicaoX}px`;
-      anotacao.style.top = `${y(menorPonto.pix) - 4}px`;
-      anotacao.style.animationDelay = animar && !reduzido ? `${(posicaoX / L) * 1000}ms` : "0ms";
-      if (y(menorPonto.pix) > 40) plot.append(anotacao);
-
       const regua = document.createElement("span");
       regua.className = "regua";
-      regua.hidden = true;
       const ponto = document.createElement("span");
       ponto.className = "ponto";
-      ponto.hidden = true;
-      plot.append(regua, ponto);
-      estado.x = x;
-      estado.y = y;
-      estado.regua = regua;
-      estado.ponto = ponto;
+      plot.append(pulso, regua, ponto);
+      Object.assign(estado, { x, y, regua, ponto });
       if (estado.indice != null) mostrar(estado.indice);
     };
 
-    const leitura = figura.querySelector(".historico-numero");
-    const data = figura.querySelector(".historico-data");
-    const lojas = figura.querySelector(".historico-loja");
-    const pontos = principal.pontos;
-
-    const repouso = () => {
+    const repousar = () => {
       estado.indice = null;
-      if (estado.regua) {
-        estado.regua.hidden = true;
-        estado.ponto.hidden = true;
-      }
-      leitura.textContent = brl(analise.atual);
-      data.textContent = "agora";
-      lojas.textContent = "";
-      plot.setAttribute("aria-valuetext", `agora: ${brl(analise.atual)}`);
+      plot.classList.remove("ativo");
+      precoEl.textContent = brl(analise.atual);
+      subEl.innerHTML = subOriginal;
     };
 
     const mostrar = (indice) => {
+      if (!estado.x) return;
       estado.indice = indice;
       const p = pontos[indice];
       const instante = tempo(p);
-      estado.regua.hidden = false;
-      estado.ponto.hidden = false;
+      plot.classList.add("ativo");
       estado.regua.style.left = `${estado.x(instante)}px`;
       estado.ponto.style.left = `${estado.x(instante)}px`;
       estado.ponto.style.top = `${estado.y(p.pix)}px`;
-      leitura.textContent = brl(p.pix);
-      data.textContent = `${p.arquivo ? dataCurta.format(new Date(instante)) : dataLonga.format(new Date(instante))}${p.arquivo ? " · arquivo" : ""}`;
+      precoEl.textContent = brl(p.pix);
+      const quando = p.arquivo ? dataCurta.format(new Date(instante)) : dataHora.format(new Date(instante));
       const outras = series
         .filter((s) => !s.principal)
         .map((s) => {
-          const anteriores = s.pontos.filter((q) => tempo(q) <= instante);
-          const q = anteriores[anteriores.length - 1];
-          return q ? `${s.oferta.loja} ${brl(q.pix)}` : null;
+          const q = s.pontos.filter((r) => tempo(r) <= instante).pop();
+          return q ? `${esc(s.oferta.loja)} ${brl(q.pix)}` : null;
         })
         .filter(Boolean);
-      lojas.textContent = [`${principal.oferta.loja} ${brl(p.pix)}`, ...outras].join(" · ");
-      plot.setAttribute("aria-valuetext", `${dataCurta.format(new Date(instante))}: ${brl(p.pix)}`);
+      subEl.innerHTML = `<strong>${esc(principal.oferta.loja)}</strong>, ${semPonto(quando)}${outras.length ? ` · ${outras.join(" · ")}` : ""}`;
+      plot.setAttribute("aria-valuetext", `${quando}: ${brl(p.pix)}`);
     };
 
     plot.addEventListener("pointermove", (evento) => {
       const caixa = plot.getBoundingClientRect();
       const instante = t0 + limitar((evento.clientX - caixa.left) / caixa.width, 0, 1) * (t1 - t0);
-      let melhor = 0;
+      let perto = 0;
       for (let i = 1; i < pontos.length; i++) {
-        if (Math.abs(tempo(pontos[i]) - instante) < Math.abs(tempo(pontos[melhor]) - instante)) melhor = i;
+        if (Math.abs(tempo(pontos[i]) - instante) < Math.abs(tempo(pontos[perto]) - instante)) perto = i;
       }
-      mostrar(melhor);
+      if (perto !== estado.indice) mostrar(perto);
     });
-    plot.addEventListener("pointerleave", repouso);
-    plot.addEventListener("blur", repouso);
+    plot.addEventListener("pointerleave", repousar);
+    plot.addEventListener("blur", repousar);
     plot.addEventListener("keydown", (evento) => {
-      const passos = { ArrowLeft: -1, ArrowRight: 1, Home: -Infinity, End: Infinity };
+      const passos = { ArrowLeft: -1, ArrowRight: 1, Home: -Infinity, End: Infinity, Escape: 0 };
       if (!(evento.key in passos)) return;
       evento.preventDefault();
-      const atual = estado.indice ?? pontos.length - 1;
-      mostrar(limitar(atual + passos[evento.key], 0, pontos.length - 1));
+      if (evento.key === "Escape") return repousar();
+      mostrar(limitar((estado.indice ?? pontos.length - 1) + passos[evento.key], 0, pontos.length - 1));
     });
 
-    const meses = [];
+    const marcas = [semPonto(dataCurta.format(new Date(t0)))];
     const cursor = new Date(t0);
     cursor.setDate(1);
     cursor.setMonth(cursor.getMonth() + 1);
-    while (cursor.getTime() <= t1) {
-      meses.push(mesCurto.format(cursor).replace(".", ""));
+    while (cursor.getTime() < t1 - 10 * DIA) {
+      marcas.push(semPonto(mesCurto.format(cursor)));
       cursor.setMonth(cursor.getMonth() + 1);
     }
-    figura.querySelector(".meses").innerHTML = [dataCurta.format(new Date(t0)), ...meses, "hoje"]
-      .filter((v, i, a) => a.indexOf(v) === i)
-      .map((m) => `<span>${esc(m)}</span>`)
-      .join("");
+    marcas.push("hoje");
+    figura.querySelector(".eixo").innerHTML = marcas.map((m) => `<span>${esc(m)}</span>`).join("");
 
-    const temArquivo = todos.some((p) => p.arquivo);
-    figura.querySelector(".legenda").innerHTML = [
-      `<span><i class="principal"></i>${esc(principal.oferta.loja)}</span>`,
-      series.length > 1 ? `<span><i class="outra"></i>outras lojas</span>` : "",
-      analise.desconto.base ? `<span><i class="normal"></i>preço normal</span>` : "",
-      peca.alvo ? `<span><i class="alvo"></i>alvo</span>` : "",
-      temArquivo ? `<span><i class="oco"></i>Wayback Machine</span>` : "",
-    ].join("");
-
-    repouso();
-    let animou = false;
-    const observador = new ResizeObserver(() => {
-      desenhar(!animou);
-      animou = true;
-    });
-    observador.observe(plot);
+    return () => {
+      if (estado.desenhado) return;
+      estado.desenhado = true;
+      desenhar(true);
+      setTimeout(() => plot.classList.add("desenhado"), reduzido ? 0 : 50);
+      let primeira = true;
+      new ResizeObserver(() => {
+        if (primeira) {
+          primeira = false;
+          return;
+        }
+        desenhar(false);
+      }).observe(plot);
+    };
   }
 
-  function animarEntradas(raiz) {
-    requestAnimationFrame(() => requestAnimationFrame(() => {
-      raiz.querySelectorAll(".preenchido[data-fracao]").forEach((el) => {
-        el.style.clipPath = `inset(0 ${(1 - Number(el.dataset.fracao)) * 100}% 0 0 round 3px)`;
-      });
-      raiz.querySelectorAll(".meta-trilho i[data-escala]").forEach((el) => {
-        el.style.transform = `scaleX(${el.dataset.escala})`;
-      });
-    }));
+  function observarEntradas(raiz) {
+    const desenhos = new Map();
+    raiz.querySelectorAll(".grafico[data-grafico]").forEach((figura) => {
+      const desenhar = prepararGrafico(figura);
+      if (desenhar) desenhos.set(figura.closest(".card"), desenhar);
+    });
+    const revelar = (el) => {
+      el.classList.add("visivel");
+      el.querySelectorAll("[data-contar]").forEach(contar);
+      if (el.matches("[data-contar]")) contar(el);
+      const desenhar = desenhos.get(el);
+      if (desenhar) setTimeout(desenhar, reduzido ? 0 : 250);
+    };
+    if (!("IntersectionObserver" in window)) {
+      document.querySelectorAll(".entra").forEach(revelar);
+      return;
+    }
+    const observador = new IntersectionObserver((entradas) => {
+      for (const entrada of entradas) {
+        if (!entrada.isIntersecting) continue;
+        observador.unobserve(entrada.target);
+        revelar(entrada.target);
+      }
+    }, { rootMargin: "0px 0px -8% 0px" });
+    document.querySelectorAll(".entra").forEach((el) => observador.observe(el));
   }
 
   const ORDENS = [
-    { chave: "procurados", rotulo: "Mais procurados", ordenar: (a, b) => a.posicao - b.posicao || b.avaliacoes - a.avaliacoes },
+    { chave: "procurados", rotulo: "Populares", ordenar: (a, b) => a.posicao - b.posicao || b.avaliacoes - a.avaliacoes },
     { chave: "real", rotulo: "Desconto real", ordenar: (a, b) => (realVitrine(b) ?? -1) - (realVitrine(a) ?? -1) || a.posicao - b.posicao },
-    { chave: "preco", rotulo: "Menor preço", ordenar: (a, b) => a.pix - b.pix },
+    { chave: "preco", rotulo: "Mais barato", ordenar: (a, b) => a.pix - b.pix },
   ];
-  const VISIVEIS = 8;
+  const VISIVEIS = 6;
   const estadoVitrine = {};
 
   function sparkline(item) {
     const pontos = pontosVitrine(item).filter((p) => agora - tempo(p) <= JANELA_DIAS * DIA);
     if (pontos.length < 2) return "";
-    const L = 84, A = 22;
+    const L = 64, A = 18;
     const t0 = Math.min(tempo(pontos[0]), agora - 7 * DIA);
     const valores = pontos.map((p) => p.pix);
     const min = Math.min(...valores), max = Math.max(...valores);
     const faixa = max - min || 1;
     const d = pontos.map((p, i) => `${i ? "L" : "M"}${(((tempo(p) - t0) / (agora - t0)) * L).toFixed(1)},${(A - 2 - ((p.pix - min) / faixa) * (A - 4)).toFixed(1)}`).join("");
     const subiu = valores[valores.length - 1] > valores[0];
-    return `<svg class="spark" viewBox="0 0 ${L} ${A}" aria-label="90 dias: de ${brl(valores[0])} a ${brl(valores[valores.length - 1])}"><path d="${d}" stroke="${subiu ? "var(--ovio-red)" : "var(--ovio-ink)"}"/></svg>`;
+    return `<svg class="spark" viewBox="0 0 ${L} ${A}" role="img" aria-label="90 dias: de ${brl(valores[0])} para ${brl(valores[valores.length - 1])}"><path d="${d}" stroke="${subiu ? "var(--vermelho)" : "rgba(247,246,242,.7)"}"/></svg>`;
+  }
+
+  function sinalVitrine(item) {
+    const real = realVitrine(item);
+    if (real != null && real >= 0.05) return `<span class="vitem-sinal bom">${pct(real)} abaixo do normal</span>`;
+    if (real != null && real < 0.02 && item.desconto >= 0.15) return `<span class="vitem-sinal ruim">desconto inflado</span>`;
+    if (item.desconto >= 0.05) return `<span class="vitem-sinal">loja diz −${pct(item.desconto)}</span>`;
+    return "";
   }
 
   function itemVitrineHtml(item, escolhido, ordem) {
-    const real = realVitrine(item);
-    const anunciado = item.desconto >= 0.05 ? `<span class="desconto">anunciado −${pct(item.desconto)}</span>` : "";
-    let selos = anunciado;
-    if (real != null && real >= 0.05) selos = `<span class="desconto forte">real −${pct(real)}</span>${anunciado}`;
-    if (real != null && real < 0.02 && item.desconto >= 0.15) selos = `<span class="selo selo-acima">metade do dobro</span>${anunciado}`;
-    const avaliacoes = item.avaliacoes ? `<span class="mono">★ ${Number(item.nota).toFixed(1)} (${item.avaliacoes})</span>` : "";
-    const oferta = item.oferta ? `<span class="tag-oferta">${esc(item.oferta)}</span>` : "";
-    const imagem = item.imagem
-      ? `<img src="${esc(item.imagem)}" alt="" loading="lazy" referrerpolicy="no-referrer">`
-      : `<span class="sem-imagem"></span>`;
-    return `<li class="vitem ${escolhido ? "escolhido" : ""}" style="animation-delay:${Math.min(ordem, 12) * 16}ms">
-      <a class="vitem-link" href="${esc(item.url)}" target="_blank" rel="noopener noreferrer">
+    const nota = item.avaliacoes ? `<span class="sep"></span><span>★ ${Number(item.nota).toFixed(1).replace(".", ",")} · ${item.avaliacoes}</span>` : "";
+    const imagem = item.imagem ? `<img src="${esc(item.imagem)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : "";
+    return `<li class="vitem ${escolhido ? "escolhido" : ""}" style="--atraso:${Math.min(ordem, 10) * 40}ms">
+      <a href="${esc(item.url)}" target="_blank" rel="noopener noreferrer">
         <div class="vitem-img">${imagem}</div>
-        <div class="vitem-info">
-          <div class="vitem-titulo">${escolhido ? `<span class="auto">na lista</span> ` : ""}${esc(item.titulo)}</div>
-          <div class="vitem-meta"><strong>${esc(item.loja)}</strong><span class="mono">#${String(item.posicao).padStart(2, "0")}</span>${avaliacoes}${oferta}</div>
+        <div style="min-width:0">
+          <div class="vitem-titulo">${esc(item.titulo)}</div>
+          <div class="vitem-meta"><span>${esc(item.loja)}</span>${nota}${escolhido ? `<span class="sep"></span><span style="color:var(--texto)">está na lista</span>` : ""}</div>
         </div>
-        <div class="vitem-preco">
-          <b>${brl(item.pix)}</b>
+        <div class="vitem-lado">
+          <span class="vitem-preco">${brl(item.pix)}</span>
+          ${sinalVitrine(item)}
           ${sparkline(item)}
-          <div class="vitem-selos">${selos}</div>
         </div>
       </a>
     </li>`;
   }
 
-  function liquidoHtml(vitrineId, grupo, opcoes, ativo, vermelho) {
+  function liquidoHtml(vitrineId, opcoes, ativo) {
     const indice = Math.max(0, opcoes.findIndex((o) => o.valor === ativo));
     const n = opcoes.length;
-    return `<div class="liquido ${vermelho ? "vermelho" : ""}" role="group" data-grupo="${grupo}" data-indice="${indice}" data-total="${n}">
+    return `<div class="liquido" role="group" aria-label="Ordenar" data-indice="${indice}" data-total="${n}">
       <span class="liquido-pilula" style="left:calc(${(indice / n) * 100}% + 3px);right:calc(${((n - indice - 1) / n) * 100}% + 3px)"></span>
-      ${opcoes.map((o, i) => `<button type="button" data-vitrine="${vitrineId}" data-${grupo}="${esc(o.valor)}" data-i="${i}" aria-pressed="${o.valor === ativo}">${esc(o.rotulo)}</button>`).join("")}
+      ${opcoes.map((o, i) => `<button type="button" data-vitrine="${vitrineId}" data-ordem="${esc(o.valor)}" data-i="${i}" aria-pressed="${o.valor === ativo}">${esc(o.rotulo)}</button>`).join("")}
     </div>`;
   }
 
@@ -601,36 +598,31 @@
   }
 
   function corpoVitrineHtml(vitrine) {
+    if (!vitrine.itens.length) return `<p class="vazio">Ainda sem ofertas coletadas.</p>`;
     const estado = estadoVitrine[vitrine.id];
     const escolhido = vitrine.automatica ? escolherAutomatica(vitrine)?.item.url : null;
     const ordem = ORDENS.find((o) => o.chave === estado.ordem);
-    const filtrados = vitrine.itens
-      .filter((i) => estado.loja === "todas" || i.loja === estado.loja)
-      .slice()
-      .sort(ordem.ordenar);
+    const filtrados = vitrine.itens.filter((i) => estado.loja === "todas" || i.loja === estado.loja).slice().sort(ordem.ordenar);
     const visiveis = estado.tudo ? filtrados : filtrados.slice(0, VISIVEIS);
     const mais = filtrados.length > VISIVEIS
-      ? `<button type="button" class="ver-mais" data-vitrine="${vitrine.id}" data-tudo="1">${estado.tudo ? "Mostrar menos" : `Ver todos (${filtrados.length})`}</button>`
+      ? `<button type="button" class="ver-mais" data-vitrine="${vitrine.id}" data-tudo="1">${estado.tudo ? "Mostrar menos" : `Mostrar todas as ${filtrados.length}`}</button>`
       : "";
-    if (!vitrine.itens.length) return `<p class="vazio">Ainda sem dados. Rode a coleta.</p>`;
     return `<ul class="vlista">${visiveis.map((i, n) => itemVitrineHtml(i, i.url === escolhido, n)).join("")}</ul>${mais}`;
   }
 
-  function renderVitrine(vitrine, numero, total) {
+  function vitrineHtml(vitrine, ordem) {
     const estado = estadoVitrine[vitrine.id] || (estadoVitrine[vitrine.id] = { ordem: "procurados", loja: "todas", tudo: false });
     const lojas = [...new Set(vitrine.itens.map((i) => i.loja))];
-    const ordens = liquidoHtml(vitrine.id, "ordem", ORDENS.map((o) => ({ valor: o.chave, rotulo: o.rotulo })), estado.ordem, false);
-    const filtroLojas = lojas.length > 1
-      ? liquidoHtml(vitrine.id, "loja", [{ valor: "todas", rotulo: "Todas" }, ...lojas.map((l) => ({ valor: l, rotulo: l }))], estado.loja, true)
+    const filtro = lojas.length > 1
+      ? `<div class="lojas-filtro" role="group" aria-label="Filtrar por loja">${["todas", ...lojas].map((l) => `<button type="button" data-vitrine="${vitrine.id}" data-loja="${esc(l)}" aria-pressed="${estado.loja === l}">${l === "todas" ? "Todas" : esc(l)}</button>`).join("")}</div>`
       : "";
-    return `<article class="vitrine" id="vitrine-${vitrine.id}">
-      <header class="vitrine-topo">
+    return `<article class="vitrine entra" id="vitrine-${vitrine.id}" style="--atraso:${(ordem % 2) * 60}ms">
+      <header class="vitrine-cabeca">
         <div>
-          <div class="rotulo mono">${String(numero).padStart(2, "0")} / ${String(total).padStart(2, "0")}</div>
-          <h3>${esc(vitrine.titulo)}</h3>
+          <h3>${esc(vitrine.titulo)}${vitrine.automatica ? `<span class="etiqueta auto">escolhe sozinha</span>` : ""}</h3>
           <p>${esc(vitrine.descricao)}</p>
         </div>
-        <div class="controles">${ordens}${filtroLojas}</div>
+        <div class="controles">${liquidoHtml(vitrine.id, ORDENS.map((o) => ({ valor: o.chave, rotulo: o.rotulo })), estado.ordem)}${filtro}</div>
       </header>
       <div class="vcorpo">${corpoVitrineHtml(vitrine)}</div>
     </article>`;
@@ -643,42 +635,53 @@
       alvo.hidden = true;
       return;
     }
-    alvo.innerHTML = `<h2 class="secao-titulo">Vitrines <span>ofertas do momento</span></h2>
-      <p class="secao-nota"><b>Anunciado</b> é o desconto que a loja mostra sobre o preço "de", que costuma ser inflado. <b>Real</b> compara com a mediana dos últimos 90 dias (coletas + Wayback Machine). <b>Metade do dobro</b> marca promoção anunciada acima de 15% sem queda real.</p>
-      ${vitrines.map((v, i) => renderVitrine(v, i + 1, vitrines.length)).join("")}`;
-  }
+    alvo.innerHTML = `<div class="secao-cabeca">
+        <div>
+          <h2 id="titulo-vitrines">Ofertas do momento</h2>
+          <p>As mais procuradas de cada categoria, com o desconto conferido contra o histórico.</p>
+        </div>
+      </div>
+      ${vitrines.map(vitrineHtml).join("")}`;
 
-  function ativarVitrines() {
-    document.getElementById("vitrines").addEventListener("click", (evento) => {
+    alvo.addEventListener("click", (evento) => {
       const botao = evento.target.closest("button[data-vitrine]");
       if (!botao) return;
       const id = botao.dataset.vitrine;
       const estado = estadoVitrine[id];
-      if (botao.dataset.ordem) estado.ordem = botao.dataset.ordem;
-      if (botao.dataset.loja) estado.loja = botao.dataset.loja;
+      if (botao.dataset.ordem) {
+        estado.ordem = botao.dataset.ordem;
+        moverLiquido(botao.closest(".liquido"), Number(botao.dataset.i));
+      }
+      if (botao.dataset.loja) {
+        estado.loja = botao.dataset.loja;
+        botao.parentElement.querySelectorAll("button").forEach((b) => b.setAttribute("aria-pressed", String(b === botao)));
+      }
       if (botao.dataset.tudo) estado.tudo = !estado.tudo;
-      const grupo = botao.closest(".liquido");
-      if (grupo) moverLiquido(grupo, Number(botao.dataset.i));
       const vitrine = DADOS.vitrines.find((v) => v.id === id);
-      document.querySelector(`#vitrine-${id} .vcorpo`).innerHTML = corpoVitrineHtml(vitrine);
+      const corpo = document.querySelector(`#vitrine-${id} .vcorpo`);
+      const altura = corpo.offsetHeight;
+      corpo.innerHTML = corpoVitrineHtml(vitrine);
+      if (!reduzido && corpo.animate) {
+        corpo.animate([{ height: `${altura}px` }, { height: `${corpo.offsetHeight}px` }], { duration: 380, easing: "cubic-bezier(0.22, 1, 0.36, 1)" });
+      }
     });
   }
 
   function iniciar() {
+    const status = document.getElementById("atualizado");
     if (DADOS.atualizado) {
-      document.getElementById("atualizado").textContent = `última coleta · ${dataLonga.format(new Date(DADOS.atualizado))}`;
+      status.textContent = tempoRelativo(agora);
+      status.title = `Última coleta: ${dataHora.format(new Date(agora))}`;
     }
     const pecas = [...DADOS.pecas, ...pecasAutomaticas()];
     const analises = pecas.map((peca) => ({ peca, analise: analisar(peca) }));
     renderResumo(analises);
     renderCompradas();
-    document.getElementById("contador-pecas").textContent = `${String(pecas.length).padStart(2, "0")} itens`;
-    const grade = document.getElementById("pecas");
-    grade.innerHTML = analises.map(({ peca, analise }) => cardHtml(peca, analise)).join("");
-    grade.querySelectorAll(".historico[data-grafico]").forEach(montarGrafico);
-    animarEntradas(grade);
+    const comparaveis = analises.filter((a) => a.analise).length;
+    document.getElementById("contador-pecas").textContent = `${pecas.length} peças acompanhadas em ${new Set(pecas.flatMap((p) => p.ofertas.map((o) => o.loja))).size} lojas · ${comparaveis} com preço hoje`;
+    document.getElementById("pecas").innerHTML = analises.map(({ peca, analise }, i) => cardHtml(peca, analise, i)).join("");
     renderVitrines();
-    ativarVitrines();
+    observarEntradas(document);
   }
 
   iniciar();

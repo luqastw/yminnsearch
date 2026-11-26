@@ -3,34 +3,56 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#0b0b0a">
-<title>Monitor de Peças</title>
+<meta name="theme-color" content="#0c0c0b">
+<title>Peças do PC</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500&family=Geist+Mono:wght@400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-<header class="topo">
-  <div class="marca">
-    <span class="rotulo">yminnsearch · monitor de preços</span>
-    <h1>Peças do PC<b>.</b></h1>
-  </div>
-  <p class="atualizado" id="atualizado"></p>
-</header>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <linearGradient id="gradiente-area" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f7f6f2" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#f7f6f2" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+</svg>
 
-<main>
-  <section class="resumo" id="resumo"></section>
-  <section class="compradas" id="compradas"></section>
-  <h2 class="secao-titulo">Lista dela <span class="contador" id="contador-pecas"></span></h2>
-  <section class="grade" id="pecas"></section>
-  <section class="vitrines" id="vitrines"></section>
-</main>
+<div class="pagina">
+  <header class="topo">
+    <div>
+      <h1>Peças do PC<span>.</span></h1>
+      <p class="subtitulo">Onde cada peça está mais barata agora, e se o desconto é de verdade.</p>
+    </div>
+    <span class="status" id="atualizado">carregando</span>
+  </header>
 
-<footer class="rodape">
-  Preço de referência: <strong>Pix / à vista</strong>. "Preço normal" é a mediana dos últimos 90 dias (sem a última semana), montada com as coletas deste monitor e cópias antigas das páginas no Wayback Machine (Internet Archive).
-  Componentes visuais adaptados de <a href="https://github.com/JanaSundar/ovio" target="_blank" rel="noopener noreferrer">Ovio</a> (MIT).
-</footer>
+  <section class="resumo" id="resumo" aria-label="Resumo"></section>
+  <div class="compradas" id="compradas"></div>
+
+  <section class="secao" aria-labelledby="titulo-lista">
+    <div class="secao-cabeca">
+      <div>
+        <h2 id="titulo-lista">A lista</h2>
+        <p id="contador-pecas"></p>
+      </div>
+      <details class="como">
+        <summary>Como o desconto real é calculado</summary>
+        <p><b>Preço normal</b> é a mediana dos menores preços diários dos últimos 90 dias, sem contar a última semana, para que a própria promoção não entre na conta. O histórico junta as coletas deste site com cópias antigas das páginas das lojas no Internet Archive. <b>Desconto real</b> é quanto o preço de hoje está abaixo do normal.</p>
+      </details>
+    </div>
+    <div class="grade" id="pecas"></div>
+  </section>
+
+  <section class="secao" id="vitrines" aria-labelledby="titulo-vitrines"></section>
+
+  <footer class="rodape">
+    Preços no Pix ou à vista, coletados de hora em hora na KaBuM!, Pichau, Terabyte e Amazon.
+    Componentes visuais adaptados de <a href="https://github.com/JanaSundar/ovio" target="_blank" rel="noopener noreferrer">Ovio</a> (MIT).
+  </footer>
+</div>
 
 <script src="dados.js"></script>
 <script src="app.js"></script>
