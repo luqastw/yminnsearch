@@ -2,7 +2,7 @@
  "compradas": [
   {
    "categoria": "Processador",
-   "nome": "Ryzen 5 8500G"
+   "nome": "Ryzen 5 7600X"
   },
   {
    "categoria": "SSD",
@@ -27,7 +27,7 @@
    "categoria": "Memória RAM DDR4",
    "nome": "Kit DDR4 16GB (2x8GB) 3200MHz",
    "nota": "Modelos diferentes por loja (Kingston Fury Beast / Corsair Vengeance)",
-   "aviso": "Não serve no PC dela: Ryzen 5 8500G e B650M (AM5) só aceitam DDR5. Fica só para comparação.",
+   "aviso": "Não serve no PC dela: Ryzen 5 7600X e B650M (AM5) só aceitam DDR5. Fica só para comparação.",
    "fora_do_total": true,
    "alvo": null,
    "links": [
@@ -165,13 +165,19 @@
   {
    "id": "cooler",
    "titulo": "Coolers para processador",
-   "descricao": "Air coolers até R$ 300. O melhor entra automaticamente na lista (o 8500G já vem com um cooler básico)",
+   "descricao": "Obrigatório: o Ryzen 5 7600X não vem com cooler. Air coolers de torre (120mm) até R$ 300; o melhor entra automaticamente na lista",
    "preco_max": 300,
    "excluir": [
+    "100mm",
+    "80mm",
+    "90mm",
+    "92mm",
+    "bracket",
+    "lga1700 only",
+    "low profile",
     "pasta",
     "suporte",
-    "bracket",
-    "lga1700 only"
+    "wraith"
    ],
    "fontes": [
     {

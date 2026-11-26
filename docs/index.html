@@ -3,18 +3,18 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#0a0a0b">
+<meta name="theme-color" content="#0b0b0a">
 <title>Monitor de Peças</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
 <header class="topo">
   <div class="marca">
-    <span class="ponto"></span>
-    <h1>Monitor de Peças</h1>
+    <span class="rotulo">yminnsearch · monitor de preços</span>
+    <h1>Peças do PC<b>.</b></h1>
   </div>
   <p class="atualizado" id="atualizado"></p>
 </header>
@@ -22,16 +22,15 @@
 <main>
   <section class="resumo" id="resumo"></section>
   <section class="compradas" id="compradas"></section>
-  <h2 class="secao-titulo">Lista dela <span>acompanhando preço</span></h2>
+  <h2 class="secao-titulo">Lista dela <span class="contador" id="contador-pecas"></span></h2>
   <section class="grade" id="pecas"></section>
   <section class="vitrines" id="vitrines"></section>
 </main>
 
 <footer class="rodape">
   Preço de referência: <strong>Pix / à vista</strong>. "Preço normal" é a mediana dos últimos 90 dias (sem a última semana), montada com as coletas deste monitor e cópias antigas das páginas no Wayback Machine (Internet Archive).
+  Componentes visuais adaptados de <a href="https://github.com/JanaSundar/ovio" target="_blank" rel="noopener noreferrer">Ovio</a> (MIT).
 </footer>
-
-<div class="dica" id="dica" hidden></div>
 
 <script src="dados.js"></script>
 <script src="app.js"></script>

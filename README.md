@@ -41,3 +41,14 @@ Coleta o preço Pix/à vista de peças em lojas brasileiras, guarda 90 dias de h
 1. Criar um repositório no GitHub e `git remote add origin ...`.
 2. Settings → Pages → Branch `main`, pasta `/docs`.
 3. A partir daí, `rodar.sh` faz commit e push do histórico a cada coleta.
+
+## Visual
+
+Componentes adaptados de [Ovio](https://github.com/JanaSundar/ovio) (MIT), mundo "minimal" em versão escura, reescritos em HTML/CSS/JS puro:
+
+| Ovio | Uso aqui |
+|---|---|
+| Star History | gráfico de 90 dias com cursor, régua tracejada, pulso no último ponto e anotação do menor preço |
+| npm Downloads | preço em destaque com variação contra o preço normal e progresso até o alvo |
+| Bundle Size | barra da faixa de 90 dias com marcador do preço normal e linhas de métricas |
+| Liquid Tabs | ordenação e filtro de loja nas vitrines |
