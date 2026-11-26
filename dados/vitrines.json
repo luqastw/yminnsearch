@@ -1,7 +1,7 @@
 {
  "itens": {
   "gpu-faixa": {
-   "atualizado": "2026-11-26T10:04-03:00",
+   "atualizado": "2026-11-26T11:04-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/907814/placa-de-video-asrock-rx-7600-challenger-pro-oc-amd-radeon-8gb-gddr6-triple-fan-90-ga62zz-00uanf",
@@ -150,14 +150,14 @@
      "url": "https://www.pichau.com.br/placa-de-video-powercolor-radeon-rx-7600-fighter-8gb-gddr6-128-bit-rx7600-8g-f-v2",
      "loja": "Pichau",
      "titulo": "Placa de Video PowerColor Radeon RX 7600 Fighter, 8GB, GDDR6, 128-bit, RX7600-8G-F-V2",
-     "pix": 2699.99,
-     "referencia": 2699.99,
+     "pix": 2159.99,
+     "referencia": 3176.46,
      "oferta": null,
      "avaliacoes": 0,
      "nota": 0,
      "imagem": "https://media.pichau.com.br/media/catalog/product/cache/22c0d71a45cddf08af7927cb2bce3571/r/x/rx7600-8g-f-v22.jpg",
      "posicao": 6,
-     "desconto": 0
+     "desconto": 0.32
     },
     {
      "url": "https://www.pichau.com.br/placa-de-video-asrock-radeon-rx-7600-challenger-pro-oc-8gb-gddr6-128-bit-90-ga62zz-00uanf",
@@ -175,7 +175,7 @@
    ]
   },
   "gabinete": {
-   "atualizado": "2026-11-26T10:04-03:00",
+   "atualizado": "2026-11-26T11:04-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/1056523/gabinete-gamer-squad-qg200-mini-tower-micro-atx-e-mini-itx-frontal-e-lateral-em-vidro-usb-30-sem-fans-sgn200",
@@ -321,6 +321,19 @@
      "desconto": 0.1563
     },
     {
+     "url": "https://www.kabum.com.br/produto/989686/gabinete-gamer-corsair-3500x-rsr-argb-mid-tower-lateral-e-frontal-em-vidro-temperado-3-ventoinhas-rsr-argb-preto-cc-9011322-ww",
+     "loja": "KaBuM!",
+     "titulo": "Gabinete Gamer Corsair 3500X RSR ARGB, Mid Tower, Lateral e Frontal em Vidro Temperado, 3 Ventoinhas RSR ARGB, Preto - CC-9011322-WW",
+     "pix": 449.99,
+     "referencia": 549.99,
+     "oferta": "BLACK DAS BLACKS KABUM!",
+     "avaliacoes": 18,
+     "nota": 5.0,
+     "imagem": "https://images.kabum.com.br/produtos/fotos/989686/gabinete-gamer-corsair-3500x-rsr-argb-mid-tower-lateral-e-frontal-em-vidro-temperado-3-ventoinhas-rsr-argb-preto-cc-9011322-ww_1793995147_original.jpg",
+     "posicao": 12,
+     "desconto": 0.1818
+    },
+    {
      "url": "https://www.kabum.com.br/produto/609385/gabinete-gamer-husky-dome-100-mid-tower-atx-lateral-e-frontal-em-vidro-sem-fans-preto-hgn100pt",
      "loja": "KaBuM!",
      "titulo": "Gabinete Gamer Husky Dome 100, Mid Tower, ATX, Lateral e Frontal em Vidro, Sem FANs, Preto - HGN100PT",
@@ -330,7 +343,7 @@
      "avaliacoes": 88,
      "nota": 4.9,
      "imagem": "https://images.kabum.com.br/produtos/fotos/609385/gabinete-gamer-husky-dome-100-mid-tower-atx-lateral-e-frontal-em-vidro-preto-hgn100pt_1750415408_original.jpg",
-     "posicao": 12,
+     "posicao": 13,
      "desconto": 0
     },
     {
@@ -343,7 +356,7 @@
      "avaliacoes": 0,
      "nota": 0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/1072405/gabinete-office-hayom-gb1755-micro-atx-preto-gb1755_1790341631_original.jpg",
-     "posicao": 13,
+     "posicao": 14,
      "desconto": 0
     },
     {
@@ -356,7 +369,7 @@
      "avaliacoes": 11,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/905389/gabinete-gamer-montech-xr-mid-tower-vidro-temperado-preto-xrbk_1758314029_original.jpg",
-     "posicao": 14,
+     "posicao": 15,
      "desconto": 0.0571
     },
     {
@@ -369,7 +382,7 @@
      "avaliacoes": 59,
      "nota": 4.5,
      "imagem": "https://images.kabum.com.br/produtos/fotos/405811/gabinete-gamer-hayom-mid-tower-rgb-atx-lateral-em-vidro-temperado-3x-cooler-fan-rgb-preto-gb1710_1678219033_original.jpg",
-     "posicao": 15,
+     "posicao": 16,
      "desconto": 0.1333
     },
     {
@@ -382,7 +395,7 @@
      "avaliacoes": 4,
      "nota": 4.5,
      "imagem": "https://images.kabum.com.br/produtos/fotos/643871/gabinete-gamer-bluecase-bg-054-hit-mid-tower-micro-atx-e-mini-itx-frontal-e-lateral-em-vidro-usb-3-0-preto-bg-054bbx_1731414432_original.jpg",
-     "posicao": 16,
+     "posicao": 17,
      "desconto": 0.2303
     },
     {
@@ -395,7 +408,7 @@
      "avaliacoes": 54,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/518940/gabinete-gamer-redragon-wideload-pro-mid-tower-atx-lateral-em-vidro-temperado-preto-ca-604b-pro_1706184031_original.jpg",
-     "posicao": 17,
+     "posicao": 18,
      "desconto": 0.1163
     },
     {
@@ -408,7 +421,7 @@
      "avaliacoes": 19,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/989024/gabinete-gamer-kalkan-asgard-evo-atx-mid-tower-lateral-em-vidro-temperado-sem-fans-preto-klk00084_1779216913_original.jpg",
-     "posicao": 18,
+     "posicao": 19,
      "desconto": 0.2
     },
     {
@@ -421,7 +434,7 @@
      "avaliacoes": 81,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/609390/gabinete-gamer-husky-dome-210-mini-tower-m-atx-lateral-e-frontal-em-vidro-branco-hgn210br_1750417452_original.jpg",
-     "posicao": 19,
+     "posicao": 20,
      "desconto": 0.1
     },
     {
@@ -434,7 +447,7 @@
      "avaliacoes": 52,
      "nota": 4.7,
      "imagem": "https://images.kabum.com.br/produtos/fotos/629075/gabinete-gamer-hayom-gb1792-mid-tower-atx-lateral-e-frontal-em-vidro-temperado-com-cooler-fan-preto-gb1792_1727273873_original.jpg",
-     "posicao": 20,
+     "posicao": 21,
      "desconto": 0
     },
     {
@@ -447,7 +460,7 @@
      "avaliacoes": 0,
      "nota": 0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/1054678/gabinete-squad-vault-mini-tower-preto-sgo100_1792779720_original.jpg",
-     "posicao": 21,
+     "posicao": 22,
      "desconto": 0.0909
     },
     {
@@ -460,7 +473,7 @@
      "avaliacoes": 1527,
      "nota": 4.6,
      "imagem": "https://images.kabum.com.br/produtos/fotos/324516/gabinete-gamer-rise-mode-glass-06x-lateral-em-vidro-fume-e-frontal-em-vidro-temperado-preto-rm-ca-06x-fb_1660589149_original.jpg",
-     "posicao": 22,
+     "posicao": 23,
      "desconto": 0
     },
     {
@@ -473,21 +486,8 @@
      "avaliacoes": 174,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/609389/gabinete-gamer-husky-dome-210-mini-tower-m-atx-lateral-e-frontal-em-vidro-preto-hgn210pt_1750416137_original.jpg",
-     "posicao": 23,
-     "desconto": 0.1818
-    },
-    {
-     "url": "https://www.kabum.com.br/produto/545902/gabinete-gamer-redragon-wideload-extreme-mid-tower-atx-lateral-e-frontal-em-vidro-temperado-curvo-preto-ca-605b",
-     "loja": "KaBuM!",
-     "titulo": "Gabinete Gamer Redragon Wideload Extreme, Mid Tower, ATX, Lateral e Frontal em Vidro Temperado Curvo, Preto - CA-605B",
-     "pix": 479.99,
-     "referencia": 599.99,
-     "oferta": "BLACK DAS BLACKS KABUM!",
-     "avaliacoes": 79,
-     "nota": 4.7,
-     "imagem": "https://images.kabum.com.br/produtos/fotos/545902/gabinete-gamer-redragon-wideload-extreme-mid-tower-atx-lateral-em-vidro-temperado-preto-ca-605b_1714074101_original.jpg",
      "posicao": 24,
-     "desconto": 0.2
+     "desconto": 0.1818
     },
     {
      "url": "https://www.pichau.com.br/gabinete-gamer-deepcool-cc350-4f-argb-lateral-de-vidro-com-4-fans-mid-tower-preto-r-cc350bkana4-g",
@@ -545,14 +545,14 @@
      "url": "https://www.pichau.com.br/gabinete-gamer-cooler-master-elite-302-argb-vidro-temperado-mini-tower-matx-com-3-fans-branco-e302-wgnn-saz",
      "loja": "Pichau",
      "titulo": "Gabinete Gamer Cooler Master Elite 302, ARGB, Vidro Temperado, Mini Tower, mATX, Com 3 Fans, Branco, E302-WGNN-SAZ",
-     "pix": 449.99,
+     "pix": 389.99,
      "referencia": 647.05,
      "oferta": null,
      "avaliacoes": 0,
      "nota": 0,
      "imagem": "https://media.pichau.com.br/media/catalog/product/cache/22c0d71a45cddf08af7927cb2bce3571/e/3/e302-wgnn-saz.jpg",
      "posicao": 5,
-     "desconto": 0.3046
+     "desconto": 0.3973
     },
     {
      "url": "https://www.pichau.com.br/gabinete-gamer-cooler-master-elite-302-vidro-temperado-mini-tower-m-atx-com-1-fan-branco-e302-wgnn-s00",
@@ -596,7 +596,7 @@
    ]
   },
   "cooler": {
-   "atualizado": "2026-11-26T10:04-03:00",
+   "atualizado": "2026-11-26T11:04-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/532493/air-cooler-cooler-master-hyper-212-spectrum-v3-argb-intel-e-amd-120mm-preto-rr-s4na-17pa-r1",
@@ -625,19 +625,6 @@
      "desconto": 0.35
     },
     {
-     "url": "https://www.kabum.com.br/produto/506059/air-cooler-gamer-rise-mode-storm-8-white-amd-intel-120mm-branco-rm-acst-w",
-     "loja": "KaBuM!",
-     "titulo": "Air Cooler Gamer Rise Mode Storm 8 White, AMD/Intel, 120mm, Branco - RM-ACST-W",
-     "pix": 152.99,
-     "referencia": 259.99,
-     "oferta": "OFERTAS KABUM",
-     "avaliacoes": 158,
-     "nota": 4.7,
-     "imagem": "https://images.kabum.com.br/produtos/fotos/506059/air-cooler-gamer-rise-mode-strom-8-white-amd-intel-120mm-branco-rm-acst-w_1712769879_original.jpg",
-     "posicao": 3,
-     "desconto": 0.4116
-    },
-    {
      "url": "https://www.kabum.com.br/produto/506060/air-cooler-gamer-rise-mode-storm-8-black-argb-amd-intel-120mm-preto-rm-acst-argb-b",
      "loja": "KaBuM!",
      "titulo": "Air Cooler Gamer Rise Mode Storm 8 Black, ARGB, AMD/Intel, 120mm, Preto - RM-ACST-ARGB-B",
@@ -647,7 +634,7 @@
      "avaliacoes": 164,
      "nota": 4.9,
      "imagem": "https://images.kabum.com.br/produtos/fotos/506060/air-cooler-gamer-rise-mode-strom-8-black-argb-amd-intel-120mm-preto-rm-acst-argb-b_1712769304_original.jpg",
-     "posicao": 4,
+     "posicao": 3,
      "desconto": 0.3502
     },
     {
@@ -660,7 +647,7 @@
      "avaliacoes": 380,
      "nota": 4.6,
      "imagem": "https://images.kabum.com.br/produtos/fotos/153649/cooler-para-processador-rise-mode-winter-120mm-argb-intel-e-amd-preto-rm-acw-01-argb_1662143937_original.jpg",
-     "posicao": 5,
+     "posicao": 4,
      "desconto": 0.3179
     },
     {
@@ -673,7 +660,7 @@
      "avaliacoes": 23,
      "nota": 4.9,
      "imagem": "https://images.kabum.com.br/produtos/fotos/909143/air-cooler-argb-husky-alisius-200-amd-intel-120mm-220w-hac200pt_1768919829_original.jpg",
-     "posicao": 6,
+     "posicao": 5,
      "desconto": 0.3334
     },
     {
@@ -686,7 +673,7 @@
      "avaliacoes": 5,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/912542/air-cooler-mach1-iced-amd-e-intel-120mm-preto-p50i-bk-v2_1778865738_original.jpg",
-     "posicao": 7,
+     "posicao": 6,
      "desconto": 0.4025
     },
     {
@@ -699,7 +686,7 @@
      "avaliacoes": 3,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/912553/air-cooler-mach1-storm-digital-amd-e-intel-120mm-branco-b40-dig-wh-v2_1777307271_original.jpg",
-     "posicao": 8,
+     "posicao": 7,
      "desconto": 0.3316
     },
     {
@@ -712,7 +699,7 @@
      "avaliacoes": 1,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/912558/air-cooler-mach1-boreal-digital-argb-amd-e-intel-120mm-preto-b40-dig-argb-v2_1777310303_original.jpg",
-     "posicao": 9,
+     "posicao": 8,
      "desconto": 0.4167
     },
     {
@@ -725,7 +712,7 @@
      "avaliacoes": 15,
      "nota": 4.9,
      "imagem": "https://images.kabum.com.br/produtos/fotos/892550/air-cooler-gamer-rise-mode-temp-6-pro-white-argb-amd-e-intel-120mm-branco-rm-act6p-argb-w_1781293219_original.jpg",
-     "posicao": 10,
+     "posicao": 9,
      "desconto": 0.1111
     },
     {
@@ -738,7 +725,7 @@
      "avaliacoes": 3,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/912554/air-cooler-mach1-echo-digital-amd-e-intel-120mm-preto-p50i-dig_1777307984_original.jpg",
-     "posicao": 11,
+     "posicao": 10,
      "desconto": 0.3637
     },
     {
@@ -751,7 +738,7 @@
      "avaliacoes": 8,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/911275/air-cooler-gamer-msi-mag-corefrozr-aa13-argb-amd-e-intel-120mm-preto-cfaa13_1758308768_original.jpg",
-     "posicao": 12,
+     "posicao": 11,
      "desconto": 0.4211
     },
     {
@@ -764,7 +751,7 @@
      "avaliacoes": 1,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/912547/air-cooler-mach1-boreal-argb-amd-e-intel-120mm-preto-b50-argb_1777290545_original.jpg",
-     "posicao": 13,
+     "posicao": 12,
      "desconto": 0.4737
     },
     {
@@ -777,7 +764,7 @@
      "avaliacoes": 4,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/912543/air-cooler-mach1-frosty-amd-e-intel-120mm-preto-b60v2_1777040576_original.jpg",
-     "posicao": 14,
+     "posicao": 13,
      "desconto": 0.335
     },
     {
@@ -790,7 +777,7 @@
      "avaliacoes": 0,
      "nota": 0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/912541/air-cooler-mach1-vortex-pro-argb-amd-e-intel-120mm-preto-b60t-argb-v2_1777038973_original.jpg",
-     "posicao": 15,
+     "posicao": 14,
      "desconto": 0.3557
     },
     {
@@ -803,7 +790,7 @@
      "avaliacoes": 1,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/912560/air-cooler-mach1-echo-digital-digital-argb-amd-e-intel-120mm-preto-p50i-dig-argb_1777312706_original.jpg",
-     "posicao": 16,
+     "posicao": 15,
      "desconto": 0.4
     },
     {
@@ -816,7 +803,7 @@
      "avaliacoes": 1,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/912549/air-cooler-mach1-artic-digital-argb-amd-e-intel-120mm-preto-b60-dig-bk-argb_1777294559_original.jpg",
-     "posicao": 17,
+     "posicao": 16,
      "desconto": 0.3684
     },
     {
@@ -829,7 +816,7 @@
      "avaliacoes": 0,
      "nota": 0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/912548/air-cooler-mach1-artic-digital-argb-amd-e-intel-120mm-preto-b60-dig-argb-v2_1777291508_original.jpg",
-     "posicao": 18,
+     "posicao": 17,
      "desconto": 0.4667
     },
     {
@@ -842,7 +829,7 @@
      "avaliacoes": 1,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/912545/air-cooler-mach1-typhoon-argb-amd-e-intel-120mm-branco-a60-h-argb_1777047686_original.jpg",
-     "posicao": 19,
+     "posicao": 18,
      "desconto": 0.4962
     },
     {
@@ -855,7 +842,7 @@
      "avaliacoes": 21,
      "nota": 4.6,
      "imagem": "https://images.kabum.com.br/produtos/fotos/909145/air-cooler-argb-com-display-husky-alisius-500-amd-intel-90mm-95w-hac500pt_1767371642_original.jpg",
-     "posicao": 20,
+     "posicao": 19,
      "desconto": 0
     },
     {
@@ -868,7 +855,7 @@
      "avaliacoes": 2,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/911276/air-cooler-gamer-msi-mag-corefrozr-aa13-white-argb-amd-e-intel-120mm-branco-cfaa13w_1773080660_original.jpg",
-     "posicao": 21,
+     "posicao": 20,
      "desconto": 0.4445
     },
     {
@@ -881,7 +868,7 @@
      "avaliacoes": 0,
      "nota": 0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/1002621/air-cooler-cooler-master-i70-intel-lga-1700-120mm-preto-rr-i7a7-18fk-n1_1788953700_original.jpg",
-     "posicao": 22,
+     "posicao": 21,
      "desconto": 0.1
     },
     {
@@ -894,7 +881,7 @@
      "avaliacoes": 0,
      "nota": 0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/1054677/air-cooler-squad-round-vc-120-amd-e-intel-120mm-preto-scvc120_1795465522_original.jpg",
-     "posicao": 23,
+     "posicao": 22,
      "desconto": 0
     },
     {
@@ -926,7 +913,7 @@
    ]
   },
   "fans": {
-   "atualizado": "2026-11-26T10:04-03:00",
+   "atualizado": "2026-11-26T11:04-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/688134/kit-com-3-ventoinhas-corsair-rs120-argb-120mm-pwm-preto-co-9050181-ww",
@@ -1386,7 +1373,7 @@
    ]
   },
   "fonte": {
-   "atualizado": "2026-11-26T10:04-03:00",
+   "atualizado": "2026-11-26T11:04-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/907600/fonte-gigabyte-p650g-pg5-650w-80-plus-gold-pfc-ativo-preto-28200-p65g5-1cbrr",
@@ -1454,6 +1441,19 @@
      "desconto": 0.2
     },
     {
+     "url": "https://www.pichau.com.br/fonte-redragon-rgps-650-rgb-650w-full-modular-80-plus-gold-preto-gc-ps013-1",
+     "loja": "Pichau",
+     "titulo": "Fonte Redragon RGPS-650, RGB, 650W, Full-Modular, 80 Plus Gold, Preto, GC-PS013-1",
+     "pix": 579.99,
+     "referencia": 752.93,
+     "oferta": null,
+     "avaliacoes": 0,
+     "nota": 0,
+     "imagem": "https://media.pichau.com.br/media/catalog/product/cache/22c0d71a45cddf08af7927cb2bce3571/g/c/gc-ps013-11225.jpg",
+     "posicao": 1,
+     "desconto": 0.2297
+    },
+    {
      "url": "https://www.pichau.com.br/fonte-msi-mag-a650bnl-white-650w-80-plus-bronze-branca-mag-a650bnl-white",
      "loja": "Pichau",
      "titulo": "Fonte MSI MAG A650BNL White, 650W, 80 Plus Bronze, Branca, MAG-A650BNL-WHITE",
@@ -1463,7 +1463,7 @@
      "avaliacoes": 0,
      "nota": 0,
      "imagem": "https://media.pichau.com.br/media/catalog/product/cache/22c0d71a45cddf08af7927cb2bce3571/m/a/mag-a650bnl-white6523232022.jpg",
-     "posicao": 1,
+     "posicao": 2,
      "desconto": 0.2138
     },
     {
@@ -1476,7 +1476,7 @@
      "avaliacoes": 0,
      "nota": 0,
      "imagem": "https://media.pichau.com.br/media/catalog/product/cache/22c0d71a45cddf08af7927cb2bce3571/r/b/rb0650b.jpg",
-     "posicao": 2,
+     "posicao": 3,
      "desconto": 0
     },
     {
@@ -1489,7 +1489,7 @@
      "avaliacoes": 0,
      "nota": 0,
      "imagem": "https://media.pichau.com.br/media/catalog/product/cache/22c0d71a45cddf08af7927cb2bce3571/3/0/306-7zpbz23-ce04.jpg",
-     "posicao": 3,
+     "posicao": 4,
      "desconto": 0.371
     },
     {
@@ -1502,7 +1502,7 @@
      "avaliacoes": 0,
      "nota": 0,
      "imagem": "https://media.pichau.com.br/media/catalog/product/cache/22c0d71a45cddf08af7927cb2bce3571/t/r/tr-tb650s2.jpg",
-     "posicao": 4,
+     "posicao": 5,
      "desconto": 0.4142
     },
     {
@@ -1515,7 +1515,7 @@
      "avaliacoes": 0,
      "nota": 0,
      "imagem": "https://media.pichau.com.br/media/catalog/product/cache/22c0d71a45cddf08af7927cb2bce3571/t/r/tr-tb550s2.jpg",
-     "posicao": 5,
+     "posicao": 6,
      "desconto": 0.2744
     },
     {
@@ -1528,7 +1528,7 @@
      "avaliacoes": 0,
      "nota": 0,
      "imagem": "https://media.pichau.com.br/media/catalog/product/cache/22c0d71a45cddf08af7927cb2bce3571/t/r/tr-kg6502.jpg",
-     "posicao": 6,
+     "posicao": 7,
      "desconto": 0.5144
     },
     {
@@ -1541,8 +1541,21 @@
      "avaliacoes": 0,
      "nota": 0,
      "imagem": "https://media.pichau.com.br/media/catalog/product/cache/22c0d71a45cddf08af7927cb2bce3571/3/1/31aa065001p0155652.jpg",
-     "posicao": 7,
+     "posicao": 8,
      "desconto": 0.5345
+    },
+    {
+     "url": "https://www.pichau.com.br/fonte-redragon-charge-650w-80-plus-bronze-preto-frc-650",
+     "loja": "Pichau",
+     "titulo": "Fonte Redragon Charge, 650W, 80 Plus Bronze, Preto, FRC-650",
+     "pix": 299.99,
+     "referencia": 470.58,
+     "oferta": null,
+     "avaliacoes": 0,
+     "nota": 0,
+     "imagem": "https://media.pichau.com.br/media/catalog/product/cache/22c0d71a45cddf08af7927cb2bce3571/f/r/frc-650.jpg",
+     "posicao": 9,
+     "desconto": 0.3625
     },
     {
      "url": "https://www.pichau.com.br/fonte-thermaltake-tr2-s-650w-80-plus-preto-ps-trs-0650nnfawb-1",
@@ -1554,13 +1567,13 @@
      "avaliacoes": 0,
      "nota": 0,
      "imagem": "https://media.pichau.com.br/media/catalog/product/cache/22c0d71a45cddf08af7927cb2bce3571/p/s/ps-trs-0650nnfawb-12.jpg",
-     "posicao": 8,
+     "posicao": 10,
      "desconto": 0.3279
     }
    ]
   },
   "memoria-ddr4": {
-   "atualizado": "2026-11-26T10:04-03:00",
+   "atualizado": "2026-11-26T11:04-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/110769/memoria-ram-corsair-vengeance-lpx-16gb-2x8gb-2400mhz-ddr4-cl16-black-cmk16gx4m2a2400c16",
@@ -2512,6 +2525,69 @@
   ],
   "https://www.kabum.com.br/produto/912558/air-cooler-mach1-boreal-digital-argb-amd-e-intel-120mm-preto-b40-dig-argb-v2": [
    {
+    "t": "2026-10-06T19:11-03:00",
+    "pix": 115.99,
+    "cartao": 115.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-07T02:47-03:00",
+    "pix": 115.99,
+    "cartao": 115.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-07T13:13-03:00",
+    "pix": 115.99,
+    "cartao": 115.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-08T06:06-03:00",
+    "pix": 115.99,
+    "cartao": 115.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-08T08:58-03:00",
+    "pix": 115.99,
+    "cartao": 115.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-09T08:17-03:00",
+    "pix": 115.99,
+    "cartao": 115.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-09T15:57-03:00",
+    "pix": 115.99,
+    "cartao": 115.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-10T13:28-03:00",
+    "pix": 115.99,
+    "cartao": 115.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-15T17:49-03:00",
+    "pix": 115.99,
+    "cartao": 115.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
     "t": "2026-11-26T00:57-03:00",
     "pix": 104.99
    }
@@ -3252,7 +3328,7 @@
   "https://www.pichau.com.br/gabinete-gamer-cooler-master-elite-302-argb-vidro-temperado-mini-tower-matx-com-3-fans-branco-e302-wgnn-saz": [
    {
     "t": "2026-11-26T09:04-03:00",
-    "pix": 449.99
+    "pix": 389.99
    }
   ],
   "https://www.pichau.com.br/gabinete-gamer-deepcool-ch160-plus-mini-tower-lateral-de-vidro-branco-r-ch160-whngm0-g": [
@@ -3277,6 +3353,18 @@
    {
     "t": "2026-11-26T10:04-03:00",
     "pix": 329.99
+   }
+  ],
+  "https://www.pichau.com.br/fonte-redragon-rgps-650-rgb-650w-full-modular-80-plus-gold-preto-gc-ps013-1": [
+   {
+    "t": "2026-11-26T11:04-03:00",
+    "pix": 579.99
+   }
+  ],
+  "https://www.pichau.com.br/fonte-redragon-charge-650w-80-plus-bronze-preto-frc-650": [
+   {
+    "t": "2026-11-26T11:04-03:00",
+    "pix": 299.99
    }
   ]
  }
