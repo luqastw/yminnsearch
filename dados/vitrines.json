@@ -1,7 +1,7 @@
 {
  "itens": {
   "gpu-faixa": {
-   "atualizado": "2026-11-26T17:02-03:00",
+   "atualizado": "2026-11-26T20:05-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/907814/placa-de-video-asrock-rx-7600-challenger-pro-oc-amd-radeon-8gb-gddr6-triple-fan-90-ga62zz-00uanf",
@@ -30,6 +30,32 @@
      "desconto": 0.2083
     },
     {
+     "url": "https://www.kabum.com.br/produto/996572/placa-de-video-husky-alpha-rtx-3060-nvidia-12gb-gddr6-192-bit-dual-fan-hdmi-3x-displayport-hvg023060",
+     "loja": "KaBuM!",
+     "titulo": "Placa De Vídeo Husky Alpha RTX 3060, Nvidia, 12GB, GDDR6, 192-Bit, Dual Fan, HDMI, 3x DisplayPort - HVG023060",
+     "pix": 2399.99,
+     "referencia": 2999.99,
+     "oferta": "OFERTAS KABUM",
+     "avaliacoes": 9,
+     "nota": 4.8,
+     "imagem": "https://images.kabum.com.br/produtos/fotos/996572/placa-de-video-husky-alpha-rtx-3060-hvg023060_1772198737_original.jpg",
+     "posicao": 3,
+     "desconto": 0.2
+    },
+    {
+     "url": "https://www.kabum.com.br/produto/1020030/placa-de-video-husky-alpha-rtx-3060-ti-nvidia-8gb-gddr6-256-bit-hdmi-displayport-hvg3060ti",
+     "loja": "KaBuM!",
+     "titulo": "Placa De Vídeo Husky Alpha RTX 3060 TI, NVIDIA, 8GB, GDDR6, 256-Bit, HDMI, DisplayPort - HVG3060TI",
+     "pix": 2249.99,
+     "referencia": 2999.99,
+     "oferta": "OFERTAS KABUM",
+     "avaliacoes": 0,
+     "nota": 0,
+     "imagem": "https://images.kabum.com.br/produtos/fotos/1020030/placa-de-video-husky-alpha-rtx-3060-ti-nvidia-8gb-gddr6-256-bit-hdmi-displayport-hvg3060ti_1778164604_original.jpg",
+     "posicao": 4,
+     "desconto": 0.25
+    },
+    {
      "url": "https://www.kabum.com.br/produto/1053619/placa-de-video-gigabyte-rx-9050-gaming-oc-8gb-amd-radeon-8gb-gddr6-128bit-gv-r9050gaming-oc-8gd",
      "loja": "KaBuM!",
      "titulo": "Placa de Vídeo Gigabyte RX 9050 GAMING OC 8GB AMD Radeon, 8GB GDDR6, 128bit - GV-R9050GAMING OC-8GD",
@@ -39,7 +65,7 @@
      "avaliacoes": 0,
      "nota": 0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/1053619/placa-de-video-gigabyte-rx-9050-gaming-oc-8gb-amd-radeon-8gb-gddr6-128bit-gv-r9050gaming-oc-8gd_1787070387_original.jpg",
-     "posicao": 3,
+     "posicao": 5,
      "desconto": 0.3333
     },
     {
@@ -52,7 +78,7 @@
      "avaliacoes": 49,
      "nota": 4.7,
      "imagem": "https://images.kabum.com.br/produtos/fotos/681586/placa-de-video-rtx-3050-windforce-oc-gigabyte-nvidia-geforce-6gb-gddr6-dlss-ray-tracing-gv-n3050wf2ocv2-6gd_1734620897_original.jpg",
-     "posicao": 4,
+     "posicao": 6,
      "desconto": 0.065
     },
     {
@@ -65,7 +91,7 @@
      "avaliacoes": 8,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/525561/placa-de-video-rtx-3050-twin-x2-inno3d-nvidia-geforce-6gb-n30502-06d6-1711va60_1719505789_original.jpg",
-     "posicao": 5,
+     "posicao": 7,
      "desconto": 0.0693
     },
     {
@@ -111,14 +137,14 @@
      "url": "https://www.pichau.com.br/placa-de-video-gigabyte-radeon-rx-9050-gaming-oc-8gb-gddr6-128-bit-gv-r9050gaming-oc-8gd",
      "loja": "Pichau",
      "titulo": "Placa de Video Gigabyte Radeon RX 9050 Gaming OC, 8GB, GDDR6, 128-bit, GV-R9050GAMING-OC-8GD",
-     "pix": 1959.99,
+     "pix": 1899.99,
      "referencia": 3176.46,
      "oferta": null,
      "avaliacoes": 0,
      "nota": 0,
      "imagem": "https://media.pichau.com.br/media/catalog/product/cache/22c0d71a45cddf08af7927cb2bce3571/g/v/gv-r9050gaming-oc-8gd4.jpg",
      "posicao": 4,
-     "desconto": 0.383
+     "desconto": 0.4019
     },
     {
      "url": "https://www.pichau.com.br/placa-de-video-aisurix-radeon-rx-7650-gre-8gb-gddr6-128-bit-rx-7650gre-aisurix",
@@ -149,7 +175,7 @@
    ]
   },
   "gabinete": {
-   "atualizado": "2026-11-26T17:02-03:00",
+   "atualizado": "2026-11-26T20:05-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/993857/gabinete-gamer-esgaming-zero-max-mid-tower-m-atx-frontal-e-lateral-em-vidro-temperado-sem-fans-preto-zero-max-bk",
@@ -194,14 +220,14 @@
      "url": "https://www.kabum.com.br/produto/614899/gabinete-gamer-liketec-matrix-v2-mid-tower-rainbow-atx-lateral-e-frontal-em-vidro-temperado-3-ventoinhas-preto-matrix-v2",
      "loja": "KaBuM!",
      "titulo": "Gabinete Gamer Liketec Matrix V2, Mid Tower, Rainbow, ATX, Lateral e Frontal em Vidro Temperado, 3 Ventoinhas, Preto - MATRIX V2",
-     "pix": 119.99,
+     "pix": 134.99,
      "referencia": 149.99,
-     "oferta": "BLACK DAS BLACKS KABUM!",
+     "oferta": "OFERTAS KABUM",
      "avaliacoes": 13,
      "nota": 4.5,
      "imagem": "https://images.kabum.com.br/produtos/fotos/614899/gabinete-gamer-liketec-matrix-v2-mid-tower-rainbow-atx-lateral-e-frontal-em-vidro-temperado-3-ventoinhas-preto-matrix-v2_1785867046_original.jpg",
      "posicao": 4,
-     "desconto": 0.2
+     "desconto": 0.1
     },
     {
      "url": "https://www.kabum.com.br/produto/883979/gabinete-gamer-liketec-dasha-v2-cubo-m-atx-mini-tower-frontal-e-lateral-em-vidro-temperado-sem-fans-preto-lc-mt-cubodashav2-sf",
@@ -350,14 +376,14 @@
      "url": "https://www.kabum.com.br/produto/405811/gabinete-gamer-hayom-mid-tower-rgb-atx-lateral-em-vidro-temperado-3x-cooler-fan-rgb-preto-gb1710",
      "loja": "KaBuM!",
      "titulo": "Gabinete Gamer Hayom, Mid Tower, RGB, ATX, Lateral em Vidro Temperado, 3x Cooler Fan RGB, Preto - GB1710",
-     "pix": 129.99,
+     "pix": 142.99,
      "referencia": 149.99,
-     "oferta": "BLACK DAS BLACKS KABUM!",
+     "oferta": "OFERTAS KABUM",
      "avaliacoes": 59,
      "nota": 4.5,
      "imagem": "https://images.kabum.com.br/produtos/fotos/405811/gabinete-gamer-hayom-mid-tower-rgb-atx-lateral-em-vidro-temperado-3x-cooler-fan-rgb-preto-gb1710_1678219033_original.jpg",
      "posicao": 16,
-     "desconto": 0.1333
+     "desconto": 0.0467
     },
     {
      "url": "https://www.kabum.com.br/produto/643871/gabinete-gamer-bluecase-bg-054-hit-mid-tower-micro-atx-e-mini-itx-frontal-e-lateral-em-vidro-usb-3-0-sem-fans-preto-bg-054bbx",
@@ -570,7 +596,7 @@
    ]
   },
   "cooler": {
-   "atualizado": "2026-11-26T17:02-03:00",
+   "atualizado": "2026-11-26T20:05-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/532493/air-cooler-cooler-master-hyper-212-spectrum-v3-argb-intel-e-amd-120mm-preto-rr-s4na-17pa-r1",
@@ -887,7 +913,7 @@
    ]
   },
   "fans": {
-   "atualizado": "2026-11-26T17:02-03:00",
+   "atualizado": "2026-11-26T20:05-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/688134/kit-com-3-ventoinhas-corsair-rs120-argb-120mm-pwm-preto-co-9050181-ww",
@@ -1070,6 +1096,19 @@
      "imagem": "https://images.kabum.com.br/produtos/fotos/873626/kit-ventoinhas-para-gabinete-cooler-master-masterfan-mf120-halo2-white-edition-3in1-120mm-iluminacao-rgb-mfl-b2dw-213p2-r2_1753118399_original.jpg",
      "posicao": 14,
      "desconto": 0.3054
+    },
+    {
+     "url": "https://www.kabum.com.br/produto/653726/ventoinha-nzxt-single-frame-f-series-led-rgb-core-240mm-2x-120mm-preto-rf-u24hf-b1",
+     "loja": "KaBuM!",
+     "titulo": "Ventoinha NZXT Single-frame F Series, LED RGB Core, 240mm, 2x 120mm, Preto - RF-U24HF-B1",
+     "pix": 168.99,
+     "referencia": 186.99,
+     "oferta": "BLACK DAS BLACKS KABUM!",
+     "avaliacoes": 0,
+     "nota": 0,
+     "imagem": "https://images.kabum.com.br/produtos/fotos/653726/ventoinha-nzxt-single-frame-f-series-led-rgb-core-240mm-preto-rf-u24hf-b1_1736512036_original.jpg",
+     "posicao": 15,
+     "desconto": 0.0963
     },
     {
      "url": "https://www.pichau.com.br/ventoinha-noctua-120mm-marrom-nf-a12x25-pwm",
@@ -1317,11 +1356,24 @@
      "imagem": "https://media.pichau.com.br/media/catalog/product/cache/22c0d71a45cddf08af7927cb2bce3571/k/3/k3argbsf3wgrvbr.jpg",
      "posicao": 19,
      "desconto": 0.2444
+    },
+    {
+     "url": "https://www.pichau.com.br/kit-ventoinhas-pcyes-sangue-frio-3-reverse-argb-3x120mm-black-vulcan-k3argbsf3rvbr",
+     "loja": "Pichau",
+     "titulo": "Kit Ventoinhas PCYes Sangue Frio 3 Reverse, ARGB, 3x120mm, Black Vulcan, K3ARGBSF3RVBR",
+     "pix": 179.9,
+     "referencia": 282.34,
+     "oferta": null,
+     "avaliacoes": 0,
+     "nota": 0,
+     "imagem": "https://media.pichau.com.br/media/catalog/product/cache/22c0d71a45cddf08af7927cb2bce3571/k/3/k3argbsf3rvbr.jpg",
+     "posicao": 20,
+     "desconto": 0.3628
     }
    ]
   },
   "fonte": {
-   "atualizado": "2026-11-26T17:02-03:00",
+   "atualizado": "2026-11-26T20:05-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/907600/fonte-gigabyte-p650g-pg5-650w-80-plus-gold-pfc-ativo-preto-28200-p65g5-1cbrr",
@@ -1508,7 +1560,7 @@
    ]
   },
   "memoria-ddr4": {
-   "atualizado": "2026-11-26T17:02-03:00",
+   "atualizado": "2026-11-26T20:05-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/110769/memoria-ram-corsair-vengeance-lpx-16gb-2x8gb-2400mhz-ddr4-cl16-black-cmk16gx4m2a2400c16",
@@ -1713,7 +1765,7 @@
   "https://www.pichau.com.br/placa-de-video-gigabyte-radeon-rx-9050-gaming-oc-8gb-gddr6-128-bit-gv-r9050gaming-oc-8gd": [
    {
     "t": "2026-11-26T00:57-03:00",
-    "pix": 1959.99
+    "pix": 1899.99
    }
   ],
   "https://www.pichau.com.br/placa-de-video-aisurix-radeon-rx-7650-gre-8gb-gddr6-128-bit-rx-7650gre-aisurix": [
@@ -3556,6 +3608,12 @@
    {
     "t": "2026-11-26T13:05-03:00",
     "pix": 299.99
+   }
+  ],
+  "https://www.kabum.com.br/produto/653726/ventoinha-nzxt-single-frame-f-series-led-rgb-core-240mm-2x-120mm-preto-rf-u24hf-b1": [
+   {
+    "t": "2026-11-26T20:05-03:00",
+    "pix": 168.99
    }
   ]
  }
