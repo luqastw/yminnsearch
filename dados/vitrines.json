@@ -1,7 +1,7 @@
 {
  "itens": {
   "gpu-faixa": {
-   "atualizado": "2026-11-26T09:04-03:00",
+   "atualizado": "2026-11-26T10:04-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/907814/placa-de-video-asrock-rx-7600-challenger-pro-oc-amd-radeon-8gb-gddr6-triple-fan-90-ga62zz-00uanf",
@@ -43,19 +43,6 @@
      "desconto": 0.2
     },
     {
-     "url": "https://www.kabum.com.br/produto/1020030/placa-de-video-husky-alpha-rtx-3060-ti-nvidia-8gb-gddr6-256-bit-hdmi-displayport-hvg3060ti",
-     "loja": "KaBuM!",
-     "titulo": "Placa De Vídeo Husky Alpha RTX 3060 TI, NVIDIA, 8GB, GDDR6, 256-Bit, HDMI, DisplayPort - HVG3060TI",
-     "pix": 2249.99,
-     "referencia": 2999.99,
-     "oferta": "OFERTAS KABUM",
-     "avaliacoes": 0,
-     "nota": 0,
-     "imagem": "https://images.kabum.com.br/produtos/fotos/1020030/placa-de-video-husky-alpha-rtx-3060-ti-nvidia-8gb-gddr6-256-bit-hdmi-displayport-hvg3060ti_1778164604_original.jpg",
-     "posicao": 4,
-     "desconto": 0.25
-    },
-    {
      "url": "https://www.kabum.com.br/produto/1053619/placa-de-video-gigabyte-rx-9050-gaming-oc-8gb-amd-radeon-8gb-gddr6-128bit-gv-r9050gaming-oc-8gd",
      "loja": "KaBuM!",
      "titulo": "Placa de Vídeo Gigabyte RX 9050 GAMING OC 8GB AMD Radeon, 8GB GDDR6, 128bit - GV-R9050GAMING OC-8GD",
@@ -65,7 +52,7 @@
      "avaliacoes": 0,
      "nota": 0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/1053619/placa-de-video-gigabyte-rx-9050-gaming-oc-8gb-amd-radeon-8gb-gddr6-128bit-gv-r9050gaming-oc-8gd_1787070387_original.jpg",
-     "posicao": 5,
+     "posicao": 4,
      "desconto": 0.3333
     },
     {
@@ -78,7 +65,7 @@
      "avaliacoes": 49,
      "nota": 4.7,
      "imagem": "https://images.kabum.com.br/produtos/fotos/681586/placa-de-video-rtx-3050-windforce-oc-gigabyte-nvidia-geforce-6gb-gddr6-dlss-ray-tracing-gv-n3050wf2ocv2-6gd_1734620897_original.jpg",
-     "posicao": 6,
+     "posicao": 5,
      "desconto": 0.065
     },
     {
@@ -91,7 +78,7 @@
      "avaliacoes": 8,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/525561/placa-de-video-rtx-3050-twin-x2-inno3d-nvidia-geforce-6gb-n30502-06d6-1711va60_1719505789_original.jpg",
-     "posicao": 7,
+     "posicao": 6,
      "desconto": 0.0693
     },
     {
@@ -163,14 +150,14 @@
      "url": "https://www.pichau.com.br/placa-de-video-powercolor-radeon-rx-7600-fighter-8gb-gddr6-128-bit-rx7600-8g-f-v2",
      "loja": "Pichau",
      "titulo": "Placa de Video PowerColor Radeon RX 7600 Fighter, 8GB, GDDR6, 128-bit, RX7600-8G-F-V2",
-     "pix": 2159.99,
-     "referencia": 3176.46,
+     "pix": 2699.99,
+     "referencia": 2699.99,
      "oferta": null,
      "avaliacoes": 0,
      "nota": 0,
      "imagem": "https://media.pichau.com.br/media/catalog/product/cache/22c0d71a45cddf08af7927cb2bce3571/r/x/rx7600-8g-f-v22.jpg",
      "posicao": 6,
-     "desconto": 0.32
+     "desconto": 0
     },
     {
      "url": "https://www.pichau.com.br/placa-de-video-asrock-radeon-rx-7600-challenger-pro-oc-8gb-gddr6-128-bit-90-ga62zz-00uanf",
@@ -188,7 +175,7 @@
    ]
   },
   "gabinete": {
-   "atualizado": "2026-11-26T09:04-03:00",
+   "atualizado": "2026-11-26T10:04-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/1056523/gabinete-gamer-squad-qg200-mini-tower-micro-atx-e-mini-itx-frontal-e-lateral-em-vidro-usb-30-sem-fans-sgn200",
@@ -334,19 +321,6 @@
      "desconto": 0.1563
     },
     {
-     "url": "https://www.kabum.com.br/produto/989686/gabinete-gamer-corsair-3500x-rsr-argb-mid-tower-lateral-e-frontal-em-vidro-temperado-3-ventoinhas-rsr-argb-preto-cc-9011322-ww",
-     "loja": "KaBuM!",
-     "titulo": "Gabinete Gamer Corsair 3500X RSR ARGB, Mid Tower, Lateral e Frontal em Vidro Temperado, 3 Ventoinhas RSR ARGB, Preto - CC-9011322-WW",
-     "pix": 449.99,
-     "referencia": 549.99,
-     "oferta": "BLACK DAS BLACKS KABUM!",
-     "avaliacoes": 18,
-     "nota": 5.0,
-     "imagem": "https://images.kabum.com.br/produtos/fotos/989686/gabinete-gamer-corsair-3500x-rsr-argb-mid-tower-lateral-e-frontal-em-vidro-temperado-3-ventoinhas-rsr-argb-preto-cc-9011322-ww_1793995147_original.jpg",
-     "posicao": 12,
-     "desconto": 0.1818
-    },
-    {
      "url": "https://www.kabum.com.br/produto/609385/gabinete-gamer-husky-dome-100-mid-tower-atx-lateral-e-frontal-em-vidro-sem-fans-preto-hgn100pt",
      "loja": "KaBuM!",
      "titulo": "Gabinete Gamer Husky Dome 100, Mid Tower, ATX, Lateral e Frontal em Vidro, Sem FANs, Preto - HGN100PT",
@@ -356,7 +330,7 @@
      "avaliacoes": 88,
      "nota": 4.9,
      "imagem": "https://images.kabum.com.br/produtos/fotos/609385/gabinete-gamer-husky-dome-100-mid-tower-atx-lateral-e-frontal-em-vidro-preto-hgn100pt_1750415408_original.jpg",
-     "posicao": 13,
+     "posicao": 12,
      "desconto": 0
     },
     {
@@ -369,7 +343,7 @@
      "avaliacoes": 0,
      "nota": 0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/1072405/gabinete-office-hayom-gb1755-micro-atx-preto-gb1755_1790341631_original.jpg",
-     "posicao": 14,
+     "posicao": 13,
      "desconto": 0
     },
     {
@@ -382,7 +356,7 @@
      "avaliacoes": 11,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/905389/gabinete-gamer-montech-xr-mid-tower-vidro-temperado-preto-xrbk_1758314029_original.jpg",
-     "posicao": 15,
+     "posicao": 14,
      "desconto": 0.0571
     },
     {
@@ -395,7 +369,7 @@
      "avaliacoes": 59,
      "nota": 4.5,
      "imagem": "https://images.kabum.com.br/produtos/fotos/405811/gabinete-gamer-hayom-mid-tower-rgb-atx-lateral-em-vidro-temperado-3x-cooler-fan-rgb-preto-gb1710_1678219033_original.jpg",
-     "posicao": 16,
+     "posicao": 15,
      "desconto": 0.1333
     },
     {
@@ -408,7 +382,7 @@
      "avaliacoes": 4,
      "nota": 4.5,
      "imagem": "https://images.kabum.com.br/produtos/fotos/643871/gabinete-gamer-bluecase-bg-054-hit-mid-tower-micro-atx-e-mini-itx-frontal-e-lateral-em-vidro-usb-3-0-preto-bg-054bbx_1731414432_original.jpg",
-     "posicao": 17,
+     "posicao": 16,
      "desconto": 0.2303
     },
     {
@@ -421,7 +395,7 @@
      "avaliacoes": 54,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/518940/gabinete-gamer-redragon-wideload-pro-mid-tower-atx-lateral-em-vidro-temperado-preto-ca-604b-pro_1706184031_original.jpg",
-     "posicao": 18,
+     "posicao": 17,
      "desconto": 0.1163
     },
     {
@@ -434,7 +408,7 @@
      "avaliacoes": 19,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/989024/gabinete-gamer-kalkan-asgard-evo-atx-mid-tower-lateral-em-vidro-temperado-sem-fans-preto-klk00084_1779216913_original.jpg",
-     "posicao": 19,
+     "posicao": 18,
      "desconto": 0.2
     },
     {
@@ -447,7 +421,7 @@
      "avaliacoes": 81,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/609390/gabinete-gamer-husky-dome-210-mini-tower-m-atx-lateral-e-frontal-em-vidro-branco-hgn210br_1750417452_original.jpg",
-     "posicao": 20,
+     "posicao": 19,
      "desconto": 0.1
     },
     {
@@ -460,7 +434,7 @@
      "avaliacoes": 52,
      "nota": 4.7,
      "imagem": "https://images.kabum.com.br/produtos/fotos/629075/gabinete-gamer-hayom-gb1792-mid-tower-atx-lateral-e-frontal-em-vidro-temperado-com-cooler-fan-preto-gb1792_1727273873_original.jpg",
-     "posicao": 21,
+     "posicao": 20,
      "desconto": 0
     },
     {
@@ -473,7 +447,7 @@
      "avaliacoes": 0,
      "nota": 0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/1054678/gabinete-squad-vault-mini-tower-preto-sgo100_1792779720_original.jpg",
-     "posicao": 22,
+     "posicao": 21,
      "desconto": 0.0909
     },
     {
@@ -486,7 +460,7 @@
      "avaliacoes": 1527,
      "nota": 4.6,
      "imagem": "https://images.kabum.com.br/produtos/fotos/324516/gabinete-gamer-rise-mode-glass-06x-lateral-em-vidro-fume-e-frontal-em-vidro-temperado-preto-rm-ca-06x-fb_1660589149_original.jpg",
-     "posicao": 23,
+     "posicao": 22,
      "desconto": 0
     },
     {
@@ -499,8 +473,47 @@
      "avaliacoes": 174,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/609389/gabinete-gamer-husky-dome-210-mini-tower-m-atx-lateral-e-frontal-em-vidro-preto-hgn210pt_1750416137_original.jpg",
-     "posicao": 24,
+     "posicao": 23,
      "desconto": 0.1818
+    },
+    {
+     "url": "https://www.kabum.com.br/produto/545902/gabinete-gamer-redragon-wideload-extreme-mid-tower-atx-lateral-e-frontal-em-vidro-temperado-curvo-preto-ca-605b",
+     "loja": "KaBuM!",
+     "titulo": "Gabinete Gamer Redragon Wideload Extreme, Mid Tower, ATX, Lateral e Frontal em Vidro Temperado Curvo, Preto - CA-605B",
+     "pix": 479.99,
+     "referencia": 599.99,
+     "oferta": "BLACK DAS BLACKS KABUM!",
+     "avaliacoes": 79,
+     "nota": 4.7,
+     "imagem": "https://images.kabum.com.br/produtos/fotos/545902/gabinete-gamer-redragon-wideload-extreme-mid-tower-atx-lateral-em-vidro-temperado-preto-ca-605b_1714074101_original.jpg",
+     "posicao": 24,
+     "desconto": 0.2
+    },
+    {
+     "url": "https://www.pichau.com.br/gabinete-gamer-deepcool-cc350-4f-argb-lateral-de-vidro-com-4-fans-mid-tower-preto-r-cc350bkana4-g",
+     "loja": "Pichau",
+     "titulo": "Gabinete Gamer Deepcool CC350 4F, ARGB, Lateral de Vidro, Com 4 Fans, Mid-Tower, Preto, R-CC350BKANA4-G",
+     "pix": 319.99,
+     "referencia": 541.16,
+     "oferta": null,
+     "avaliacoes": 0,
+     "nota": 0,
+     "imagem": "https://media.pichau.com.br/media/catalog/product/cache/22c0d71a45cddf08af7927cb2bce3571/r/-/r-cc350bkana4-g45457.jpg",
+     "posicao": 1,
+     "desconto": 0.4087
+    },
+    {
+     "url": "https://www.pichau.com.br/gabinete-gamer-deepcool-cg330-lateral-de-vidro-sem-fans-mid-tower-preto-r-cg330-bkngm0-g",
+     "loja": "Pichau",
+     "titulo": "Gabinete Gamer Deepcool CG330, Lateral de Vidro, Sem Fans, Mid-Tower, Preto, R-CG330-BKNGM0-G",
+     "pix": 329.99,
+     "referencia": 470.58,
+     "oferta": null,
+     "avaliacoes": 0,
+     "nota": 0,
+     "imagem": "https://media.pichau.com.br/media/catalog/product/cache/22c0d71a45cddf08af7927cb2bce3571/r/-/r-cg330-bkngm0-g8.jpg",
+     "posicao": 2,
+     "desconto": 0.2988
     },
     {
      "url": "https://www.pichau.com.br/gabinete-office-deepcool-cc310-mid-tower-preto-r-cc310-bknnm0-g",
@@ -512,7 +525,7 @@
      "avaliacoes": 0,
      "nota": 0,
      "imagem": "https://media.pichau.com.br/media/catalog/product/cache/22c0d71a45cddf08af7927cb2bce3571/r/-/r-cc310-bknnm0-g9.jpg",
-     "posicao": 1,
+     "posicao": 3,
      "desconto": 0.2208
     },
     {
@@ -525,7 +538,7 @@
      "avaliacoes": 0,
      "nota": 0,
      "imagem": "https://media.pichau.com.br/media/catalog/product/cache/22c0d71a45cddf08af7927cb2bce3571/c/a/ca-619b.jpg",
-     "posicao": 2,
+     "posicao": 4,
      "desconto": 0
     },
     {
@@ -538,7 +551,7 @@
      "avaliacoes": 0,
      "nota": 0,
      "imagem": "https://media.pichau.com.br/media/catalog/product/cache/22c0d71a45cddf08af7927cb2bce3571/e/3/e302-wgnn-saz.jpg",
-     "posicao": 3,
+     "posicao": 5,
      "desconto": 0.3046
     },
     {
@@ -551,7 +564,7 @@
      "avaliacoes": 0,
      "nota": 0,
      "imagem": "https://media.pichau.com.br/media/catalog/product/cache/22c0d71a45cddf08af7927cb2bce3571/e/3/e302-wgnn-s001.jpg",
-     "posicao": 4,
+     "posicao": 6,
      "desconto": 0.286
     },
     {
@@ -564,7 +577,7 @@
      "avaliacoes": 0,
      "nota": 0,
      "imagem": "https://media.pichau.com.br/media/catalog/product/cache/22c0d71a45cddf08af7927cb2bce3571/3/8/382tc9000015.jpg",
-     "posicao": 5,
+     "posicao": 7,
      "desconto": 0.2089
     },
     {
@@ -577,39 +590,13 @@
      "avaliacoes": 0,
      "nota": 0,
      "imagem": "https://media.pichau.com.br/media/catalog/product/cache/22c0d71a45cddf08af7927cb2bce3571/c/a/ca-617b2.jpg",
-     "posicao": 6,
-     "desconto": 0.2122
-    },
-    {
-     "url": "https://www.pichau.com.br/gabinete-gamer-deepcool-ch270-mini-tower-lateral-de-vidro-branco-r-ch270-whngm0-g-1",
-     "loja": "Pichau",
-     "titulo": "Gabinete Gamer Deepcool CH270, Mini-Tower, Lateral de Vidro, Branco, R-CH270-WHNGM0-G-1",
-     "pix": 489.99,
-     "referencia": 705.87,
-     "oferta": null,
-     "avaliacoes": 0,
-     "nota": 0,
-     "imagem": "https://media.pichau.com.br/media/catalog/product/cache/22c0d71a45cddf08af7927cb2bce3571/r/-/r-ch270-whngm0-g-1552218.jpg",
-     "posicao": 7,
-     "desconto": 0.3058
-    },
-    {
-     "url": "https://www.pichau.com.br/gabinete-gamer-deepcool-ch160-plus-mini-tower-lateral-de-vidro-branco-r-ch160-whngm0-g",
-     "loja": "Pichau",
-     "titulo": "Gabinete Gamer Deepcool CH160 Plus, Mini-Tower, Lateral de Vidro, Branco, R-CH160-WHNGM0-G",
-     "pix": 449.99,
-     "referencia": 588.22,
-     "oferta": null,
-     "avaliacoes": 0,
-     "nota": 0,
-     "imagem": "https://media.pichau.com.br/media/catalog/product/cache/22c0d71a45cddf08af7927cb2bce3571/r/-/r-ch160-whngm0-g7.jpg",
      "posicao": 8,
-     "desconto": 0.235
+     "desconto": 0.2122
     }
    ]
   },
   "cooler": {
-   "atualizado": "2026-11-26T09:04-03:00",
+   "atualizado": "2026-11-26T10:04-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/532493/air-cooler-cooler-master-hyper-212-spectrum-v3-argb-intel-e-amd-120mm-preto-rr-s4na-17pa-r1",
@@ -939,7 +926,7 @@
    ]
   },
   "fans": {
-   "atualizado": "2026-11-26T09:04-03:00",
+   "atualizado": "2026-11-26T10:04-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/688134/kit-com-3-ventoinhas-corsair-rs120-argb-120mm-pwm-preto-co-9050181-ww",
@@ -1399,7 +1386,7 @@
    ]
   },
   "fonte": {
-   "atualizado": "2026-11-26T09:04-03:00",
+   "atualizado": "2026-11-26T10:04-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/907600/fonte-gigabyte-p650g-pg5-650w-80-plus-gold-pfc-ativo-preto-28200-p65g5-1cbrr",
@@ -1573,7 +1560,7 @@
    ]
   },
   "memoria-ddr4": {
-   "atualizado": "2026-11-26T09:04-03:00",
+   "atualizado": "2026-11-26T10:04-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/110769/memoria-ram-corsair-vengeance-lpx-16gb-2x8gb-2400mhz-ddr4-cl16-black-cmk16gx4m2a2400c16",
@@ -3272,6 +3259,24 @@
    {
     "t": "2026-11-26T09:04-03:00",
     "pix": 449.99
+   }
+  ],
+  "https://www.kabum.com.br/produto/545902/gabinete-gamer-redragon-wideload-extreme-mid-tower-atx-lateral-e-frontal-em-vidro-temperado-curvo-preto-ca-605b": [
+   {
+    "t": "2026-11-26T10:04-03:00",
+    "pix": 479.99
+   }
+  ],
+  "https://www.pichau.com.br/gabinete-gamer-deepcool-cc350-4f-argb-lateral-de-vidro-com-4-fans-mid-tower-preto-r-cc350bkana4-g": [
+   {
+    "t": "2026-11-26T10:04-03:00",
+    "pix": 319.99
+   }
+  ],
+  "https://www.pichau.com.br/gabinete-gamer-deepcool-cg330-lateral-de-vidro-sem-fans-mid-tower-preto-r-cg330-bkngm0-g": [
+   {
+    "t": "2026-11-26T10:04-03:00",
+    "pix": 329.99
    }
   ]
  }
