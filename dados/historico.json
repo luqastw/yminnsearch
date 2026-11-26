@@ -1,0 +1,900 @@
+{
+ "https://www.kabum.com.br/produto/988586/memoria-ram-corsair-vengeance-16gb-2x8gb-5200mhz-ddr5-cl40-intel-xmp-amd-expo-cinza-cmk16gx5m2b5200z40": {
+  "pontos": [
+   {
+    "t": "2026-10-02T19:00-03:00",
+    "pix": 2139.99,
+    "cartao": 2139.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-03T00:44-03:00",
+    "pix": 2139.99,
+    "cartao": 2139.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-10T13:46-03:00",
+    "pix": 2239.9,
+    "cartao": 2239.9,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-11-26T00:57-03:00",
+    "pix": 2499.99,
+    "cartao": 2499.99,
+    "disp": true
+   },
+   {
+    "t": "2026-11-26T01:13-03:00",
+    "pix": 2499.99,
+    "cartao": 2499.99,
+    "disp": true
+   }
+  ],
+  "falhas": 0,
+  "titulo": "Memória RAM Corsair Vengeance, 16GB (2x8GB), 5200MHz, DDR5, CL40, Intel XMP, AMD EXPO, Cinza - CMK16GX5M2B5200Z40"
+ },
+ "https://www.pichau.com.br/memoria-corsair-vengeance-ddr5-16gb-2x8gb-5200mhz-c40-preta-cmk16gx5m2b5200c40": {
+  "pontos": [
+   {
+    "t": "2026-11-26T00:57-03:00",
+    "pix": 1999.99,
+    "cartao": 2352.93,
+    "disp": false
+   },
+   {
+    "t": "2026-11-26T01:13-03:00",
+    "pix": 1999.99,
+    "cartao": 2352.93,
+    "disp": false
+   }
+  ],
+  "falhas": 0,
+  "titulo": "Memoria Corsair Vengeance DDR5, 16GB (2x8GB), 5200MHz, C40, Preta, CMK16GX5M2B5200C40"
+ },
+ "https://www.kabum.com.br/produto/513870/placa-mae-gigabyte-b650m-gaming-rev-1-0-amd-am5-matx-ddr5-rgb-wifi-preto-b650m-gaming-wifi": {
+  "pontos": [
+   {
+    "t": "2026-10-02T22:44-03:00",
+    "pix": 999.99,
+    "cartao": 999.99,
+    "disp": false,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-08T07:11-03:00",
+    "pix": 999.99,
+    "cartao": 999.99,
+    "disp": false,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-08T08:53-03:00",
+    "pix": 999.99,
+    "cartao": 999.99,
+    "disp": false,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-08T12:02-03:00",
+    "pix": 999.99,
+    "cartao": 999.99,
+    "disp": false,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-09T07:08-03:00",
+    "pix": 999.99,
+    "cartao": 999.99,
+    "disp": false,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-09T21:24-03:00",
+    "pix": 999.99,
+    "cartao": 999.99,
+    "disp": false,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-10T01:28-03:00",
+    "pix": 999.99,
+    "cartao": 999.99,
+    "disp": false,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-10T13:47-03:00",
+    "pix": 999.99,
+    "cartao": 999.99,
+    "disp": false,
+    "arquivo": true
+   },
+   {
+    "t": "2026-11-26T00:57-03:00",
+    "pix": 719.99,
+    "cartao": 719.99,
+    "disp": true
+   },
+   {
+    "t": "2026-11-26T01:13-03:00",
+    "pix": 719.99,
+    "cartao": 719.99,
+    "disp": true
+   }
+  ],
+  "falhas": 0,
+  "titulo": "Placa-Mãe Gigabyte B650M Gaming Rev.1.0, AMD AM5, mATX, DDR5, RGB, WiFi, Preto - B650M GAMING WIFI"
+ },
+ "https://www.pichau.com.br/placa-mae-gigabyte-b650m-gaming-wifi-ddr5-socket-amd-am5-m-atx-chipset-amd-b650-b650m-gaming-wifi": {
+  "pontos": [
+   {
+    "t": "2026-11-26T00:57-03:00",
+    "pix": 722.99,
+    "cartao": 850.58,
+    "disp": true
+   },
+   {
+    "t": "2026-11-26T01:13-03:00",
+    "pix": 722.99,
+    "cartao": 850.58,
+    "disp": true
+   }
+  ],
+  "falhas": 0,
+  "titulo": "Placa Mae Gigabyte B650M Gaming Wifi, DDR5, Socket AMD AM5, M-ATX, Chipset AMD B650, B650M-GAMING-WIFI"
+ },
+ "https://www.kabum.com.br/produto/907814/placa-de-video-asrock-rx-7600-challenger-pro-oc-amd-radeon-8gb-gddr6-triple-fan-90-ga62zz-00uanf": {
+  "pontos": [
+   {
+    "t": "2026-10-01T20:35-03:00",
+    "pix": 2499.99,
+    "cartao": 2499.99,
+    "disp": false,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-01T21:02-03:00",
+    "pix": 2499.99,
+    "cartao": 2499.99,
+    "disp": false,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-02T06:01-03:00",
+    "pix": 2499.99,
+    "cartao": 2499.99,
+    "disp": false,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-07T21:13-03:00",
+    "pix": 2499.99,
+    "cartao": 2499.99,
+    "disp": false,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-08T09:58-03:00",
+    "pix": 2499.99,
+    "cartao": 2499.99,
+    "disp": false,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-08T14:03-03:00",
+    "pix": 2499.99,
+    "cartao": 2499.99,
+    "disp": false,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-08T23:29-03:00",
+    "pix": 2499.99,
+    "cartao": 2499.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-09T16:53-03:00",
+    "pix": 1999.99,
+    "cartao": 1999.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-10T03:23-03:00",
+    "pix": 1999.99,
+    "cartao": 1999.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-10T07:29-03:00",
+    "pix": 1999.99,
+    "cartao": 1999.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-10T20:58-03:00",
+    "pix": 1999.99,
+    "cartao": 1999.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-10T22:32-03:00",
+    "pix": 1999.99,
+    "cartao": 1999.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-11T01:29-03:00",
+    "pix": 1999.99,
+    "cartao": 1999.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-12T13:15-03:00",
+    "pix": 1999.99,
+    "cartao": 1999.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-14T17:18-03:00",
+    "pix": 2099.99,
+    "cartao": 2099.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-14T20:11-03:00",
+    "pix": 2099.99,
+    "cartao": 2099.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-14T22:25-03:00",
+    "pix": 2099.99,
+    "cartao": 2099.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-15T16:28-03:00",
+    "pix": 2099.99,
+    "cartao": 2099.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-16T01:15-03:00",
+    "pix": 2099.99,
+    "cartao": 2099.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-17T08:17-03:00",
+    "pix": 1999.99,
+    "cartao": 1999.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-22T20:34-03:00",
+    "pix": 1999.99,
+    "cartao": 1999.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-26T22:40-03:00",
+    "pix": 2499.99,
+    "cartao": 2499.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-28T22:21-03:00",
+    "pix": 2499.99,
+    "cartao": 2499.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-11-26T00:57-03:00",
+    "pix": 1989.99,
+    "cartao": 1989.99,
+    "disp": true
+   },
+   {
+    "t": "2026-11-26T01:13-03:00",
+    "pix": 1989.99,
+    "cartao": 1989.99,
+    "disp": true
+   }
+  ],
+  "falhas": 0,
+  "titulo": "Placa de Vídeo ASRock RX 7600 Challenger PRO OC AMD Radeon, 8GB, GDDR6, Triple Fan - 90-GA62ZZ-00UANF"
+ },
+ "https://www.pichau.com.br/placa-de-video-asrock-radeon-rx-7600-challenger-pro-oc-8gb-gddr6-128-bit-90-ga62zz-00uanf": {
+  "pontos": [
+   {
+    "t": "2026-10-06T22:17-03:00",
+    "pix": 2199.99,
+    "cartao": 2588.22,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-11-26T00:57-03:00",
+    "pix": 2199.99,
+    "cartao": 2588.22,
+    "disp": true
+   },
+   {
+    "t": "2026-11-26T01:13-03:00",
+    "pix": 2199.99,
+    "cartao": 2588.22,
+    "disp": true
+   }
+  ],
+  "falhas": 0,
+  "titulo": "Placa de Video AsRock Radeon RX 7600 Challenger Pro OC, 8GB, GDDR6, 128-bit, 90-GA62ZZ-00UANF"
+ },
+ "https://www.terabyteshop.com.br/produto/37720/placa-de-video-asrock-amd-radeon-rx-7600-challenger-pro-oc-8gb-gddr6-fsr-ray-tracing-90-ga62zz-00uanf": {
+  "pontos": [
+   {
+    "t": "2026-09-27T18:49-03:00",
+    "pix": 2374.91,
+    "cartao": 2499.9,
+    "disp": false,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-06T20:56-03:00",
+    "pix": 2374.91,
+    "cartao": 2499.9,
+    "disp": false,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-08T08:51-03:00",
+    "pix": 2374.91,
+    "cartao": 2499.9,
+    "disp": false,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-09T11:23-03:00",
+    "pix": 2374.91,
+    "cartao": 2499.9,
+    "disp": false,
+    "arquivo": true
+   },
+   {
+    "t": "2026-11-26T00:57-03:00",
+    "pix": 2374.91,
+    "cartao": 2499.9,
+    "disp": false
+   },
+   {
+    "t": "2026-11-26T01:13-03:00",
+    "pix": 2374.91,
+    "cartao": 2499.9,
+    "disp": false
+   }
+  ],
+  "falhas": 0,
+  "titulo": "Placa de Vídeo AsRock RX 7600 Challenger Pro OC 8GB | Terabyte"
+ },
+ "https://www.kabum.com.br/produto/459144/placa-de-video-rx-7600-challenger-asrock-amd-radeon-8gb-gddr6-90-ga41zz-00uanf": {
+  "pontos": [
+   {
+    "t": "2026-09-12T13:09-03:00",
+    "pix": 1959.99,
+    "cartao": 1959.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-09-15T17:47-03:00",
+    "pix": 1919.99,
+    "cartao": 1919.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-09-20T11:20-03:00",
+    "pix": 1919.99,
+    "cartao": 1919.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-09-20T22:33-03:00",
+    "pix": 1919.99,
+    "cartao": 1919.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-09-23T01:04-03:00",
+    "pix": 2399.99,
+    "cartao": 2399.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-09-28T22:31-03:00",
+    "pix": 1899.99,
+    "cartao": 1899.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-01T19:17-03:00",
+    "pix": 1899.99,
+    "cartao": 1899.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-02T06:12-03:00",
+    "pix": 1899.99,
+    "cartao": 1899.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-02T20:23-03:00",
+    "pix": 1899.99,
+    "cartao": 1899.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-04T12:46-03:00",
+    "pix": 1899.99,
+    "cartao": 1899.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-06T19:08-03:00",
+    "pix": 1929.99,
+    "cartao": 1929.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-07T10:34-03:00",
+    "pix": 1799.99,
+    "cartao": 1799.99,
+    "disp": false,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-07T11:57-03:00",
+    "pix": 1929.99,
+    "cartao": 1929.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-07T18:11-03:00",
+    "pix": 1929.99,
+    "cartao": 1929.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-08T00:27-03:00",
+    "pix": 1949.99,
+    "cartao": 1949.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-08T08:38-03:00",
+    "pix": 1949.99,
+    "cartao": 1949.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-08T09:46-03:00",
+    "pix": 1949.99,
+    "cartao": 1949.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-08T09:52-03:00",
+    "pix": 1949.99,
+    "cartao": 1949.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-08T21:26-03:00",
+    "pix": 1949.99,
+    "cartao": 1949.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-08T22:53-03:00",
+    "pix": 1949.99,
+    "cartao": 1949.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-10T05:32-03:00",
+    "pix": 1909.99,
+    "cartao": 1909.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-10T09:38-03:00",
+    "pix": 1909.99,
+    "cartao": 1909.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-10T13:24-03:00",
+    "pix": 1909.99,
+    "cartao": 1909.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-10T21:01-03:00",
+    "pix": 1909.99,
+    "cartao": 1909.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-11T03:06-03:00",
+    "pix": 1909.99,
+    "cartao": 1909.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-12T12:47-03:00",
+    "pix": 1909.99,
+    "cartao": 1909.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-12T21:49-03:00",
+    "pix": 1909.99,
+    "cartao": 1909.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-12T22:17-03:00",
+    "pix": 1909.99,
+    "cartao": 1909.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-13T05:14-03:00",
+    "pix": 1909.99,
+    "cartao": 1909.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-13T21:55-03:00",
+    "pix": 1909.99,
+    "cartao": 1909.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-14T17:26-03:00",
+    "pix": 1999.99,
+    "cartao": 1999.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-15T06:19-03:00",
+    "pix": 1999.99,
+    "cartao": 1999.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-15T17:49-03:00",
+    "pix": 1999.99,
+    "cartao": 1999.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-15T17:55-03:00",
+    "pix": 1999.99,
+    "cartao": 1999.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-15T19:59-03:00",
+    "pix": 1999.99,
+    "cartao": 1999.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-15T21:16-03:00",
+    "pix": 1999.99,
+    "cartao": 1999.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-15T22:14-03:00",
+    "pix": 1999.99,
+    "cartao": 1999.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-16T00:03-03:00",
+    "pix": 1999.99,
+    "cartao": 1999.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-16T21:26-03:00",
+    "pix": 1899.99,
+    "cartao": 1899.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-26T22:40-03:00",
+    "pix": 1899.99,
+    "cartao": 1899.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-28T23:53-03:00",
+    "pix": 1899.99,
+    "cartao": 1899.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-11-26T00:57-03:00",
+    "pix": 1899.99,
+    "cartao": 1899.99,
+    "disp": true
+   },
+   {
+    "t": "2026-11-26T01:13-03:00",
+    "pix": 1899.99,
+    "cartao": 1899.99,
+    "disp": true
+   }
+  ],
+  "falhas": 0,
+  "titulo": "Placa de Vídeo RX 7600 Challenger ASRock AMD Radeon,  8GB GDDR6 - 90-GA41ZZ-00UANF"
+ },
+ "https://www.terabyteshop.com.br/produto/25051/placa-de-video-asrock-amd-radeon-rx-7600-challenger-oc-8gb-gddr6-fsr-ray-tracing-90-ga41zz-00uanf": {
+  "pontos": [
+   {
+    "t": "2026-10-08T07:56-03:00",
+    "pix": 2199.99,
+    "cartao": 2199.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-09T04:19-03:00",
+    "pix": 2199.99,
+    "cartao": 2199.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-10T13:40-03:00",
+    "pix": 2199.99,
+    "cartao": 2199.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-11-26T00:57-03:00",
+    "pix": 2868.9,
+    "cartao": 3019.9,
+    "disp": false
+   },
+   {
+    "t": "2026-11-26T01:13-03:00",
+    "pix": 2868.9,
+    "cartao": 3019.9,
+    "disp": false
+   }
+  ],
+  "falhas": 0,
+  "titulo": "Placa de Vídeo AsRock RX 7600 Challenger OC 8GB GDDR6 | Terabyte"
+ },
+ "https://www.kabum.com.br/produto/1020030/placa-de-video-husky-alpha-rtx-3060-ti-nvidia-8gb-gddr6-256-bit-hdmi-displayport-hvg3060ti": {
+  "pontos": [
+   {
+    "t": "2026-10-06T21:07-03:00",
+    "pix": 2159.99,
+    "cartao": 2159.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-06T23:39-03:00",
+    "pix": 2159.99,
+    "cartao": 2159.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-14T06:08-03:00",
+    "pix": 2199.99,
+    "cartao": 2199.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-11-26T00:57-03:00",
+    "pix": 2399.99,
+    "cartao": 2399.99,
+    "disp": true
+   },
+   {
+    "t": "2026-11-26T01:13-03:00",
+    "pix": 2399.99,
+    "cartao": 2399.99,
+    "disp": true
+   }
+  ],
+  "falhas": 0,
+  "titulo": "Placa De Vídeo Husky Alpha RTX 3060 TI, NVIDIA, 8GB, GDDR6, 256-Bit, HDMI, DisplayPort - HVG3060TI"
+ },
+ "https://www.terabyteshop.com.br/produto/16229/placa-de-video-asus-tuf-gaming-geforce-rtx-3060-ti-oc-8gb-gddr6-256bit-tuf-rtx3060ti-o8g-gaming": {
+  "pontos": [
+   {
+    "t": "2026-11-16T07:42-03:00",
+    "pix": 5478.3,
+    "cartao": 5766.63,
+    "disp": false,
+    "arquivo": true
+   },
+   {
+    "t": "2026-11-26T00:57-03:00",
+    "pix": 5478.3,
+    "cartao": 5766.63,
+    "disp": false
+   },
+   {
+    "t": "2026-11-26T01:13-03:00",
+    "pix": 5478.3,
+    "cartao": 5766.63,
+    "disp": false
+   }
+  ],
+  "falhas": 0,
+  "titulo": "Placa de Vídeo Asus, TUF Gaming, Geforce RTX 3060 Ti OC, 8GB, V2, GDDR6, 256bit, LHR, TUF-RTX3060TI-O8G-V2-GAMING"
+ },
+ "https://www.amazon.com.br/dp/B0BZHXGYWS": {
+  "pontos": [
+   {
+    "t": "2026-11-26T01:13-03:00",
+    "pix": 3616.86,
+    "cartao": 3616.86,
+    "disp": true
+   }
+  ],
+  "falhas": 0,
+  "titulo": "CORSAIR VENGEANCE DDR5 RAM 16GB (2x8GB) 5200MHz CL40 Intel XMP iCUE Memória de computador compatível - Preto (CMK16GX5M2B5200C40) | Amazon.com.br"
+ },
+ "https://www.amazon.com.br/dp/B097K2WBL3": {
+  "pontos": [
+   {
+    "t": "2026-11-26T01:13-03:00",
+    "pix": 997.49,
+    "cartao": 997.49,
+    "disp": true
+   }
+  ],
+  "falhas": 0,
+  "titulo": "Kingston, KF432C16BBK2/16 - Kit de memórias de 16GB (2 x 8GB) DIMM DDR4 3200Mhz FURY Beast Black 1,35V 1Rx8 288 pinos para desktop/gamers, Não aplicável | Amazon.com.br"
+ },
+ "https://www.kabum.com.br/produto/382752/memoria-ram-corsair-vengeance-rgb-pro-sl-16gb-2x8gb-3200mhz-ddr4-cl16-preto-cmh16gx4m2e3200c16": {
+  "pontos": [
+   {
+    "t": "2026-11-26T01:13-03:00",
+    "pix": 1499.99,
+    "cartao": 1499.99,
+    "disp": true
+   }
+  ],
+  "falhas": 0,
+  "titulo": "Memória RAM Corsair Vengeance RGB PRO SL, 16GB (2x8GB), 3200MHz, DDR4, CL16, Preto - CMH16GX4M2E3200C16"
+ },
+ "https://www.amazon.com.br/dp/B0D5NM5184": {
+  "pontos": [
+   {
+    "t": "2026-11-26T01:13-03:00",
+    "pix": 719.99,
+    "cartao": 719.99,
+    "disp": true
+   }
+  ],
+  "falhas": 0,
+  "titulo": "Gigabyte B650M GAMING WIFI Placa-Mãe Micro-ATX, Socket AM5, DDR5, para AMD Ryzen Série 7000/8000/9000 | Amazon.com.br"
+ },
+ "https://www.amazon.com.br/dp/B0G6FCDZMK": {
+  "pontos": [
+   {
+    "t": "2026-11-26T01:13-03:00",
+    "pix": 2041.99,
+    "cartao": 2041.99,
+    "disp": true
+   }
+  ],
+  "falhas": 0,
+  "titulo": "Placa de Vídeo ASRock RX 7600 Challenger Pro OC 8GB GDDR6 90-GA62ZZ-00UANF | Placa de vídeo com 8GB GDDR6, FSR e Ray Tracing para jogos e aplicações gráficas em computadores desktop compatíveis | Amazon.com.br"
+ },
+ "https://www.amazon.com.br/dp/B0C626FFG2": {
+  "pontos": [
+   {
+    "t": "2026-10-11T18:37-03:00",
+    "pix": 1819.99,
+    "cartao": 1819.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-11-26T01:13-03:00",
+    "pix": 2221.75,
+    "cartao": 2221.75,
+    "disp": true
+   }
+  ],
+  "falhas": 0,
+  "titulo": "Placa de Vídeo ASRock Radeon RX 7600 Challenger OC, 8GB, GDDR6, 128-Bit, FSR, Ray Tracing, Preto | Amazon.com.br"
+ },
+ "https://www.amazon.com.br/dp/B0HCW4ZP2J": {
+  "pontos": [
+   {
+    "t": "2026-11-26T01:13-03:00",
+    "pix": 3044.59,
+    "cartao": 3044.59,
+    "disp": true
+   }
+  ],
+  "falhas": 0,
+  "titulo": "PCYES GPU Rtx 3060 Ti 8GB DDR6 256 Bits Full Size Dual Fan - PVR30608TGR6DF3 | Amazon.com.br"
+ }
+}

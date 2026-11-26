@@ -1,0 +1,293 @@
+{
+ "compradas": [
+  {
+   "categoria": "Processador",
+   "nome": "Ryzen 5 8500G"
+  },
+  {
+   "categoria": "SSD",
+   "nome": "Kingston NV3 1TB"
+  }
+ ],
+ "pecas": [
+  {
+   "id": "memoria",
+   "categoria": "Memória RAM DDR5",
+   "nome": "Corsair Vengeance 16GB (2x8GB) DDR5 5200MHz CL40",
+   "nota": "Pichau vende a versão preta (mesma especificação)",
+   "alvo": 2299,
+   "links": [
+    "https://www.kabum.com.br/produto/988586/memoria-ram-corsair-vengeance-16gb-2x8gb-5200mhz-ddr5-cl40-intel-xmp-amd-expo-cinza-cmk16gx5m2b5200z40",
+    "https://www.pichau.com.br/memoria-corsair-vengeance-ddr5-16gb-2x8gb-5200mhz-c40-preta-cmk16gx5m2b5200c40",
+    "https://www.amazon.com.br/dp/B0BZHXGYWS"
+   ]
+  },
+  {
+   "id": "memoria-ddr4",
+   "categoria": "Memória RAM DDR4",
+   "nome": "Kit DDR4 16GB (2x8GB) 3200MHz",
+   "nota": "Modelos diferentes por loja (Kingston Fury Beast / Corsair Vengeance)",
+   "aviso": "Não serve no PC dela: Ryzen 5 8500G e B650M (AM5) só aceitam DDR5. Fica só para comparação.",
+   "fora_do_total": true,
+   "alvo": null,
+   "links": [
+    "https://www.amazon.com.br/dp/B097K2WBL3",
+    "https://www.kabum.com.br/produto/382752/memoria-ram-corsair-vengeance-rgb-pro-sl-16gb-2x8gb-3200mhz-ddr4-cl16-preto-cmh16gx4m2e3200c16"
+   ]
+  },
+  {
+   "id": "placa-mae",
+   "categoria": "Placa-mãe",
+   "nome": "Gigabyte B650M Gaming WiFi (AM5, mATX)",
+   "alvo": 669,
+   "links": [
+    "https://www.kabum.com.br/produto/513870/placa-mae-gigabyte-b650m-gaming-rev-1-0-amd-am5-matx-ddr5-rgb-wifi-preto-b650m-gaming-wifi",
+    "https://www.pichau.com.br/placa-mae-gigabyte-b650m-gaming-wifi-ddr5-socket-amd-am5-m-atx-chipset-amd-b650-b650m-gaming-wifi",
+    "https://www.amazon.com.br/dp/B0D5NM5184"
+   ]
+  },
+  {
+   "id": "gpu-rx7600-pro",
+   "grupo": "gpu",
+   "categoria": "Placa de vídeo",
+   "nome": "ASRock RX 7600 Challenger PRO OC 8GB",
+   "nota": "A da lista dela",
+   "alvo": 1849,
+   "links": [
+    "https://www.kabum.com.br/produto/907814/placa-de-video-asrock-rx-7600-challenger-pro-oc-amd-radeon-8gb-gddr6-triple-fan-90-ga62zz-00uanf",
+    "https://www.pichau.com.br/placa-de-video-asrock-radeon-rx-7600-challenger-pro-oc-8gb-gddr6-128-bit-90-ga62zz-00uanf",
+    "https://www.terabyteshop.com.br/produto/37720/placa-de-video-asrock-amd-radeon-rx-7600-challenger-pro-oc-8gb-gddr6-fsr-ray-tracing-90-ga62zz-00uanf",
+    "https://www.amazon.com.br/dp/B0G6FCDZMK"
+   ]
+  },
+  {
+   "id": "gpu-rx7600",
+   "grupo": "gpu",
+   "categoria": "Placa de vídeo",
+   "nome": "ASRock RX 7600 Challenger OC 8GB",
+   "nota": "Mesmo chip, 2 fans",
+   "alvo": 1799,
+   "links": [
+    "https://www.kabum.com.br/produto/459144/placa-de-video-rx-7600-challenger-asrock-amd-radeon-8gb-gddr6-90-ga41zz-00uanf",
+    "https://www.terabyteshop.com.br/produto/25051/placa-de-video-asrock-amd-radeon-rx-7600-challenger-oc-8gb-gddr6-fsr-ray-tracing-90-ga41zz-00uanf",
+    "https://www.amazon.com.br/dp/B0C626FFG2"
+   ]
+  },
+  {
+   "id": "gpu-3060ti",
+   "grupo": "gpu",
+   "categoria": "Placa de vídeo",
+   "nome": "RTX 3060 Ti 8GB",
+   "nota": "Modelo descontinuado: cada loja tem uma marca diferente",
+   "alvo": 2199,
+   "links": [
+    "https://www.kabum.com.br/produto/1020030/placa-de-video-husky-alpha-rtx-3060-ti-nvidia-8gb-gddr6-256-bit-hdmi-displayport-hvg3060ti",
+    "https://www.terabyteshop.com.br/produto/16229/placa-de-video-asus-tuf-gaming-geforce-rtx-3060-ti-oc-8gb-gddr6-256bit-tuf-rtx3060ti-o8g-gaming",
+    "https://www.amazon.com.br/dp/B0HCW4ZP2J"
+   ]
+  }
+ ],
+ "vitrines": [
+  {
+   "id": "gpu-faixa",
+   "titulo": "Placas de vídeo na mesma faixa",
+   "descricao": "Entre R$ 1.700 e R$ 2.800 no Pix, mais procuradas primeiro",
+   "preco_min": 1700,
+   "preco_max": 2800,
+   "excluir": [
+    "notebook",
+    "pc gamer",
+    "computador",
+    "suporte",
+    "cabo",
+    "riser"
+   ],
+   "fontes": [
+    {
+     "loja": "kabum",
+     "busca": "placa de video",
+     "paginas": 3,
+     "menus": [
+      "Hardware/Placa de vídeo (VGA)/Placa de vídeo"
+     ]
+    },
+    {
+     "loja": "pichau",
+     "url": "https://www.pichau.com.br/hardware/placa-de-video"
+    }
+   ]
+  },
+  {
+   "id": "fonte",
+   "titulo": "Fontes 550W a 650W",
+   "descricao": "550W a 650W, 80 Plus. A melhor opção entra automaticamente na lista e no total",
+   "preco_min": 200,
+   "preco_max": 600,
+   "excluir": [
+    "cabo",
+    "extensor"
+   ],
+   "fontes": [
+    {
+     "loja": "kabum",
+     "busca": "fonte 80 plus",
+     "menus": [
+      "Hardware/Fontes/Fonte 550W",
+      "Hardware/Fontes/Fonte 600W",
+      "Hardware/Fontes/Fonte 650W"
+     ]
+    },
+    {
+     "loja": "pichau",
+     "url": "https://www.pichau.com.br/hardware/fonte"
+    }
+   ],
+   "automatica": {
+    "categoria": "Fonte",
+    "nome": "Fonte (escolha automática)"
+   },
+   "exigir_todos": [
+    [
+     "550w",
+     "600w",
+     "650w",
+     "550 w",
+     "600 w",
+     "650 w"
+    ],
+    [
+     "80 plus",
+     "80plus",
+     "80+"
+    ]
+   ]
+  },
+  {
+   "id": "cooler",
+   "titulo": "Coolers para processador",
+   "descricao": "Air coolers até R$ 300. O melhor entra automaticamente na lista (o 8500G já vem com um cooler básico)",
+   "preco_max": 300,
+   "excluir": [
+    "pasta",
+    "suporte",
+    "bracket",
+    "lga1700 only"
+   ],
+   "fontes": [
+    {
+     "loja": "kabum",
+     "busca": "air cooler",
+     "menus": [
+      "Hardware/Coolers/Air Cooler"
+     ]
+    },
+    {
+     "loja": "pichau",
+     "url": "https://www.pichau.com.br/hardware/cooler-processador"
+    }
+   ],
+   "exigir": [
+    "cooler"
+   ],
+   "automatica": {
+    "categoria": "Cooler",
+    "nome": "Cooler (escolha automática)"
+   }
+  },
+  {
+   "id": "gabinete",
+   "titulo": "Gabinetes",
+   "descricao": "Compatíveis com placa-mãe mATX, até R$ 500",
+   "preco_max": 500,
+   "excluir": [
+    "mini itx only",
+    "suporte",
+    "acessório",
+    "pé ",
+    "filtro"
+   ],
+   "fontes": [
+    {
+     "loja": "kabum",
+     "busca": "gabinete",
+     "menus": [
+      "Periféricos/Gabinetes"
+     ]
+    },
+    {
+     "loja": "pichau",
+     "url": "https://www.pichau.com.br/hardware/gabinete"
+    }
+   ],
+   "exigir": [
+    "gabinete"
+   ]
+  },
+  {
+   "id": "fans",
+   "titulo": "Fans e kits de ventoinhas",
+   "descricao": "Fans de 120mm e kits, até R$ 250",
+   "preco_max": 250,
+   "excluir": [
+    "controladora",
+    "hub",
+    "cabo",
+    "extensor"
+   ],
+   "fontes": [
+    {
+     "loja": "kabum",
+     "busca": "kit fan 120mm",
+     "menus": [
+      "Hardware/Coolers/FAN"
+     ]
+    },
+    {
+     "loja": "pichau",
+     "url": "https://www.pichau.com.br/hardware/ventoinhas-e-casemod"
+    }
+   ],
+   "exigir": [
+    "120mm",
+    "120 mm",
+    "3x 120",
+    "120-mm"
+   ]
+  },
+  {
+   "id": "memoria-ddr4",
+   "titulo": "Kits DDR4 16GB (2x8GB)",
+   "descricao": "Só para comparação: não é compatível com o PC dela (AM5 = DDR5)",
+   "preco_max": 2000,
+   "exigir_todos": [
+    [
+     "ddr4"
+    ],
+    [
+     "2x8",
+     "2 x 8",
+     "(2x8gb)",
+     "kit"
+    ]
+   ],
+   "excluir": [
+    "notebook",
+    "sodimm",
+    "so-dimm"
+   ],
+   "fontes": [
+    {
+     "loja": "kabum",
+     "busca": "memoria ddr4 16gb 2x8gb kit",
+     "menus": [
+      "Hardware/Memória RAM"
+     ]
+    },
+    {
+     "loja": "pichau",
+     "url": "https://www.pichau.com.br/hardware/memorias"
+    }
+   ]
+  }
+ ]
+}

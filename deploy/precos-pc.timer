@@ -1,0 +1,10 @@
+[Unit]
+Description=Coleta de preços das peças do PC a cada hora
+
+[Timer]
+OnCalendar=hourly
+RandomizedDelaySec=5min
+Persistent=true
+
+[Install]
+WantedBy=timers.target

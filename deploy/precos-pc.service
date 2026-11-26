@@ -1,0 +1,9 @@
+[Unit]
+Description=Coleta de preços das peças do PC
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=%h/Documentos/projects/precos-pc/rodar.sh
+TimeoutStartSec=30min
