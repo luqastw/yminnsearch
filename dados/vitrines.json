@@ -1,46 +1,33 @@
 {
  "itens": {
   "gpu-faixa": {
-   "atualizado": "2026-11-27T00:02-03:00",
+   "atualizado": "2026-11-27T01:02-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/907814/placa-de-video-asrock-rx-7600-challenger-pro-oc-amd-radeon-8gb-gddr6-triple-fan-90-ga62zz-00uanf",
      "loja": "KaBuM!",
      "titulo": "Placa de Vídeo ASRock RX 7600 Challenger PRO OC AMD Radeon, 8GB, GDDR6, Triple Fan - 90-GA62ZZ-00UANF",
-     "pix": 1989.99,
-     "referencia": 2499.99,
-     "oferta": "OFERTAS KABUM",
+     "pix": 2399.99,
+     "referencia": 2399.99,
+     "oferta": null,
      "avaliacoes": 58,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/907814/placa-de-video-asrock-amd-radeon-rx-7600-challenger-pro-oc-8gb-gddr6-triple-fan-90-ga62zz-00uanf_1761582764_original.jpg",
      "posicao": 1,
-     "desconto": 0.204
+     "desconto": 0
     },
     {
      "url": "https://www.kabum.com.br/produto/459144/placa-de-video-rx-7600-challenger-asrock-amd-radeon-8gb-gddr6-90-ga41zz-00uanf",
      "loja": "KaBuM!",
      "titulo": "Placa de Vídeo RX 7600 Challenger ASRock AMD Radeon,  8GB GDDR6 - 90-GA41ZZ-00UANF",
-     "pix": 1899.99,
-     "referencia": 2399.99,
-     "oferta": "OFERTAS KABUM",
+     "pix": 2199.99,
+     "referencia": 2199.99,
+     "oferta": null,
      "avaliacoes": 166,
      "nota": 4.9,
      "imagem": "https://images.kabum.com.br/produtos/fotos/459144/placa-de-video-rx-7600-challenger-asrock-amd-radeon-8gb-gddr6-90-ga41zz-00uanf_1685551526_original.jpg",
      "posicao": 2,
-     "desconto": 0.2083
-    },
-    {
-     "url": "https://www.kabum.com.br/produto/996572/placa-de-video-husky-alpha-rtx-3060-nvidia-12gb-gddr6-192-bit-dual-fan-hdmi-3x-displayport-hvg023060",
-     "loja": "KaBuM!",
-     "titulo": "Placa De Vídeo Husky Alpha RTX 3060, Nvidia, 12GB, GDDR6, 192-Bit, Dual Fan, HDMI, 3x DisplayPort - HVG023060",
-     "pix": 2399.99,
-     "referencia": 2999.99,
-     "oferta": "OFERTAS KABUM",
-     "avaliacoes": 9,
-     "nota": 4.8,
-     "imagem": "https://images.kabum.com.br/produtos/fotos/996572/placa-de-video-husky-alpha-rtx-3060-hvg023060_1772198737_original.jpg",
-     "posicao": 3,
-     "desconto": 0.2
+     "desconto": 0
     },
     {
      "url": "https://www.kabum.com.br/produto/1053619/placa-de-video-gigabyte-rx-9050-gaming-oc-8gb-amd-radeon-8gb-gddr6-128bit-gv-r9050gaming-oc-8gd",
@@ -52,7 +39,7 @@
      "avaliacoes": 0,
      "nota": 0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/1053619/placa-de-video-gigabyte-rx-9050-gaming-oc-8gb-amd-radeon-8gb-gddr6-128bit-gv-r9050gaming-oc-8gd_1787070387_original.jpg",
-     "posicao": 4,
+     "posicao": 3,
      "desconto": 0.4
     },
     {
@@ -65,7 +52,7 @@
      "avaliacoes": 49,
      "nota": 4.7,
      "imagem": "https://images.kabum.com.br/produtos/fotos/681586/placa-de-video-rtx-3050-windforce-oc-gigabyte-nvidia-geforce-6gb-gddr6-dlss-ray-tracing-gv-n3050wf2ocv2-6gd_1734620897_original.jpg",
-     "posicao": 5,
+     "posicao": 4,
      "desconto": 0.065
     },
     {
@@ -78,7 +65,7 @@
      "avaliacoes": 8,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/525561/placa-de-video-rtx-3050-twin-x2-inno3d-nvidia-geforce-6gb-n30502-06d6-1711va60_1719505789_original.jpg",
-     "posicao": 6,
+     "posicao": 5,
      "desconto": 0.0693
     },
     {
@@ -162,7 +149,7 @@
    ]
   },
   "gabinete": {
-   "atualizado": "2026-11-27T00:02-03:00",
+   "atualizado": "2026-11-27T01:02-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/993857/gabinete-gamer-esgaming-zero-max-mid-tower-m-atx-frontal-e-lateral-em-vidro-temperado-sem-fans-preto-zero-max-bk",
@@ -583,7 +570,7 @@
    ]
   },
   "cooler": {
-   "atualizado": "2026-11-27T00:02-03:00",
+   "atualizado": "2026-11-27T01:02-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/532493/air-cooler-cooler-master-hyper-212-spectrum-v3-argb-intel-e-amd-120mm-preto-rr-s4na-17pa-r1",
@@ -677,19 +664,6 @@
      "desconto": 0.4167
     },
     {
-     "url": "https://www.kabum.com.br/produto/892550/air-cooler-gamer-rise-mode-temp-6-pro-white-argb-amd-e-intel-120mm-branco-rm-act6p-argb-w",
-     "loja": "KaBuM!",
-     "titulo": "Air Cooler Gamer Rise Mode Temp 6 Pro White, ARGB, AMD e Intel, 120mm, Branco - RM-ACT6P-ARGB-W",
-     "pix": 159.99,
-     "referencia": 179.99,
-     "oferta": "OFERTAS KABUM",
-     "avaliacoes": 15,
-     "nota": 4.9,
-     "imagem": "https://images.kabum.com.br/produtos/fotos/892550/air-cooler-gamer-rise-mode-temp-6-pro-white-argb-amd-e-intel-120mm-branco-rm-act6p-argb-w_1781293219_original.jpg",
-     "posicao": 8,
-     "desconto": 0.1111
-    },
-    {
      "url": "https://www.kabum.com.br/produto/912554/air-cooler-mach1-echo-digital-amd-e-intel-120mm-preto-p50i-dig",
      "loja": "KaBuM!",
      "titulo": "Air Cooler MACH1 ECHO DIGITAL, AMD e Intel, 120mm, Preto - P50i DIG",
@@ -699,7 +673,7 @@
      "avaliacoes": 3,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/912554/air-cooler-mach1-echo-digital-amd-e-intel-120mm-preto-p50i-dig_1777307984_original.jpg",
-     "posicao": 9,
+     "posicao": 8,
      "desconto": 0.3637
     },
     {
@@ -712,7 +686,7 @@
      "avaliacoes": 8,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/911275/air-cooler-gamer-msi-mag-corefrozr-aa13-argb-amd-e-intel-120mm-preto-cfaa13_1758308768_original.jpg",
-     "posicao": 10,
+     "posicao": 9,
      "desconto": 0.4211
     },
     {
@@ -725,7 +699,7 @@
      "avaliacoes": 1,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/912547/air-cooler-mach1-boreal-argb-amd-e-intel-120mm-preto-b50-argb_1777290545_original.jpg",
-     "posicao": 11,
+     "posicao": 10,
      "desconto": 0.4737
     },
     {
@@ -738,7 +712,7 @@
      "avaliacoes": 4,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/912543/air-cooler-mach1-frosty-amd-e-intel-120mm-preto-b60v2_1777040576_original.jpg",
-     "posicao": 12,
+     "posicao": 11,
      "desconto": 0.335
     },
     {
@@ -751,7 +725,7 @@
      "avaliacoes": 0,
      "nota": 0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/912541/air-cooler-mach1-vortex-pro-argb-amd-e-intel-120mm-preto-b60t-argb-v2_1777038973_original.jpg",
-     "posicao": 13,
+     "posicao": 12,
      "desconto": 0.3557
     },
     {
@@ -764,7 +738,7 @@
      "avaliacoes": 1,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/912560/air-cooler-mach1-echo-digital-digital-argb-amd-e-intel-120mm-preto-p50i-dig-argb_1777312706_original.jpg",
-     "posicao": 14,
+     "posicao": 13,
      "desconto": 0.4
     },
     {
@@ -777,7 +751,7 @@
      "avaliacoes": 1,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/912549/air-cooler-mach1-artic-digital-argb-amd-e-intel-120mm-preto-b60-dig-bk-argb_1777294559_original.jpg",
-     "posicao": 15,
+     "posicao": 14,
      "desconto": 0.3684
     },
     {
@@ -790,7 +764,7 @@
      "avaliacoes": 0,
      "nota": 0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/912548/air-cooler-mach1-artic-digital-argb-amd-e-intel-120mm-preto-b60-dig-argb-v2_1777291508_original.jpg",
-     "posicao": 16,
+     "posicao": 15,
      "desconto": 0.4667
     },
     {
@@ -803,7 +777,7 @@
      "avaliacoes": 1,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/912545/air-cooler-mach1-typhoon-argb-amd-e-intel-120mm-branco-a60-h-argb_1777047686_original.jpg",
-     "posicao": 17,
+     "posicao": 16,
      "desconto": 0.4962
     },
     {
@@ -816,7 +790,7 @@
      "avaliacoes": 21,
      "nota": 4.6,
      "imagem": "https://images.kabum.com.br/produtos/fotos/909145/air-cooler-argb-com-display-husky-alisius-500-amd-intel-90mm-95w-hac500pt_1767371642_original.jpg",
-     "posicao": 18,
+     "posicao": 17,
      "desconto": 0
     },
     {
@@ -829,7 +803,7 @@
      "avaliacoes": 2,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/911276/air-cooler-gamer-msi-mag-corefrozr-aa13-white-argb-amd-e-intel-120mm-branco-cfaa13w_1773080660_original.jpg",
-     "posicao": 19,
+     "posicao": 18,
      "desconto": 0.4445
     },
     {
@@ -842,7 +816,7 @@
      "avaliacoes": 0,
      "nota": 0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/1002621/air-cooler-cooler-master-i70-intel-lga-1700-120mm-preto-rr-i7a7-18fk-n1_1788953700_original.jpg",
-     "posicao": 20,
+     "posicao": 19,
      "desconto": 0.1
     },
     {
@@ -855,7 +829,7 @@
      "avaliacoes": 0,
      "nota": 0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/1054677/air-cooler-squad-round-vc-120-amd-e-intel-120mm-preto-scvc120_1795465522_original.jpg",
-     "posicao": 21,
+     "posicao": 20,
      "desconto": 0
     },
     {
@@ -887,7 +861,7 @@
    ]
   },
   "fans": {
-   "atualizado": "2026-11-27T00:02-03:00",
+   "atualizado": "2026-11-27T01:02-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/688134/kit-com-3-ventoinhas-corsair-rs120-argb-120mm-pwm-preto-co-9050181-ww",
@@ -1070,19 +1044,6 @@
      "imagem": "https://images.kabum.com.br/produtos/fotos/873626/kit-ventoinhas-para-gabinete-cooler-master-masterfan-mf120-halo2-white-edition-3in1-120mm-iluminacao-rgb-mfl-b2dw-213p2-r2_1753118399_original.jpg",
      "posicao": 14,
      "desconto": 0.3054
-    },
-    {
-     "url": "https://www.kabum.com.br/produto/653726/ventoinha-nzxt-single-frame-f-series-led-rgb-core-240mm-2x-120mm-preto-rf-u24hf-b1",
-     "loja": "KaBuM!",
-     "titulo": "Ventoinha NZXT Single-frame F Series, LED RGB Core, 240mm, 2x 120mm, Preto - RF-U24HF-B1",
-     "pix": 168.99,
-     "referencia": 186.99,
-     "oferta": "BLACK DAS BLACKS KABUM!",
-     "avaliacoes": 0,
-     "nota": 0,
-     "imagem": "https://images.kabum.com.br/produtos/fotos/653726/ventoinha-nzxt-single-frame-f-series-led-rgb-core-240mm-preto-rf-u24hf-b1_1736512036_original.jpg",
-     "posicao": 15,
-     "desconto": 0.0963
     },
     {
      "url": "https://www.pichau.com.br/ventoinha-noctua-120mm-marrom-nf-a12x25-pwm",
@@ -1347,7 +1308,7 @@
    ]
   },
   "fonte": {
-   "atualizado": "2026-11-27T00:02-03:00",
+   "atualizado": "2026-11-27T01:02-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/907600/fonte-gigabyte-p650g-pg5-650w-80-plus-gold-pfc-ativo-preto-28200-p65g5-1cbrr",
@@ -1534,7 +1495,7 @@
    ]
   },
   "memoria-ddr4": {
-   "atualizado": "2026-11-27T00:02-03:00",
+   "atualizado": "2026-11-27T01:02-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/110769/memoria-ram-corsair-vengeance-lpx-16gb-2x8gb-2400mhz-ddr4-cl16-black-cmk16gx4m2a2400c16",
@@ -2857,6 +2818,34 @@
    }
   ],
   "https://www.kabum.com.br/produto/912554/air-cooler-mach1-echo-digital-amd-e-intel-120mm-preto-p50i-dig": [
+   {
+    "t": "2026-10-10T18:20-03:00",
+    "pix": 131.99,
+    "cartao": 131.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-11T04:39-03:00",
+    "pix": 131.99,
+    "cartao": 131.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-13T05:09-03:00",
+    "pix": 131.99,
+    "cartao": 131.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-13T06:04-03:00",
+    "pix": 131.99,
+    "cartao": 131.99,
+    "disp": true,
+    "arquivo": true
+   },
    {
     "t": "2026-11-26T00:57-03:00",
     "pix": 118.99

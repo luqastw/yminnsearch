@@ -135,6 +135,12 @@
     "pix": 2499.99,
     "cartao": 2499.99,
     "disp": true
+   },
+   {
+    "t": "2026-11-27T01:02-03:00",
+    "pix": 2499.99,
+    "cartao": 2499.99,
+    "disp": true
    }
   ],
   "falhas": 0,
@@ -252,6 +258,12 @@
    },
    {
     "t": "2026-11-27T00:02-03:00",
+    "pix": 1999.99,
+    "cartao": 2352.93,
+    "disp": false
+   },
+   {
+    "t": "2026-11-27T01:02-03:00",
     "pix": 1999.99,
     "cartao": 2352.93,
     "disp": false
@@ -431,6 +443,12 @@
     "pix": 719.99,
     "cartao": 719.99,
     "disp": true
+   },
+   {
+    "t": "2026-11-27T01:02-03:00",
+    "pix": 719.99,
+    "cartao": 719.99,
+    "disp": true
    }
   ],
   "falhas": 0,
@@ -548,6 +566,12 @@
    },
    {
     "t": "2026-11-27T00:02-03:00",
+    "pix": 722.99,
+    "cartao": 850.58,
+    "disp": true
+   },
+   {
+    "t": "2026-11-27T01:02-03:00",
     "pix": 722.99,
     "cartao": 850.58,
     "disp": true
@@ -832,6 +856,12 @@
     "pix": 1989.99,
     "cartao": 1989.99,
     "disp": true
+   },
+   {
+    "t": "2026-11-27T01:02-03:00",
+    "pix": 2399.99,
+    "cartao": 2399.99,
+    "disp": true
    }
   ],
   "falhas": 0,
@@ -956,6 +986,12 @@
    },
    {
     "t": "2026-11-27T00:02-03:00",
+    "pix": 2199.99,
+    "cartao": 2588.22,
+    "disp": false
+   },
+   {
+    "t": "2026-11-27T01:02-03:00",
     "pix": 2199.99,
     "cartao": 2588.22,
     "disp": false
@@ -1104,6 +1140,12 @@
    },
    {
     "t": "2026-11-27T00:02-03:00",
+    "pix": 2374.91,
+    "cartao": 2499.9,
+    "disp": false
+   },
+   {
+    "t": "2026-11-27T01:02-03:00",
     "pix": 2374.91,
     "cartao": 2499.9,
     "disp": false
@@ -1514,6 +1556,12 @@
     "pix": 1899.99,
     "cartao": 1899.99,
     "disp": true
+   },
+   {
+    "t": "2026-11-27T01:02-03:00",
+    "pix": 2199.99,
+    "cartao": 2199.99,
+    "disp": true
    }
   ],
   "falhas": 0,
@@ -1652,6 +1700,12 @@
    },
    {
     "t": "2026-11-27T00:02-03:00",
+    "pix": 2868.9,
+    "cartao": 3019.9,
+    "disp": false
+   },
+   {
+    "t": "2026-11-27T01:02-03:00",
     "pix": 2868.9,
     "cartao": 3019.9,
     "disp": false
@@ -1796,6 +1850,12 @@
     "pix": 2999.99,
     "cartao": 2999.99,
     "disp": true
+   },
+   {
+    "t": "2026-11-27T01:02-03:00",
+    "pix": 2999.99,
+    "cartao": 2999.99,
+    "disp": true
    }
   ],
   "falhas": 0,
@@ -1923,6 +1983,12 @@
     "pix": 5478.3,
     "cartao": 5766.63,
     "disp": false
+   },
+   {
+    "t": "2026-11-27T01:02-03:00",
+    "pix": 5478.3,
+    "cartao": 5766.63,
+    "disp": false
    }
   ],
   "falhas": 0,
@@ -2034,6 +2100,12 @@
    },
    {
     "t": "2026-11-27T00:02-03:00",
+    "pix": 3616.86,
+    "cartao": 3616.86,
+    "disp": true
+   },
+   {
+    "t": "2026-11-27T01:02-03:00",
     "pix": 3616.86,
     "cartao": 3616.86,
     "disp": true
@@ -2151,6 +2223,12 @@
     "pix": 1299.99,
     "cartao": 1299.99,
     "disp": true
+   },
+   {
+    "t": "2026-11-27T01:02-03:00",
+    "pix": 1234.99,
+    "cartao": 1234.99,
+    "disp": true
    }
   ],
   "falhas": 0,
@@ -2265,6 +2343,12 @@
     "pix": 1499.99,
     "cartao": 1499.99,
     "disp": true
+   },
+   {
+    "t": "2026-11-27T01:02-03:00",
+    "pix": 1499.99,
+    "cartao": 1499.99,
+    "disp": true
    }
   ],
   "falhas": 0,
@@ -2376,6 +2460,12 @@
    },
    {
     "t": "2026-11-27T00:02-03:00",
+    "pix": 719.98,
+    "cartao": 719.98,
+    "disp": true
+   },
+   {
+    "t": "2026-11-27T01:02-03:00",
     "pix": 719.98,
     "cartao": 719.98,
     "disp": true
@@ -2495,7 +2585,7 @@
     "disp": false
    }
   ],
-  "falhas": 0,
+  "falhas": 1,
   "titulo": "Placa de Vídeo ASRock RX 7600 Challenger Pro OC 8GB GDDR6 90-GA62ZZ-00UANF | Placa de vídeo com 8GB GDDR6, FSR e Ray Tracing para jogos e aplicações gráficas em computadores desktop compatíveis | Amazon.com.br"
  },
  "https://www.amazon.com.br/dp/B0C626FFG2": {
@@ -2598,7 +2688,7 @@
     "disp": true
    }
   ],
-  "falhas": 1,
+  "falhas": 2,
   "titulo": "Placa de Vídeo ASRock Radeon RX 7600 Challenger OC, 8GB, GDDR6, 128-Bit, FSR, Ray Tracing, Preto | Amazon.com.br"
  },
  "https://www.amazon.com.br/dp/B0HCW4ZP2J": {
@@ -2707,6 +2797,12 @@
    },
    {
     "t": "2026-11-27T00:02-03:00",
+    "pix": 3044.59,
+    "cartao": 3044.59,
+    "disp": true
+   },
+   {
+    "t": "2026-11-27T01:02-03:00",
     "pix": 3044.59,
     "cartao": 3044.59,
     "disp": true
