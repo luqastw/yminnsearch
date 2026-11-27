@@ -1,7 +1,7 @@
 {
  "itens": {
   "gpu-faixa": {
-   "atualizado": "2026-11-27T09:04-03:00",
+   "atualizado": "2026-11-27T10:00-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/907814/placa-de-video-asrock-rx-7600-challenger-pro-oc-amd-radeon-8gb-gddr6-triple-fan-90-ga62zz-00uanf",
@@ -30,32 +30,6 @@
      "desconto": 0
     },
     {
-     "url": "https://www.kabum.com.br/produto/996572/placa-de-video-husky-alpha-rtx-3060-nvidia-12gb-gddr6-192-bit-dual-fan-hdmi-3x-displayport-hvg023060",
-     "loja": "KaBuM!",
-     "titulo": "Placa De Vídeo Husky Alpha RTX 3060, Nvidia, 12GB, GDDR6, 192-Bit, Dual Fan, HDMI, 3x DisplayPort - HVG023060",
-     "pix": 2399.99,
-     "referencia": 2999.99,
-     "oferta": "OFERTAS KABUM",
-     "avaliacoes": 9,
-     "nota": 4.8,
-     "imagem": "https://images.kabum.com.br/produtos/fotos/996572/placa-de-video-husky-alpha-rtx-3060-hvg023060_1772198737_original.jpg",
-     "posicao": 3,
-     "desconto": 0.2
-    },
-    {
-     "url": "https://www.kabum.com.br/produto/995288/placa-de-video-husky-alpha-rtx-3070-nvidia-8gb-gddr6-256-bit-dual-fan-hdmi-3x-displayport-hvg3070",
-     "loja": "KaBuM!",
-     "titulo": "Placa de Vídeo Husky Alpha RTX 3070, NVIDIA, 8GB, GDDR6, 256-Bit, Dual Fan, HDMI, 3x DisplayPort - HVG3070",
-     "pix": 2599.99,
-     "referencia": 3499.99,
-     "oferta": "OFERTAS KABUM",
-     "avaliacoes": 0,
-     "nota": 0,
-     "imagem": "https://images.kabum.com.br/produtos/fotos/995288/placa-de-video-husky-alpha-rtx-3070-nvidia-8gb-gddr6-256-bit-dual-fan-hdmi-3x-displayport-hvg3070_1791483931_original.jpg",
-     "posicao": 4,
-     "desconto": 0.2571
-    },
-    {
      "url": "https://www.kabum.com.br/produto/1053619/placa-de-video-gigabyte-rx-9050-gaming-oc-8gb-amd-radeon-8gb-gddr6-128bit-gv-r9050gaming-oc-8gd",
      "loja": "KaBuM!",
      "titulo": "Placa de Vídeo Gigabyte RX 9050 GAMING OC 8GB AMD Radeon, 8GB GDDR6, 128bit - GV-R9050GAMING OC-8GD",
@@ -65,21 +39,8 @@
      "avaliacoes": 0,
      "nota": 0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/1053619/placa-de-video-gigabyte-rx-9050-gaming-oc-8gb-amd-radeon-8gb-gddr6-128bit-gv-r9050gaming-oc-8gd_1787070387_original.jpg",
-     "posicao": 5,
+     "posicao": 3,
      "desconto": 0.4
-    },
-    {
-     "url": "https://www.kabum.com.br/produto/520492/placa-de-video-rtx-3050-asus-6g-dual-oc-nvidia-geforce-6gb-gddr6-dlss-ray-tracing-g-sync-90yv0k60-m0na00",
-     "loja": "KaBuM!",
-     "titulo": "Placa de Vídeo RTX 3050 ASUS 6G Dual OC NVIDIA GeForce, 6GB GDDR6, DLSS, Ray Tracing, G-Sync  - 90YV0K60-M0NA00",
-     "pix": 2198.0,
-     "referencia": 2198.0,
-     "oferta": null,
-     "avaliacoes": 42,
-     "nota": 4.9,
-     "imagem": "https://images.kabum.com.br/produtos/fotos/520492/placa-de-video-rtx-3050-asus-o6g-dual-nvidia-geforce-dlss-ray-tracing-g-sync-90yv0k60-m0na00_1711648234_original.jpg",
-     "posicao": 6,
-     "desconto": 0
     },
     {
      "url": "https://www.kabum.com.br/produto/681586/placa-de-video-gigabyte-rtx-3050-windforce-oc-nvidia-geforce-6gb-gddr6-dlss-ray-tracing-gv-n3050wf2ocv2-6gd",
@@ -91,7 +52,7 @@
      "avaliacoes": 49,
      "nota": 4.7,
      "imagem": "https://images.kabum.com.br/produtos/fotos/681586/placa-de-video-rtx-3050-windforce-oc-gigabyte-nvidia-geforce-6gb-gddr6-dlss-ray-tracing-gv-n3050wf2ocv2-6gd_1734620897_original.jpg",
-     "posicao": 7,
+     "posicao": 4,
      "desconto": 0.065
     },
     {
@@ -104,7 +65,7 @@
      "avaliacoes": 8,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/525561/placa-de-video-rtx-3050-twin-x2-inno3d-nvidia-geforce-6gb-n30502-06d6-1711va60_1719505789_original.jpg",
-     "posicao": 8,
+     "posicao": 5,
      "desconto": 0.0693
     },
     {
@@ -188,7 +149,7 @@
    ]
   },
   "gabinete": {
-   "atualizado": "2026-11-27T09:04-03:00",
+   "atualizado": "2026-11-27T10:00-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/993857/gabinete-gamer-esgaming-zero-max-mid-tower-m-atx-frontal-e-lateral-em-vidro-temperado-sem-fans-preto-zero-max-bk",
@@ -596,7 +557,7 @@
    ]
   },
   "cooler": {
-   "atualizado": "2026-11-27T09:04-03:00",
+   "atualizado": "2026-11-27T10:00-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/532493/air-cooler-cooler-master-hyper-212-spectrum-v3-argb-intel-e-amd-120mm-preto-rr-s4na-17pa-r1",
@@ -900,7 +861,7 @@
    ]
   },
   "fans": {
-   "atualizado": "2026-11-27T09:04-03:00",
+   "atualizado": "2026-11-27T10:00-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/688134/kit-com-3-ventoinhas-corsair-rs120-argb-120mm-pwm-preto-co-9050181-ww",
@@ -945,14 +906,14 @@
      "url": "https://www.kabum.com.br/produto/609931/kit-com-3-ventoinhas-husky-arctic-breeze-120mm-iluminacao-argb-preto-hkcf300pt",
      "loja": "KaBuM!",
      "titulo": "Kit com 3 Ventoinhas Husky Arctic Breeze, 120mm, Iluminação ARGB, Preto - HKCF300PT",
-     "pix": 109.99,
+     "pix": 99.99,
      "referencia": 109.99,
-     "oferta": null,
+     "oferta": "OFERTAS KABUM",
      "avaliacoes": 91,
      "nota": 4.2,
      "imagem": "https://images.kabum.com.br/produtos/fotos/609931/kit-com-3-ventoinhas-husky-arctic-breeze-120mm-iluminacao-argb-preto-hkcf300pt_1783023276_original.jpg",
      "posicao": 4,
-     "desconto": 0
+     "desconto": 0.0909
     },
     {
      "url": "https://www.kabum.com.br/produto/457786/kit-com-3-ventoinhas-rise-mode-magneto-120mm-argb-branco-rm-ma-02-argb",
@@ -1347,7 +1308,7 @@
    ]
   },
   "fonte": {
-   "atualizado": "2026-11-27T09:04-03:00",
+   "atualizado": "2026-11-27T10:00-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/907600/fonte-gigabyte-p650g-pg5-650w-80-plus-gold-pfc-ativo-preto-28200-p65g5-1cbrr",
@@ -1534,7 +1495,7 @@
    ]
   },
   "memoria-ddr4": {
-   "atualizado": "2026-11-27T09:04-03:00",
+   "atualizado": "2026-11-27T10:00-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/110769/memoria-ram-corsair-vengeance-lpx-16gb-2x8gb-2400mhz-ddr4-cl16-black-cmk16gx4m2a2400c16",
@@ -3173,7 +3134,7 @@
    },
    {
     "t": "2026-11-27T00:02-03:00",
-    "pix": 109.99
+    "pix": 99.99
    }
   ],
   "https://www.kabum.com.br/produto/545673/kit-com-3-ventoinhas-ryvel-lycan-3x-120mm-led-argb-branco-ry-fn-ly-wt": [
