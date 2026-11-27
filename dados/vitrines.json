@@ -1,7 +1,7 @@
 {
  "itens": {
   "gpu-faixa": {
-   "atualizado": "2026-11-26T22:02-03:00",
+   "atualizado": "2026-11-26T23:01-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/907814/placa-de-video-asrock-rx-7600-challenger-pro-oc-amd-radeon-8gb-gddr6-triple-fan-90-ga62zz-00uanf",
@@ -30,43 +30,17 @@
      "desconto": 0.2083
     },
     {
-     "url": "https://www.kabum.com.br/produto/996572/placa-de-video-husky-alpha-rtx-3060-nvidia-12gb-gddr6-192-bit-dual-fan-hdmi-3x-displayport-hvg023060",
-     "loja": "KaBuM!",
-     "titulo": "Placa De Vídeo Husky Alpha RTX 3060, Nvidia, 12GB, GDDR6, 192-Bit, Dual Fan, HDMI, 3x DisplayPort - HVG023060",
-     "pix": 2399.99,
-     "referencia": 2999.99,
-     "oferta": "OFERTAS KABUM",
-     "avaliacoes": 9,
-     "nota": 4.8,
-     "imagem": "https://images.kabum.com.br/produtos/fotos/996572/placa-de-video-husky-alpha-rtx-3060-hvg023060_1772198737_original.jpg",
-     "posicao": 3,
-     "desconto": 0.2
-    },
-    {
-     "url": "https://www.kabum.com.br/produto/1020030/placa-de-video-husky-alpha-rtx-3060-ti-nvidia-8gb-gddr6-256-bit-hdmi-displayport-hvg3060ti",
-     "loja": "KaBuM!",
-     "titulo": "Placa De Vídeo Husky Alpha RTX 3060 TI, NVIDIA, 8GB, GDDR6, 256-Bit, HDMI, DisplayPort - HVG3060TI",
-     "pix": 2249.99,
-     "referencia": 2999.99,
-     "oferta": "OFERTAS KABUM",
-     "avaliacoes": 0,
-     "nota": 0,
-     "imagem": "https://images.kabum.com.br/produtos/fotos/1020030/placa-de-video-husky-alpha-rtx-3060-ti-nvidia-8gb-gddr6-256-bit-hdmi-displayport-hvg3060ti_1778164604_original.jpg",
-     "posicao": 4,
-     "desconto": 0.25
-    },
-    {
      "url": "https://www.kabum.com.br/produto/1053619/placa-de-video-gigabyte-rx-9050-gaming-oc-8gb-amd-radeon-8gb-gddr6-128bit-gv-r9050gaming-oc-8gd",
      "loja": "KaBuM!",
      "titulo": "Placa de Vídeo Gigabyte RX 9050 GAMING OC 8GB AMD Radeon, 8GB GDDR6, 128bit - GV-R9050GAMING OC-8GD",
-     "pix": 1999.99,
+     "pix": 1799.99,
      "referencia": 2999.99,
-     "oferta": "OFERTAS KABUM",
+     "oferta": "BLACK DAS BLACKS KABUM!",
      "avaliacoes": 0,
      "nota": 0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/1053619/placa-de-video-gigabyte-rx-9050-gaming-oc-8gb-amd-radeon-8gb-gddr6-128bit-gv-r9050gaming-oc-8gd_1787070387_original.jpg",
-     "posicao": 5,
-     "desconto": 0.3333
+     "posicao": 3,
+     "desconto": 0.4
     },
     {
      "url": "https://www.kabum.com.br/produto/681586/placa-de-video-gigabyte-rtx-3050-windforce-oc-nvidia-geforce-6gb-gddr6-dlss-ray-tracing-gv-n3050wf2ocv2-6gd",
@@ -78,7 +52,7 @@
      "avaliacoes": 49,
      "nota": 4.7,
      "imagem": "https://images.kabum.com.br/produtos/fotos/681586/placa-de-video-rtx-3050-windforce-oc-gigabyte-nvidia-geforce-6gb-gddr6-dlss-ray-tracing-gv-n3050wf2ocv2-6gd_1734620897_original.jpg",
-     "posicao": 6,
+     "posicao": 4,
      "desconto": 0.065
     },
     {
@@ -91,7 +65,7 @@
      "avaliacoes": 8,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/525561/placa-de-video-rtx-3050-twin-x2-inno3d-nvidia-geforce-6gb-n30502-06d6-1711va60_1719505789_original.jpg",
-     "posicao": 7,
+     "posicao": 5,
      "desconto": 0.0693
     },
     {
@@ -150,14 +124,14 @@
      "url": "https://www.pichau.com.br/placa-de-video-aisurix-radeon-rx-7650-gre-8gb-gddr6-128-bit-rx-7650gre-aisurix",
      "loja": "Pichau",
      "titulo": "Placa de Video Aisurix Radeon RX 7650 GRE, 8GB, GDDR6, 128-bit, RX-7650GRE-AISURIX",
-     "pix": 1959.99,
+     "pix": 1799.99,
      "referencia": 3088.22,
      "oferta": null,
      "avaliacoes": 0,
      "nota": 0,
      "imagem": "https://media.pichau.com.br/media/catalog/product/cache/22c0d71a45cddf08af7927cb2bce3571/r/x/rx-7650gre-aisurix2.jpg",
      "posicao": 5,
-     "desconto": 0.3653
+     "desconto": 0.4171
     },
     {
      "url": "https://www.pichau.com.br/placa-de-video-powercolor-radeon-rx-7600-fighter-8gb-gddr6-128-bit-rx7600-8g-f-v2",
@@ -175,7 +149,7 @@
    ]
   },
   "gabinete": {
-   "atualizado": "2026-11-26T22:02-03:00",
+   "atualizado": "2026-11-26T23:01-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/993857/gabinete-gamer-esgaming-zero-max-mid-tower-m-atx-frontal-e-lateral-em-vidro-temperado-sem-fans-preto-zero-max-bk",
@@ -596,7 +570,7 @@
    ]
   },
   "cooler": {
-   "atualizado": "2026-11-26T22:02-03:00",
+   "atualizado": "2026-11-26T23:01-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/532493/air-cooler-cooler-master-hyper-212-spectrum-v3-argb-intel-e-amd-120mm-preto-rr-s4na-17pa-r1",
@@ -913,7 +887,7 @@
    ]
   },
   "fans": {
-   "atualizado": "2026-11-26T22:02-03:00",
+   "atualizado": "2026-11-26T23:01-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/688134/kit-com-3-ventoinhas-corsair-rs120-argb-120mm-pwm-preto-co-9050181-ww",
@@ -1373,7 +1347,7 @@
    ]
   },
   "fonte": {
-   "atualizado": "2026-11-26T22:02-03:00",
+   "atualizado": "2026-11-26T23:01-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/907600/fonte-gigabyte-p650g-pg5-650w-80-plus-gold-pfc-ativo-preto-28200-p65g5-1cbrr",
@@ -1522,14 +1496,14 @@
      "url": "https://www.pichau.com.br/fonte-cougar-atlas-650w-atx-3-1-80-plus-bronze-preto-31aa065001p01",
      "loja": "Pichau",
      "titulo": "Fonte Cougar Atlas, 650W, ATX 3.1, 80 Plus Bronze, Preto, 31AA065001P01",
-     "pix": 229.99,
+     "pix": 249.99,
      "referencia": 494.11,
      "oferta": null,
      "avaliacoes": 0,
      "nota": 0,
      "imagem": "https://media.pichau.com.br/media/catalog/product/cache/22c0d71a45cddf08af7927cb2bce3571/3/1/31aa065001p0155652.jpg",
      "posicao": 7,
-     "desconto": 0.5345
+     "desconto": 0.4941
     },
     {
      "url": "https://www.pichau.com.br/fonte-redragon-charge-650w-80-plus-bronze-preto-frc-650",
@@ -1560,7 +1534,7 @@
    ]
   },
   "memoria-ddr4": {
-   "atualizado": "2026-11-26T22:02-03:00",
+   "atualizado": "2026-11-26T23:01-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/110769/memoria-ram-corsair-vengeance-lpx-16gb-2x8gb-2400mhz-ddr4-cl16-black-cmk16gx4m2a2400c16",
@@ -1722,7 +1696,7 @@
    },
    {
     "t": "2026-11-26T00:57-03:00",
-    "pix": 1999.99
+    "pix": 1799.99
    }
   ],
   "https://www.kabum.com.br/produto/681586/placa-de-video-gigabyte-rtx-3050-windforce-oc-nvidia-geforce-6gb-gddr6-dlss-ray-tracing-gv-n3050wf2ocv2-6gd": [
@@ -1771,7 +1745,7 @@
   "https://www.pichau.com.br/placa-de-video-aisurix-radeon-rx-7650-gre-8gb-gddr6-128-bit-rx-7650gre-aisurix": [
    {
     "t": "2026-11-26T00:57-03:00",
-    "pix": 1959.99
+    "pix": 1799.99
    }
   ],
   "https://www.pichau.com.br/placa-de-video-powercolor-radeon-rx-7600-fighter-8gb-gddr6-128-bit-rx7600-8g-f-v2": [
