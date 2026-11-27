@@ -1,7 +1,7 @@
 {
  "itens": {
   "gpu-faixa": {
-   "atualizado": "2026-11-26T20:05-03:00",
+   "atualizado": "2026-11-26T21:01-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/907814/placa-de-video-asrock-rx-7600-challenger-pro-oc-amd-radeon-8gb-gddr6-triple-fan-90-ga62zz-00uanf",
@@ -30,17 +30,17 @@
      "desconto": 0.2083
     },
     {
-     "url": "https://www.kabum.com.br/produto/996572/placa-de-video-husky-alpha-rtx-3060-nvidia-12gb-gddr6-192-bit-dual-fan-hdmi-3x-displayport-hvg023060",
+     "url": "https://www.kabum.com.br/produto/995288/placa-de-video-husky-alpha-rtx-3070-nvidia-8gb-gddr6-256-bit-dual-fan-hdmi-3x-displayport-hvg3070",
      "loja": "KaBuM!",
-     "titulo": "Placa De Vídeo Husky Alpha RTX 3060, Nvidia, 12GB, GDDR6, 192-Bit, Dual Fan, HDMI, 3x DisplayPort - HVG023060",
-     "pix": 2399.99,
-     "referencia": 2999.99,
+     "titulo": "Placa de Vídeo Husky Alpha RTX 3070, NVIDIA, 8GB, GDDR6, 256-Bit, Dual Fan, HDMI, 3x DisplayPort - HVG3070",
+     "pix": 2599.99,
+     "referencia": 3499.99,
      "oferta": "OFERTAS KABUM",
-     "avaliacoes": 9,
-     "nota": 4.8,
-     "imagem": "https://images.kabum.com.br/produtos/fotos/996572/placa-de-video-husky-alpha-rtx-3060-hvg023060_1772198737_original.jpg",
+     "avaliacoes": 0,
+     "nota": 0,
+     "imagem": "https://images.kabum.com.br/produtos/fotos/995288/placa-de-video-husky-alpha-rtx-3070-nvidia-8gb-gddr6-256-bit-dual-fan-hdmi-3x-displayport-hvg3070_1791483931_original.jpg",
      "posicao": 3,
-     "desconto": 0.2
+     "desconto": 0.2571
     },
     {
      "url": "https://www.kabum.com.br/produto/1020030/placa-de-video-husky-alpha-rtx-3060-ti-nvidia-8gb-gddr6-256-bit-hdmi-displayport-hvg3060ti",
@@ -175,7 +175,7 @@
    ]
   },
   "gabinete": {
-   "atualizado": "2026-11-26T20:05-03:00",
+   "atualizado": "2026-11-26T21:01-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/993857/gabinete-gamer-esgaming-zero-max-mid-tower-m-atx-frontal-e-lateral-em-vidro-temperado-sem-fans-preto-zero-max-bk",
@@ -596,7 +596,7 @@
    ]
   },
   "cooler": {
-   "atualizado": "2026-11-26T20:05-03:00",
+   "atualizado": "2026-11-26T21:01-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/532493/air-cooler-cooler-master-hyper-212-spectrum-v3-argb-intel-e-amd-120mm-preto-rr-s4na-17pa-r1",
@@ -913,7 +913,7 @@
    ]
   },
   "fans": {
-   "atualizado": "2026-11-26T20:05-03:00",
+   "atualizado": "2026-11-26T21:01-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/688134/kit-com-3-ventoinhas-corsair-rs120-argb-120mm-pwm-preto-co-9050181-ww",
@@ -1373,7 +1373,7 @@
    ]
   },
   "fonte": {
-   "atualizado": "2026-11-26T20:05-03:00",
+   "atualizado": "2026-11-26T21:01-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/907600/fonte-gigabyte-p650g-pg5-650w-80-plus-gold-pfc-ativo-preto-28200-p65g5-1cbrr",
@@ -1560,7 +1560,7 @@
    ]
   },
   "memoria-ddr4": {
-   "atualizado": "2026-11-26T20:05-03:00",
+   "atualizado": "2026-11-26T21:01-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/110769/memoria-ram-corsair-vengeance-lpx-16gb-2x8gb-2400mhz-ddr4-cl16-black-cmk16gx4m2a2400c16",
@@ -3614,6 +3614,40 @@
    {
     "t": "2026-11-26T20:05-03:00",
     "pix": 168.99
+   }
+  ],
+  "https://www.kabum.com.br/produto/995288/placa-de-video-husky-alpha-rtx-3070-nvidia-8gb-gddr6-256-bit-dual-fan-hdmi-3x-displayport-hvg3070": [
+   {
+    "t": "2026-10-14T06:07-03:00",
+    "pix": 2599.99,
+    "cartao": 2599.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-14T17:28-03:00",
+    "pix": 2099.99,
+    "cartao": 2099.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-17T09:58-03:00",
+    "pix": 2299.99,
+    "cartao": 2299.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-10-17T20:14-03:00",
+    "pix": 2299.99,
+    "cartao": 2299.99,
+    "disp": true,
+    "arquivo": true
+   },
+   {
+    "t": "2026-11-26T21:01-03:00",
+    "pix": 2599.99
    }
   ]
  }
