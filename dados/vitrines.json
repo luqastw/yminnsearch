@@ -1,7 +1,7 @@
 {
  "itens": {
   "gpu-faixa": {
-   "atualizado": "2026-11-27T20:45-03:00",
+   "atualizado": "2026-11-27T21:03-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/907814/placa-de-video-asrock-rx-7600-challenger-pro-oc-amd-radeon-8gb-gddr6-triple-fan-90-ga62zz-00uanf",
@@ -162,7 +162,7 @@
    ]
   },
   "gabinete": {
-   "atualizado": "2026-11-27T20:45-03:00",
+   "atualizado": "2026-11-27T21:03-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/993857/gabinete-gamer-esgaming-zero-max-mid-tower-m-atx-frontal-e-lateral-em-vidro-temperado-sem-fans-preto-zero-max-bk",
@@ -425,6 +425,19 @@
      "desconto": 0.0909
     },
     {
+     "url": "https://www.kabum.com.br/produto/609390/gabinete-gamer-husky-dome-210-mini-tower-m-atx-lateral-e-frontal-em-vidro-sem-fans-branco-hgn210br",
+     "loja": "KaBuM!",
+     "titulo": "Gabinete Gamer Husky Dome 210, Mini Tower, M-ATX, Lateral e Frontal em Vidro, Sem FANs, Branco - HGN210BR",
+     "pix": 199.99,
+     "referencia": 199.99,
+     "oferta": null,
+     "avaliacoes": 81,
+     "nota": 5.0,
+     "imagem": "https://images.kabum.com.br/produtos/fotos/609390/gabinete-gamer-husky-dome-210-mini-tower-m-atx-lateral-e-frontal-em-vidro-branco-hgn210br_1750417452_original.jpg",
+     "posicao": 21,
+     "desconto": 0
+    },
+    {
      "url": "https://www.kabum.com.br/produto/629075/gabinete-gamer-hayom-gb1792-mid-tower-atx-lateral-e-frontal-em-vidro-temperado-com-cooler-fan-preto-gb1792",
      "loja": "KaBuM!",
      "titulo": "Gabinete Gamer Hayom GB1792, Mid Tower, ATX, Lateral e frontal em Vidro Temperado, com Cooler Fan, Preto - GB1792",
@@ -434,7 +447,7 @@
      "avaliacoes": 52,
      "nota": 4.7,
      "imagem": "https://images.kabum.com.br/produtos/fotos/629075/gabinete-gamer-hayom-gb1792-mid-tower-atx-lateral-e-frontal-em-vidro-temperado-com-cooler-fan-preto-gb1792_1727273873_original.jpg",
-     "posicao": 21,
+     "posicao": 22,
      "desconto": 0
     },
     {
@@ -447,7 +460,7 @@
      "avaliacoes": 174,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/609389/gabinete-gamer-husky-dome-210-mini-tower-m-atx-lateral-e-frontal-em-vidro-preto-hgn210pt_1750416137_original.jpg",
-     "posicao": 22,
+     "posicao": 23,
      "desconto": 0.1818
     },
     {
@@ -460,21 +473,8 @@
      "avaliacoes": 1527,
      "nota": 4.6,
      "imagem": "https://images.kabum.com.br/produtos/fotos/324516/gabinete-gamer-rise-mode-glass-06x-lateral-em-vidro-fume-e-frontal-em-vidro-temperado-preto-rm-ca-06x-fb_1660589149_original.jpg",
-     "posicao": 23,
-     "desconto": 0.2121
-    },
-    {
-     "url": "https://www.kabum.com.br/produto/545902/gabinete-gamer-redragon-wideload-extreme-mid-tower-atx-lateral-e-frontal-em-vidro-temperado-curvo-preto-ca-605b",
-     "loja": "KaBuM!",
-     "titulo": "Gabinete Gamer Redragon Wideload Extreme, Mid Tower, ATX, Lateral e Frontal em Vidro Temperado Curvo, Preto - CA-605B",
-     "pix": 479.99,
-     "referencia": 599.99,
-     "oferta": "BLACK DAS BLACKS KABUM!",
-     "avaliacoes": 79,
-     "nota": 4.7,
-     "imagem": "https://images.kabum.com.br/produtos/fotos/545902/gabinete-gamer-redragon-wideload-extreme-mid-tower-atx-lateral-em-vidro-temperado-preto-ca-605b_1714074101_original.jpg",
      "posicao": 24,
-     "desconto": 0.2
+     "desconto": 0.2121
     },
     {
      "url": "https://www.pichau.com.br/gabinete-gamer-deepcool-cg330-lateral-de-vidro-sem-fans-mid-tower-preto-r-cg330-bkngm0-g",
@@ -557,7 +557,7 @@
    ]
   },
   "cooler": {
-   "atualizado": "2026-11-27T20:45-03:00",
+   "atualizado": "2026-11-27T21:03-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/532493/air-cooler-cooler-master-hyper-212-spectrum-v3-argb-intel-e-amd-120mm-preto-rr-s4na-17pa-r1",
@@ -848,7 +848,7 @@
    ]
   },
   "fans": {
-   "atualizado": "2026-11-27T20:45-03:00",
+   "atualizado": "2026-11-27T21:03-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/688134/kit-com-3-ventoinhas-corsair-rs120-argb-120mm-pwm-preto-co-9050181-ww",
@@ -1282,7 +1282,7 @@
    ]
   },
   "fonte": {
-   "atualizado": "2026-11-27T20:45-03:00",
+   "atualizado": "2026-11-27T21:03-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/907600/fonte-gigabyte-p650g-pg5-650w-80-plus-gold-pfc-ativo-preto-28200-p65g5-1cbrr",
@@ -1469,7 +1469,7 @@
    ]
   },
   "memoria-ddr4": {
-   "atualizado": "2026-11-27T20:45-03:00",
+   "atualizado": "2026-11-27T21:03-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/110769/memoria-ram-corsair-vengeance-lpx-16gb-2x8gb-2400mhz-ddr4-cl16-black-cmk16gx4m2a2400c16",
