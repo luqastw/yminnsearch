@@ -1,7 +1,7 @@
 {
  "itens": {
   "gpu-faixa": {
-   "atualizado": "2026-11-27T22:03-03:00",
+   "atualizado": "2026-11-27T23:02-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/907814/placa-de-video-asrock-rx-7600-challenger-pro-oc-amd-radeon-8gb-gddr6-triple-fan-90-ga62zz-00uanf",
@@ -162,7 +162,7 @@
    ]
   },
   "gabinete": {
-   "atualizado": "2026-11-27T22:03-03:00",
+   "atualizado": "2026-11-27T23:02-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/993857/gabinete-gamer-esgaming-zero-max-mid-tower-m-atx-frontal-e-lateral-em-vidro-temperado-sem-fans-preto-zero-max-bk",
@@ -557,7 +557,7 @@
    ]
   },
   "cooler": {
-   "atualizado": "2026-11-27T22:03-03:00",
+   "atualizado": "2026-11-27T23:02-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/532493/air-cooler-cooler-master-hyper-212-spectrum-v3-argb-intel-e-amd-120mm-preto-rr-s4na-17pa-r1",
@@ -586,6 +586,19 @@
      "desconto": 0.35
     },
     {
+     "url": "https://www.kabum.com.br/produto/153649/air-cooler-rise-mode-winter-black-argb-amd-intel-120mm-preto-rm-acw-01-argb",
+     "loja": "KaBuM!",
+     "titulo": "Air Cooler Rise Mode Winter Black, ARGB, AMD/Intel, 120mm, Preto - RM-ACW-01-ARGB",
+     "pix": 175.9,
+     "referencia": 175.9,
+     "oferta": null,
+     "avaliacoes": 380,
+     "nota": 4.6,
+     "imagem": "https://images.kabum.com.br/produtos/fotos/153649/cooler-para-processador-rise-mode-winter-120mm-argb-intel-e-amd-preto-rm-acw-01-argb_1662143937_original.jpg",
+     "posicao": 3,
+     "desconto": 0
+    },
+    {
      "url": "https://www.kabum.com.br/produto/909143/air-cooler-gamer-husky-alisius-200-argb-amd-intel-120mm-220w-hac200pt",
      "loja": "KaBuM!",
      "titulo": "Air Cooler Gamer Husky Alisius 200, ARGB, AMD/ INTEL, 120mm, 220W - HAC200PT",
@@ -595,7 +608,7 @@
      "avaliacoes": 23,
      "nota": 4.9,
      "imagem": "https://images.kabum.com.br/produtos/fotos/909143/air-cooler-argb-husky-alisius-200-amd-intel-120mm-220w-hac200pt_1768919829_original.jpg",
-     "posicao": 3,
+     "posicao": 4,
      "desconto": 0
     },
     {
@@ -608,7 +621,7 @@
      "avaliacoes": 5,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/912542/air-cooler-mach1-iced-amd-e-intel-120mm-preto-p50i-bk-v2_1778865738_original.jpg",
-     "posicao": 4,
+     "posicao": 5,
      "desconto": 0.4025
     },
     {
@@ -621,7 +634,7 @@
      "avaliacoes": 3,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/912553/air-cooler-mach1-storm-digital-amd-e-intel-120mm-branco-b40-dig-wh-v2_1777307271_original.jpg",
-     "posicao": 5,
+     "posicao": 6,
      "desconto": 0.3316
     },
     {
@@ -634,7 +647,7 @@
      "avaliacoes": 1,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/912558/air-cooler-mach1-boreal-digital-argb-amd-e-intel-120mm-preto-b40-dig-argb-v2_1777310303_original.jpg",
-     "posicao": 6,
+     "posicao": 7,
      "desconto": 0
     },
     {
@@ -647,7 +660,7 @@
      "avaliacoes": 3,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/912554/air-cooler-mach1-echo-digital-amd-e-intel-120mm-preto-p50i-dig_1777307984_original.jpg",
-     "posicao": 7,
+     "posicao": 8,
      "desconto": 0.3637
     },
     {
@@ -660,7 +673,7 @@
      "avaliacoes": 8,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/911275/air-cooler-gamer-msi-mag-corefrozr-aa13-argb-amd-e-intel-120mm-preto-cfaa13_1758308768_original.jpg",
-     "posicao": 8,
+     "posicao": 9,
      "desconto": 0
     },
     {
@@ -673,7 +686,7 @@
      "avaliacoes": 9,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/912556/air-cooler-mach1-boreal-digital-amd-e-intel-120mm-preto-b40-dig-v2_1777309695_original.jpg",
-     "posicao": 9,
+     "posicao": 10,
      "desconto": 0
     },
     {
@@ -686,7 +699,7 @@
      "avaliacoes": 4,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/912543/air-cooler-mach1-frosty-amd-e-intel-120mm-preto-b60v2_1777040576_original.jpg",
-     "posicao": 10,
+     "posicao": 11,
      "desconto": 0.335
     },
     {
@@ -699,7 +712,7 @@
      "avaliacoes": 0,
      "nota": 0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/912541/air-cooler-mach1-vortex-pro-argb-amd-e-intel-120mm-preto-b60t-argb-v2_1777038973_original.jpg",
-     "posicao": 11,
+     "posicao": 12,
      "desconto": 0.3557
     },
     {
@@ -712,7 +725,7 @@
      "avaliacoes": 1,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/912547/air-cooler-mach1-boreal-argb-amd-e-intel-120mm-preto-b50-argb_1777290545_original.jpg",
-     "posicao": 12,
+     "posicao": 13,
      "desconto": 0.4737
     },
     {
@@ -725,7 +738,7 @@
      "avaliacoes": 1,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/912549/air-cooler-mach1-artic-digital-argb-amd-e-intel-120mm-preto-b60-dig-bk-argb_1777294559_original.jpg",
-     "posicao": 13,
+     "posicao": 14,
      "desconto": 0
     },
     {
@@ -738,7 +751,7 @@
      "avaliacoes": 1,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/912560/air-cooler-mach1-echo-digital-digital-argb-amd-e-intel-120mm-preto-p50i-dig-argb_1777312706_original.jpg",
-     "posicao": 14,
+     "posicao": 15,
      "desconto": 0.4
     },
     {
@@ -751,7 +764,7 @@
      "avaliacoes": 1,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/912545/air-cooler-mach1-typhoon-argb-amd-e-intel-120mm-branco-a60-h-argb_1777047686_original.jpg",
-     "posicao": 15,
+     "posicao": 16,
      "desconto": 0.4962
     },
     {
@@ -764,7 +777,7 @@
      "avaliacoes": 0,
      "nota": 0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/912548/air-cooler-mach1-artic-digital-argb-amd-e-intel-120mm-preto-b60-dig-argb-v2_1777291508_original.jpg",
-     "posicao": 16,
+     "posicao": 17,
      "desconto": 0.4667
     },
     {
@@ -777,7 +790,7 @@
      "avaliacoes": 21,
      "nota": 4.6,
      "imagem": "https://images.kabum.com.br/produtos/fotos/909145/air-cooler-argb-com-display-husky-alisius-500-amd-intel-90mm-95w-hac500pt_1767371642_original.jpg",
-     "posicao": 17,
+     "posicao": 18,
      "desconto": 0
     },
     {
@@ -790,7 +803,7 @@
      "avaliacoes": 2,
      "nota": 5.0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/911276/air-cooler-gamer-msi-mag-corefrozr-aa13-white-argb-amd-e-intel-120mm-branco-cfaa13w_1773080660_original.jpg",
-     "posicao": 18,
+     "posicao": 19,
      "desconto": 0.4445
     },
     {
@@ -803,7 +816,7 @@
      "avaliacoes": 0,
      "nota": 0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/1002621/air-cooler-cooler-master-i70-intel-lga-1700-120mm-preto-rr-i7a7-18fk-n1_1788953700_original.jpg",
-     "posicao": 19,
+     "posicao": 20,
      "desconto": 0.1
     },
     {
@@ -816,7 +829,7 @@
      "avaliacoes": 0,
      "nota": 0,
      "imagem": "https://images.kabum.com.br/produtos/fotos/1054677/air-cooler-squad-round-vc-120-amd-e-intel-120mm-preto-scvc120_1795465522_original.jpg",
-     "posicao": 20,
+     "posicao": 21,
      "desconto": 0
     },
     {
@@ -835,7 +848,7 @@
    ]
   },
   "fans": {
-   "atualizado": "2026-11-27T22:03-03:00",
+   "atualizado": "2026-11-27T23:02-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/688134/kit-com-3-ventoinhas-corsair-rs120-argb-120mm-pwm-preto-co-9050181-ww",
@@ -1269,7 +1282,7 @@
    ]
   },
   "fonte": {
-   "atualizado": "2026-11-27T22:03-03:00",
+   "atualizado": "2026-11-27T23:02-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/907600/fonte-gigabyte-p650g-pg5-650w-80-plus-gold-pfc-ativo-preto-28200-p65g5-1cbrr",
@@ -1456,7 +1469,7 @@
    ]
   },
   "memoria-ddr4": {
-   "atualizado": "2026-11-27T22:03-03:00",
+   "atualizado": "2026-11-27T23:02-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/110769/memoria-ram-corsair-vengeance-lpx-16gb-2x8gb-2400mhz-ddr4-cl16-black-cmk16gx4m2a2400c16",
