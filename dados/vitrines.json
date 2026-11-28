@@ -1,7 +1,7 @@
 {
  "itens": {
   "gpu-faixa": {
-   "atualizado": "2026-11-28T02:01-03:00",
+   "atualizado": "2026-11-28T03:01-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/907814/placa-de-video-asrock-rx-7600-challenger-pro-oc-amd-radeon-8gb-gddr6-triple-fan-90-ga62zz-00uanf",
@@ -162,7 +162,7 @@
    ]
   },
   "gabinete": {
-   "atualizado": "2026-11-28T02:01-03:00",
+   "atualizado": "2026-11-28T03:01-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/993857/gabinete-gamer-esgaming-zero-max-mid-tower-m-atx-frontal-e-lateral-em-vidro-temperado-sem-fans-preto-zero-max-bk",
@@ -477,74 +477,35 @@
      "desconto": 0.2121
     },
     {
-     "url": "https://www.pichau.com.br/gabinete-office-deepcool-cc310-mid-tower-preto-r-cc310-bknnm0-g",
+     "url": "https://www.pichau.com.br/gabinete-gamer-mancer-ward-v2-rainbow-mid-tower-lateral-de-vidro-com-3-fans-branco-mcr-wrdv2-wh",
      "loja": "Pichau",
-     "titulo": "Gabinete Office Deepcool CC310, Mid-Tower, Preto, R-CC310-BKNNM0-G",
-     "pix": 219.99,
-     "referencia": 282.34,
+     "titulo": "Gabinete Gamer Mancer Ward V2, Rainbow, Mid-Tower, Lateral De Vidro, Com 3 Fans, Branco, MCR-WRDV2-WH",
+     "pix": 225.99,
+     "referencia": 405.87,
      "oferta": null,
      "avaliacoes": 0,
      "nota": 0,
-     "imagem": "https://media.pichau.com.br/media/catalog/product/cache/22c0d71a45cddf08af7927cb2bce3571/r/-/r-cc310-bknnm0-g9.jpg",
+     "imagem": "https://media.pichau.com.br/media/catalog/product/cache/22c0d71a45cddf08af7927cb2bce3571/m/c/mcr-wrdv2-wh4.jpg",
      "posicao": 1,
-     "desconto": 0.2208
+     "desconto": 0.4432
     },
     {
-     "url": "https://www.pichau.com.br/gabinete-redragon-wideload-horizon-mini-tower-lateral-de-vidro-sem-fans-preto-ca-619b",
+     "url": "https://www.pichau.com.br/gabinete-gamer-thermalright-tr-m10-mid-tower-lateral-de-vidro-preto-tr-m10-bk",
      "loja": "Pichau",
-     "titulo": "Gabinete Redragon Wideload Horizon, Mini Tower, Lateral de Vidro, Sem Fans, Preto, CA-619B",
+     "titulo": "Gabinete Gamer Thermalright TR-M10, Mid-Tower, Lateral de Vidro, Preto, TR-M10-BK",
      "pix": 469.99,
      "referencia": 469.99,
      "oferta": null,
      "avaliacoes": 0,
      "nota": 0,
-     "imagem": "https://media.pichau.com.br/media/catalog/product/cache/22c0d71a45cddf08af7927cb2bce3571/c/a/ca-619b.jpg",
+     "imagem": "https://media.pichau.com.br/media/catalog/product/cache/22c0d71a45cddf08af7927cb2bce3571/t/l/tl-m10-bk.jpg",
      "posicao": 2,
      "desconto": 0
-    },
-    {
-     "url": "https://www.pichau.com.br/gabinete-gamer-cooler-master-elite-302-argb-vidro-temperado-mini-tower-matx-com-3-fans-branco-e302-wgnn-saz",
-     "loja": "Pichau",
-     "titulo": "Gabinete Gamer Cooler Master Elite 302, ARGB, Vidro Temperado, Mini Tower, mATX, Com 3 Fans, Branco, E302-WGNN-SAZ",
-     "pix": 389.99,
-     "referencia": 647.05,
-     "oferta": null,
-     "avaliacoes": 0,
-     "nota": 0,
-     "imagem": "https://media.pichau.com.br/media/catalog/product/cache/22c0d71a45cddf08af7927cb2bce3571/e/3/e302-wgnn-saz.jpg",
-     "posicao": 3,
-     "desconto": 0.3973
-    },
-    {
-     "url": "https://www.pichau.com.br/gabinete-gamer-cooler-master-elite-302-vidro-temperado-mini-tower-m-atx-com-1-fan-branco-e302-wgnn-s00",
-     "loja": "Pichau",
-     "titulo": "Gabinete Gamer Cooler Master Elite 302, Vidro Temperado, Mini Tower, M-ATX, Com 1 Fan, Branco, E302-WGNN-S00",
-     "pix": 419.99,
-     "referencia": 588.22,
-     "oferta": null,
-     "avaliacoes": 0,
-     "nota": 0,
-     "imagem": "https://media.pichau.com.br/media/catalog/product/cache/22c0d71a45cddf08af7927cb2bce3571/e/3/e302-wgnn-s001.jpg",
-     "posicao": 4,
-     "desconto": 0.286
-    },
-    {
-     "url": "https://www.pichau.com.br/gabinete-gamer-cougar-mx600-mini-v2-argb-mini-tower-lateral-de-vidro-com-4-fans-preto-382tc90-0001",
-     "loja": "Pichau",
-     "titulo": "Gabinete Gamer Cougar MX600 Mini V2, ARGB, Mini-Tower, Lateral de Vidro, com 4 Fans, Preto, 382TC90.0001",
-     "pix": 429.99,
-     "referencia": 543.52,
-     "oferta": null,
-     "avaliacoes": 0,
-     "nota": 0,
-     "imagem": "https://media.pichau.com.br/media/catalog/product/cache/22c0d71a45cddf08af7927cb2bce3571/3/8/382tc9000015.jpg",
-     "posicao": 5,
-     "desconto": 0.2089
     }
    ]
   },
   "cooler": {
-   "atualizado": "2026-11-28T02:01-03:00",
+   "atualizado": "2026-11-28T03:01-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/532493/air-cooler-cooler-master-hyper-212-spectrum-v3-argb-intel-e-amd-120mm-preto-rr-s4na-17pa-r1",
@@ -835,7 +796,7 @@
    ]
   },
   "fans": {
-   "atualizado": "2026-11-28T02:01-03:00",
+   "atualizado": "2026-11-28T03:01-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/688134/kit-com-3-ventoinhas-corsair-rs120-argb-120mm-pwm-preto-co-9050181-ww",
@@ -1269,7 +1230,7 @@
    ]
   },
   "fonte": {
-   "atualizado": "2026-11-28T02:01-03:00",
+   "atualizado": "2026-11-28T03:01-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/907600/fonte-gigabyte-p650g-pg5-650w-80-plus-gold-pfc-ativo-preto-28200-p65g5-1cbrr",
@@ -1469,7 +1430,7 @@
    ]
   },
   "memoria-ddr4": {
-   "atualizado": "2026-11-28T02:01-03:00",
+   "atualizado": "2026-11-28T03:01-03:00",
    "lista": [
     {
      "url": "https://www.kabum.com.br/produto/382752/memoria-ram-corsair-vengeance-rgb-pro-sl-16gb-2x8gb-3200mhz-ddr4-cl16-preto-cmh16gx4m2e3200c16",
@@ -4820,6 +4781,18 @@
    {
     "t": "2026-11-28T00:02-03:00",
     "pix": 173.99
+   }
+  ],
+  "https://www.pichau.com.br/gabinete-gamer-mancer-ward-v2-rainbow-mid-tower-lateral-de-vidro-com-3-fans-branco-mcr-wrdv2-wh": [
+   {
+    "t": "2026-11-28T03:01-03:00",
+    "pix": 225.99
+   }
+  ],
+  "https://www.pichau.com.br/gabinete-gamer-thermalright-tr-m10-mid-tower-lateral-de-vidro-preto-tr-m10-bk": [
+   {
+    "t": "2026-11-28T03:01-03:00",
+    "pix": 469.99
    }
   ]
  }
